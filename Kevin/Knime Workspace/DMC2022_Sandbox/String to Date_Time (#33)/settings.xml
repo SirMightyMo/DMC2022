@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="col_select_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="col_select">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="53"/>
+                <entry key="0" type="xstring" value="01+date"/>
+                <entry key="1" type="xstring" value="02+date"/>
+                <entry key="2" type="xstring" value="03+date"/>
+                <entry key="3" type="xstring" value="04+date"/>
+                <entry key="4" type="xstring" value="05+date"/>
+                <entry key="5" type="xstring" value="06+date"/>
+                <entry key="6" type="xstring" value="07+date"/>
+                <entry key="7" type="xstring" value="08+date"/>
+                <entry key="8" type="xstring" value="09+date"/>
+                <entry key="9" type="xstring" value="10+date"/>
+                <entry key="10" type="xstring" value="11+date"/>
+                <entry key="11" type="xstring" value="12+date"/>
+                <entry key="12" type="xstring" value="13+date"/>
+                <entry key="13" type="xstring" value="14+date"/>
+                <entry key="14" type="xstring" value="15+date"/>
+                <entry key="15" type="xstring" value="16+date"/>
+                <entry key="16" type="xstring" value="17+date"/>
+                <entry key="17" type="xstring" value="18+date"/>
+                <entry key="18" type="xstring" value="19+date"/>
+                <entry key="19" type="xstring" value="20+date"/>
+                <entry key="20" type="xstring" value="21+date"/>
+                <entry key="21" type="xstring" value="22+date"/>
+                <entry key="22" type="xstring" value="23+date"/>
+                <entry key="23" type="xstring" value="24+date"/>
+                <entry key="24" type="xstring" value="25+date"/>
+                <entry key="25" type="xstring" value="26+date"/>
+                <entry key="26" type="xstring" value="27+date"/>
+                <entry key="27" type="xstring" value="28+date"/>
+                <entry key="28" type="xstring" value="29+date"/>
+                <entry key="29" type="xstring" value="30+date"/>
+                <entry key="30" type="xstring" value="31+date"/>
+                <entry key="31" type="xstring" value="32+date"/>
+                <entry key="32" type="xstring" value="34+date"/>
+                <entry key="33" type="xstring" value="35+date"/>
+                <entry key="34" type="xstring" value="40+date"/>
+                <entry key="35" type="xstring" value="43+date"/>
+                <entry key="36" type="xstring" value="48+date"/>
+                <entry key="37" type="xstring" value="49+date"/>
+                <entry key="38" type="xstring" value="50+date"/>
+                <entry key="39" type="xstring" value="51+date"/>
+                <entry key="40" type="xstring" value="60+date"/>
+                <entry key="41" type="xstring" value="63+date"/>
+                <entry key="42" type="xstring" value="65+date"/>
+                <entry key="43" type="xstring" value="70+date"/>
+                <entry key="44" type="xstring" value="75+date"/>
+                <entry key="45" type="xstring" value="80+date"/>
+                <entry key="46" type="xstring" value="85+date"/>
+                <entry key="47" type="xstring" value="90+date"/>
+                <entry key="48" type="xstring" value="93+date"/>
+                <entry key="49" type="xstring" value="98+date"/>
+                <entry key="50" type="xstring" value="100+date"/>
+                <entry key="51" type="xstring" value="02+date0"/>
+                <entry key="52" type="xstring" value="2+date0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="replace_or_append_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="replace_or_append" type="xstring" value="Replace selected columns"/>
+        <config key="suffix_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="suffix" type="xstring" value="(Date&amp;Time)"/>
+        <config key="date_format_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="date_format" type="xstring" value="yyyy-MM-dd"/>
+        <config key="cancel_on_fail_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="cancel_on_fail" type="xboolean" value="true"/>
+        <entry key="typeEnum" type="xstring" value="LOCAL_DATE"/>
+        <config key="locale_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="locale" type="xstring" value="de-DE"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory"/>
+    <entry key="node-name" type="xstring" value="String to Date&amp;Time"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Date and Time Handling"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.time"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111101454"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="String to Date&amp;Time"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 18, Cols: 2"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="0a7aa31d-a5b2-4dcf-86d6-05c1efb5933e"/>
+    </config>
+</config>

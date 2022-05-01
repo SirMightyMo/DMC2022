@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</element><element xmlns="" form="multiline" name="Comments">Simple auto-regressive model to predict a time series
+
+  - Simple means just raw data: no seasonality correction, stationarity assumption
+  - Auto means usage of past of the same time series for prediction. No other exogenous time series/data used.
+  - Regressive refers to the model: either a linear or a polynomial regression</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-13 22:02:54 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2015-12-09 14:18:03 +0100</element></KNIMEMetaInfo>

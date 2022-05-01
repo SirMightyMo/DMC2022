@@ -1,0 +1,627 @@
+2022-04-14 15:05:59,550 : WARN  : ModalContext :  : Node : Row Filter : 0:10 : No row filter specified
+2022-04-14 15:05:59,779 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140622471564800}
+2022-04-14 15:09:15,601 : WARN  : ModalContext :  : Node : Row Filter : 0:10 : No row filter specified
+2022-04-14 15:09:15,828 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140279210053120}
+2022-04-14 15:13:15,463 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 15:13:15,478 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/tmp/knime_temp_space_kevin_24139/02_ETL_Basics24141/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 15:14:30,225 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2022-04-14 15:14:32,099 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2022-04-14 15:22:39,935 : WARN  : ModalContext :  : Node : SQLite Connector : 0:27 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2022-04-14 15:22:40,852 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 0:12 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-04-14 15:22:40,911 : WARN  : ModalContext :  : Node : MISSING Geo-Coordinate Row Filter : 0:26 : Node can't be executed - Node "Geo-Coordinate Row Filter" not available from extension "KNIME Open Street Map Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.osm" is not installed)
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 04_Advanced_Row_Filters 0 loaded with error during data load
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 04_Advanced_Row_Filters 0
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Geo-Coordinate Row Filter" not available from extension "KNIME Open Street Map Integration" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.osm" is not installed)
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Creator 0:10
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Creator": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Table Creator (#10)/port_1/data.xml
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Creator 0:15
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Creator": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Table Creator (#15)/port_1/data.xml
+2022-04-14 15:22:40,934 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: SQLite Connector 0:27
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "SQLite Connector": Can't read spec file /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/SQLite Connector (#27)/port_1/spec/spec.zip
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Row Filter 0:11
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Row Filter (#11)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Java Snippet Row Filter 0:14
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Java Snippet Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Java Snippet Row Filter (#14)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Nominal Value Row Filter 0:12
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Nominal Value Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Nominal Value Row Filter (#12)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Rule-based Row Filter 0:13
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Rule-based Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Rule_based Row Filter (#13)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: String to Date&Time 0:35
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "String to Date&Time": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/String to Date_Time (#35)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Row Filter (Labs) 0:33
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Row Filter (Labs)": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Row Filter _Labs_ (#33)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Geo-Coordinate Row Filter 0:26
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Geo-Coordinate Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Geo_Coordinate Row Filter (#26)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Reference Row Filter 0:16
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Reference Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Reference Row Filter (#16)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: DB Table Selector 0:28
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "DB Table Selector": Can't read spec file /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/DB Table Selector (#28)/port_1/spec/spec.zip
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Date&Time-based Row Filter 0:34
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Date&Time-based Row Filter": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/Date_Time_based Row Filter (#34)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: DB Row Filter 0:29
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "DB Row Filter": Can't read spec file /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/DB Row Filter (#29)/port_1/spec/spec.zip
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: DB Reader 0:30
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "DB Reader": No such data file: /tmp/knime_temp_space_kevin_24139/04_Advanced_Row_Filters24146/04_Advanced_Row_Filters/DB Reader (#30)/port_1/data.xml
+2022-04-14 15:22:40,935 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-04-14 15:23:39,867 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 0:12 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-04-14 15:23:39,984 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 04_Advanced_Row_Filters 0 loaded with warnings
+2022-04-14 15:23:39,984 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 04_Advanced_Row_Filters 0
+2022-04-14 15:23:39,985 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Geo-Coordinate Row Filter 0:26
+2022-04-14 15:23:39,985 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2022-04-14 15:23:46,905 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140718973924864}
+2022-04-14 15:26:10,696 : WARN  : ModalContext :  : Node : Color Manager : 0:6 : Column "country" has no nominal values set: execute predecessor or add Binner.
+2022-04-14 15:26:57,774 : WARN  : ModalContext :  : Node : GroupBy : 4:21 : 2 invalid aggregation column(s) found.
+2022-04-14 15:26:57,781 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 4:31 : Output file '/tmp/knime_temp_space_kevin_31021/02_ETL_Basics31029/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 15:28:04,547 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2022-04-14 15:30:08,480 : WARN  : main :  : Node : Row Filter : 6:4 : No row filter specified
+2022-04-14 15:31:26,784 : WARN  : main :  : Node : Date&Time-based Row Filter : 6:5 : No configuration available!
+2022-04-14 15:32:50,985 : WARN  : main :  : Node : String to Date&Time : 6:6 : Node must be configured!
+2022-04-14 15:33:12,281 : WARN  : KNIME-Worker-7-File Reader (deprecated) 4:3 :  : Node : GroupBy : 4:21 : 2 invalid aggregation column(s) found.
+2022-04-14 15:33:12,282 : WARN  : KNIME-Worker-7-File Reader (deprecated) 4:3 :  : Node : CSV Writer (deprecated) : 4:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 15:33:12,302 : WARN  : KNIME-Worker-8-String to Date&Time 4:32 :  : Node : GroupBy : 4:21 : 2 invalid aggregation column(s) found.
+2022-04-14 15:33:12,303 : WARN  : KNIME-Worker-8-String to Date&Time 4:32 :  : Node : CSV Writer (deprecated) : 4:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 15:34:22,072 : ERROR : KNIME-Worker-6-String to Date&Time 6:6 :  : Node : String to Date&Time : 6:6 : Execute failed: Failed to parse date in row 'Row0: Text '2020-06-01' could not be parsed at index 10
+java.lang.IllegalArgumentException: Failed to parse date in row 'Row0: Text '2020-06-01' could not be parsed at index 10
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:408)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:226)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-14 15:36:13,909 : WARN  : main :  : Node : Date&Time-based Row Filter : 6:5 : No configuration available!
+2022-04-14 16:06:13,854 : WARN  : main :  : Node : Row Filter : 6:9 : No row filter specified
+2022-04-14 16:06:53,334 : WARN  : main :  : Node : Pivoting : 6:10 : No pivot columns selected.
+2022-04-14 16:07:38,795 : WARN  : main :  : Node : Pivoting : 6:10 : No pivot columns selected.
+2022-04-14 16:08:09,808 : WARN  : main :  : Node : Row Filter : 6:11 : No row filter specified
+2022-04-14 16:08:47,807 : WARN  : main :  : Node : Pivoting : 6:10 : No pivot columns selected.
+2022-04-14 16:08:50,548 : WARN  : KNIME-Worker-20-Row Filter 6:11 :  : Node : Pivoting : 6:10 : No pivot columns selected.
+2022-04-14 16:09:05,892 : WARN  : main :  : Node : Pivoting : 6:10 : No aggregation column defined
+2022-04-14 16:09:05,892 : WARN  : main :  : Node : Pivoting : 6:10 : No aggregation column defined
+2022-04-14 16:09:05,893 : WARN  : main :  : Node : Pivoting : 6:10 : No aggregation column defined
+2022-04-14 16:09:05,893 : WARN  : main :  : Node : Pivoting : 6:10 : No aggregation column defined
+2022-04-14 16:09:05,893 : WARN  : main :  : Node : Pivoting : 6:10 : No aggregation columns selected.
+2022-04-14 16:12:22,740 : WARN  : main :  : Node : GroupBy : 6:12 : No grouping column included. Aggregate complete table.
+2022-04-14 16:12:22,740 : WARN  : main :  : Node : GroupBy : 6:12 : No aggregation column defined
+2022-04-14 16:12:22,740 : WARN  : main :  : Node : GroupBy : 6:12 : No aggregation column defined
+2022-04-14 16:12:22,740 : WARN  : main :  : Node : GroupBy : 6:12 : Please select at least one group or aggregation column
+2022-04-14 16:17:44,310 : WARN  : main :  : Node : Row Filter : 6:13 : No row filter specified
+2022-04-14 16:31:08,122 : WARN  : main :  : Node : Joiner : 6:14 : No join columns passed.
+2022-04-14 16:31:36,503 : WARN  : main :  : WrappedNodeDialog : Joiner : 6:14 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-04-14 16:31:39,173 : WARN  : main :  : WrappedNodeDialog : Joiner : 6:14 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-04-14 16:33:12,685 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 0:4 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-04-14 16:35:07,198 : WARN  : ModalContext :  : Node : SQLite Connector : 8:27 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2022-04-14 16:35:07,304 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 8:12 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-04-14 20:57:37,302 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 20:57:37,373 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 20:57:37,839 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140378664726016}
+2022-04-14 20:59:02,618 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 20:59:02,645 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 20:59:02,882 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140473758410432}
+2022-04-14 21:00:41,498 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 21:00:41,527 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 21:00:41,704 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139625301699728}
+2022-04-14 21:01:08,512 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 21:01:08,549 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 21:01:08,834 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140513151715984}
+2022-04-14 21:02:48,621 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 21:02:48,646 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 21:02:48,832 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140115530811392}
+2022-04-14 21:03:23,678 : WARN  : main :  : Node : Pivoting : 3:14 : No pivot columns selected.
+2022-04-14 21:15:35,796 : WARN  : main :  : Node : Pivoting : 3:14 : No pivot columns selected.
+2022-04-14 21:16:00,698 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:00,698 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:00,699 : WARN  : main :  : Node : Pivoting : 3:14 : Ambigious group/pivot column selection.
+2022-04-14 21:16:27,911 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:27,911 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:27,911 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:27,911 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-14 21:16:27,911 : WARN  : main :  : Node : Pivoting : 3:14 : All columns selected as group by column
+2022-04-14 21:16:27,912 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation columns selected.
+2022-04-14 21:18:03,843 : WARN  : KNIME-Worker-4-Pivoting 3:14 :  : Node : Pivoting : 3:14 : Execution canceled
+2022-04-14 21:18:36,014 : WARN  : KNIME-Worker-6-Pivoting 3:14 :  : Node : Pivoting : 3:14 : Execution canceled
+2022-04-14 21:23:51,448 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-14 21:23:51,469 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-14 21:23:51,614 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139713750675456}
+2022-04-15 13:55:02,669 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-15 13:55:02,692 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-15 13:55:02,839 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140608982545920}
+2022-04-15 13:57:20,128 : WARN  : main :  : Node : Pivoting : 3:14 : No pivot columns selected.
+2022-04-15 13:57:30,765 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 13:57:30,765 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 13:57:30,766 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 13:57:30,766 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 13:57:30,767 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation columns selected.
+2022-04-15 14:03:10,883 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:10,883 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:10,885 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:10,885 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:10,887 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation columns selected.
+2022-04-15 14:03:35,042 : WARN  : main :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-15 14:03:35,042 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:03:35,042 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:03:35,043 : WARN  : main :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-15 14:03:49,818 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:49,819 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:49,819 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:49,819 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation column defined
+2022-04-15 14:03:49,820 : WARN  : main :  : Node : Pivoting : 3:14 : No aggregation columns selected.
+2022-04-15 14:03:49,820 : WARN  : main :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-15 14:03:49,820 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:03:49,821 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:03:49,821 : WARN  : main :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-15 14:04:13,385 : WARN  : KNIME-Worker-11-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-15 14:04:13,386 : WARN  : KNIME-Worker-11-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:04:13,386 : WARN  : KNIME-Worker-11-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:04:13,386 : WARN  : KNIME-Worker-11-Row Filter 3:13 :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-15 14:06:57,304 : WARN  : main :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-15 14:06:57,304 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:06:57,305 : WARN  : main :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:06:57,305 : WARN  : main :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-15 14:07:00,024 : WARN  : KNIME-Worker-14-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No grouping column included. Aggregate complete table.
+2022-04-15 14:07:00,025 : WARN  : KNIME-Worker-14-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:07:00,025 : WARN  : KNIME-Worker-14-Row Filter 3:13 :  : Node : GroupBy : 3:15 : No aggregation column defined
+2022-04-15 14:07:00,025 : WARN  : KNIME-Worker-14-Row Filter 3:13 :  : Node : GroupBy : 3:15 : Please select at least one group or aggregation column
+2022-04-15 14:28:42,492 : WARN  : main :  : Node : MultiLayerPerceptron Predictor : 3:17 : The PMML model does not specify a target column for the prediction.
+2022-04-15 14:29:21,576 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Class column not set
+2022-04-15 14:29:45,581 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Input data not normalized. Please consider using the Normalizer Node first.
+2022-04-15 14:29:45,581 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Domain range for regression in column itemID not in range [0,1]
+2022-04-15 14:30:05,057 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Input data not normalized. Please consider using the Normalizer Node first.
+2022-04-15 14:30:05,057 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Input data not normalized. Please consider using the Normalizer Node first.
+2022-04-15 14:30:05,057 : WARN  : main :  : Node : RProp MLP Learner : 3:17 : Only double columns for input
+2022-04-15 14:36:31,349 : WARN  : main :  : Node : Logistic Regression Learner : 3:17 : No column in spec compatible to "NominalValue".
+2022-04-15 14:37:12,200 : WARN  : main :  : Node : Numeric Distances : 3:17 : Guessing columns: '"userID", "itemID"' and
+Standard Distance (Euclidean/ Manhattan).
+2022-04-15 14:40:33,007 : WARN  : KNIME-Worker-31-Pivoting 3:14 :  : Node : Pivoting : 3:14 : Execution canceled
+2022-04-15 14:47:23,682 : WARN  : main :  : WrappedNodeDialog : Rule-based Row Filter : 3:17 : failed to apply settings: line 5, col 18: Expression after 'MATCHES' is not a string.
+org.knime.core.node.InvalidSettingsException: line 5, col 18: Expression after 'MATCHES' is not a string.
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:571)
+	at org.knime.base.node.rules.engine.RuleEngineNodeDialog.saveSettingsTo(RuleEngineNodeDialog.java:114)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.text.ParseException: line 5, col 18: Expression after 'MATCHES' is not a string.
+	at org.knime.base.node.rules.engine.BaseRuleParser.reportNotString(BaseRuleParser.java:976)
+	at org.knime.base.node.rules.engine.BaseRuleParser.handleRelationRightOperand(BaseRuleParser.java:949)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRelation(BaseRuleParser.java:857)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseRootBooleanExpression(BaseRuleParser.java:757)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseAndExpression(BaseRuleParser.java:712)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseXorExpression(BaseRuleParser.java:689)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseOrExpression(BaseRuleParser.java:666)
+	at org.knime.base.node.rules.engine.BaseRuleParser.parseBooleanExpression(BaseRuleParser.java:654)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parseCondition(SimpleRuleParser.java:278)
+	at org.knime.base.node.rules.engine.SimpleRuleParser.parse(SimpleRuleParser.java:230)
+	at org.knime.base.node.rules.engine.RuleFactory.parse(RuleFactory.java:191)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:468)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:496)
+	at org.knime.base.node.rules.engine.RulePanel.computeRules(RulePanel.java:507)
+	at org.knime.base.node.rules.engine.RulePanel.saveSettings(RulePanel.java:569)
+	... 18 more
+2022-04-15 14:48:11,224 : WARN  : main :  : Node : Sorter : 3:18 : No selected columns to sort
+2022-04-15 15:04:01,606 : WARN  : main :  : Node : Sorter : 3:22 : No selected columns to sort
+2022-04-15 15:04:48,115 : WARN  : main :  : Node : Sorter : 3:22 : No selected columns to sort
+2022-04-15 15:06:31,398 : WARN  : main :  : Node : Column Rename : 3:23 : No configuration available
+2022-04-15 15:13:32,246 : WARN  : main :  : Node : Sorter : 3:24 : No selected columns to sort
+2022-04-15 15:13:53,049 : WARN  : main :  : Node : Column Resorter : 3:25 : All columns stay in same order.
+2022-04-15 15:17:03,844 : WARN  : main :  : Node : Sorter : 3:22 : No selected columns to sort
+2022-04-15 15:21:12,885 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:23:03,559 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:23:13,555 : WARN  : KNIME-Worker-58-String to Date&Time 3:21 :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:23:43,700 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:23:56,667 : WARN  : KNIME-Worker-60-String to Date&Time 3:21 :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:24:21,733 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:24:22,349 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:24:29,166 : WARN  : KNIME-Worker-56-String to Date&Time 3:21 :  : Node : Date&Time Difference : 3:27 : Node must be configured!
+2022-04-15 15:29:08,927 : WARN  : main :  : Node : Time Difference (legacy) : 3:28 : Input must contain at least one date/time columns!
+2022-04-15 15:29:23,378 : WARN  : main :  : Node : Time Difference (legacy) : 3:28 : Input must contain at least one date/time columns!
+2022-04-15 15:37:14,179 : WARN  : main :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:37:29,546 : WARN  : main :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:37:36,583 : WARN  : KNIME-Worker-64-String to Date&Time 3:21 :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:37:59,230 : WARN  : main :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:38:08,485 : WARN  : KNIME-Worker-66-String to Date&Time 3:21 :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:38:32,311 : WARN  : main :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:38:38,938 : WARN  : KNIME-Worker-62-String to Date&Time 3:21 :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 15:39:45,879 : WARN  : KNIME-Worker-67-Pivoting 3:27 :  : Node : Pivoting : 3:27 : Execution canceled
+2022-04-15 15:40:50,145 : ERROR : KNIME-Worker-68-Pivoting 3:27 :  : Node : Pivoting : 3:27 : Execute failed: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.createPivotColumns(Pivot2NodeModel.java:814)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.createPivotColumns(Pivot2NodeModel.java:818)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.createPivotColumns(Pivot2NodeModel.java:818)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.createPivotColumns(Pivot2NodeModel.java:818)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.createOutSpec(Pivot2NodeModel.java:678)
+	at org.knime.base.node.preproc.pivot.Pivot2NodeModel.execute(Pivot2NodeModel.java:534)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-15 15:41:58,975 : WARN  : main :  : Node : GroupBy : 3:27 : No grouping column included. Aggregate complete table.
+2022-04-15 15:41:58,975 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 15:41:58,976 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 15:41:58,976 : WARN  : main :  : Node : GroupBy : 3:27 : Please select at least one group or aggregation column
+2022-04-15 15:50:03,327 : WARN  : KNIME-Worker-71-Pivoting 3:19 :  : Node : Pivoting : 3:19 : Skipped group(s): date groups: "1, 2, 3, ..." cause: "Group contains too many values"
+2022-04-15 15:50:58,422 : WARN  : KNIME-Worker-72-Pivoting 3:19 :  : Node : Pivoting : 3:19 : Execution canceled
+2022-04-15 15:51:12,707 : WARN  : KNIME-Worker-74-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:52:52,116 : WARN  : KNIME-Worker-75-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "2+date", "4+date", "5+date", "7+date"
+2022-04-15 15:53:31,346 : WARN  : KNIME-Worker-76-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:55:53,372 : WARN  : KNIME-Worker-79-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:55:53,657 : WARN  : KNIME-Worker-81-Pivoting 3:31 :  : Node : Column Rename : 3:27 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:56:47,335 : WARN  : main :  : Node : Pivoting : 3:19 : Ambigious group/pivot column selection.
+2022-04-15 15:57:26,626 : WARN  : KNIME-Worker-82-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:57:54,238 : WARN  : KNIME-Worker-83-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:58:03,081 : WARN  : KNIME-Worker-84-Column Rename 3:23 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:58:13,586 : WARN  : KNIME-Worker-82-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:58:13,591 : WARN  : KNIME-Worker-83-Column Rename 3:23 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 15:59:00,280 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 15:59:00,281 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 15:59:00,281 : WARN  : main :  : Node : GroupBy : 3:27 : 6 invalid aggregation column(s) found.
+2022-04-15 15:59:01,626 : WARN  : main :  : Node : Pivoting : 3:27 : Group column '01+date' not in spec.
+2022-04-15 15:59:05,485 : WARN  : main :  : Node : Time Difference (legacy) : 3:28 : Input must contain at least one date/time columns!
+2022-04-15 15:59:09,093 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Column '01+date' not found in input table!
+2022-04-15 15:59:34,171 : WARN  : main :  : Node : Date&Time Difference : 3:27 : Column '01+date' not found in input table!
+2022-04-15 15:59:35,317 : WARN  : main :  : Node : Time Difference (legacy) : 3:28 : Input must contain at least one date/time columns!
+2022-04-15 15:59:38,499 : WARN  : main :  : Node : Pivoting : 3:27 : No pivot columns selected.
+2022-04-15 16:00:15,026 : WARN  : main :  : Node : GroupBy : 3:27 : No grouping column included. Aggregate complete table.
+2022-04-15 16:00:15,026 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 16:00:15,026 : WARN  : main :  : Node : GroupBy : 3:27 : No aggregation column defined
+2022-04-15 16:00:15,026 : WARN  : main :  : Node : GroupBy : 3:27 : Please select at least one group or aggregation column
+2022-04-15 16:00:51,171 : WARN  : KNIME-Worker-87-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 16:00:51,173 : WARN  : KNIME-Worker-88-Column Rename 3:23 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-15 16:05:34,326 : WARN  : KNIME-Worker-95-Pivoting 3:31 :  : Node : Column Rename : 3:27 : The following columns are configured but no longer exist: "4+date", "5+date", "6+date", "7+date", "8+date",  ... <1 more>
+2022-04-15 16:08:53,830 : WARN  : main :  : Node : Row Filter : 3:32 : No row filter specified
+2022-04-15 16:15:07,004 : WARN  : main :  : Node : GroupBy : 3:32 : No grouping column included. Aggregate complete table.
+2022-04-15 16:15:07,004 : WARN  : main :  : Node : GroupBy : 3:32 : No aggregation column defined
+2022-04-15 16:15:07,004 : WARN  : main :  : Node : GroupBy : 3:32 : No aggregation column defined
+2022-04-15 16:15:07,004 : WARN  : main :  : Node : GroupBy : 3:32 : Please select at least one group or aggregation column
+2022-04-16 10:26:32,819 : WARN  : ModalContext :  : Node : Excel Reader : 0:112 : The node configuration changed and the table spec will be recalculated during execution.
+2022-04-16 10:26:33,000 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140596500191888}
+2022-04-16 10:26:43,552 : WARN  : KNIME-Worker-2-Excel Reader 0:112 :  : Node : Color Manager : 0:67 : Column "Churn" has no nominal values set: execute predecessor or add Binner.
+2022-04-16 10:26:45,869 : WARN  : KNIME-Worker-0-CSV Reader 0:111 :  : Node : Color Manager : 0:67 : Column "Churn" has no nominal values set: execute predecessor or add Binner.
+2022-04-16 10:31:29,900 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140262634490368}
+2022-04-16 10:32:06,205 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-16 10:32:06,222 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-16 10:44:15,846 : WARN  : main :  : Node : Row Filter : 3:29 : Errors loading flow variables into node : Invalid row filter type in config object
+2022-04-16 10:44:16,732 : WARN  : main :  : Node : Row Filter : 3:29 : Errors loading flow variables into node : Invalid row filter type in config object
+2022-04-16 10:45:25,901 : WARN  : main :  : Node : Row Filter : 3:29 : Errors loading flow variables into node : Invalid row filter type in config object
+2022-04-16 10:47:09,662 : WARN  : main :  : Node : Row Filter : 3:29 : Errors loading flow variables into node : Invalid row filter type in config object
+2022-04-16 10:47:10,566 : WARN  : main :  : Node : Row Filter : 3:29 : Errors loading flow variables into node : Invalid row filter type in config object
+2022-04-16 10:54:41,626 : WARN  : main :  : Node : Row Filter : 3:29 : Errors overwriting node settings with flow variables: Unknown variable "currentIteration"
+2022-04-16 10:56:17,714 : WARN  : KNIME-Worker-11-Row Filter 3:29 :  : Node : Row Filter : 3:29 : Node created an empty data table.
+2022-04-16 10:56:52,871 : WARN  : KNIME-Worker-12-Row Filter 3:29 :  : Node : Row Filter : 3:29 : Node created an empty data table.
+2022-04-18 15:07:05,384 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-18 15:07:05,452 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-18 15:07:05,887 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140251762165248}
+2022-04-18 15:13:05,236 : WARN  : KNIME-Worker-7-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-18 15:13:05,245 : WARN  : KNIME-Worker-8-Column Rename 3:23 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "1+date", "2+date", "3+date", "4+date", "5+date",  ... <4 more>
+2022-04-18 15:13:42,030 : WARN  : KNIME-Worker-6-Pivoting 3:19 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "4+date", "5+date", "6+date", "7+date", "8+date",  ... <1 more>
+2022-04-18 15:13:42,031 : WARN  : KNIME-Worker-7-Column Rename 3:23 :  : Node : Column Rename : 3:23 : The following columns are configured but no longer exist: "4+date", "5+date", "6+date", "7+date", "8+date",  ... <1 more>
+2022-04-18 15:27:57,031 : WARN  : main :  : Node : Date&Time Difference : 3:37 : Node must be configured!
+2022-04-19 10:17:29,474 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-19 10:17:29,591 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-19 10:17:30,122 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140258070337776}
+2022-04-30 08:29:48,038 : WARN  : ModalContext :  : Node : GroupBy : 0:21 : 2 invalid aggregation column(s) found.
+2022-04-30 08:29:48,107 : WARN  : ModalContext :  : Node : CSV Writer (deprecated) : 0:31 : Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/Knime Training/02_ETL_Basics/data/ResultTable.csv' exists and will be overwritten
+2022-04-30 08:29:48,409 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140540665390320}
+2022-04-30 08:36:14,230 : WARN  : main :  : Node : Row Filter : 3:38 : No row filter specified
+2022-04-30 08:40:35,174 : WARN  : KNIME-Worker-11-Statistics 3:39 :  : Node : Statistics : 3:39 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID"
+2022-04-30 08:40:46,714 : WARN  : KNIME-Worker-15-Statistics 3:39 :  : Node : Statistics : 3:39 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID"
+2022-04-30 08:48:18,584 : ERROR : KNIME-Worker-27-Bar Chart 3:42 :  : Node : Bar Chart : 3:42 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-30 08:59:38,239 : ERROR : KNIME-Worker-35-Bar Chart 3:41 :  : Node : Bar Chart : 3:41 : Execute failed: No column selected for category values.
+java.lang.IllegalArgumentException: No column selected for category values.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:83)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-30 09:06:22,227 : ERROR : KNIME-Worker-41-Bar Chart 3:41 :  : AbstractImageWizardNodeModel : Bar Chart : 3:41 : Initializing view failed: sleep interrupted
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.knime.js.cef.headless.CEFImageGenerator.generateView(CEFImageGenerator.java:141)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.renderViewAndCreateImage(AbstractImageWizardNodeModel.java:148)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:106)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-30 09:06:23,878 : WARN  : KNIME-Worker-41-Bar Chart 3:41 :  : Node : Bar Chart : 3:41 : Execution canceled
+2022-04-30 09:26:34,518 : WARN  : KNIME-Worker-50-Bar Chart 3:41 :  : DynamicJSNodeModel : Bar Chart : 3:41 : SettingsModel for option selection not found. Ignoring option.
+2022-04-30 09:27:11,159 : WARN  : main :  : Node : Row Filter : 3:43 : No row filter specified
+2022-04-30 09:33:17,196 : WARN  : KNIME-Worker-58-Bar Chart 3:41 :  : DynamicJSNodeModel : Bar Chart : 3:41 : SettingsModel for option selection not found. Ignoring option.
+2022-04-30 09:35:55,236 : WARN  : KNIME-Worker-60-Bar Chart 3:41 :  : DynamicJSNodeModel : Bar Chart : 3:41 : SettingsModel for option selection not found. Ignoring option.
+2022-04-30 09:45:36,002 : WARN  : main :  : Node : Row Filter : 3:38 : Column range filter: Input table doesn't contain specified column name
+2022-04-30 09:45:48,601 : WARN  : KNIME-Worker-61-GroupBy 3:12 :  : Node : Row Filter : 3:38 : Column range filter: Input table doesn't contain specified column name
+2022-04-30 09:52:11,143 : WARN  : main :  : Node : GroupBy : 3:44 : No grouping column included. Aggregate complete table.
+2022-04-30 09:52:11,143 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:52:11,144 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:52:11,144 : WARN  : main :  : Node : GroupBy : 3:44 : Please select at least one group or aggregation column
+2022-04-30 09:52:49,833 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:52:49,834 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:54:57,756 : WARN  : KNIME-Worker-70-Missing Value 3:45 :  : Node : Missing Value : 3:45 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+2022-04-30 09:55:36,195 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:55:36,196 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:56:15,982 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 09:56:15,983 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 10:05:19,114 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 10:05:19,116 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 10:05:44,951 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 10:05:44,951 : WARN  : main :  : Node : GroupBy : 3:44 : No aggregation column defined
+2022-04-30 13:21:39,609 : WARN  : main :  : Node : Table Writer : 3:44 : Please specify a file
+2022-04-30 13:24:03,338 : WARN  : main :  : Node : Excel Writer : 3:44 : Please specify a file
+2022-04-30 13:24:04,570 : ERROR : AWT-EventQueue-0 :  : ExcelTableWriterNodeDialog : Excel Writer : 3:44 : Could not get sheet names!
+java.io.IOException: Ist ein Verzeichnis
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.read(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.read(Unknown Source)
+	at org.knime.filehandling.core.connections.FSSeekableByteChannel.read(FSSeekableByteChannel.java:97)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.io.BufferedInputStream.fill(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base/java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.poi.util.BoundedInputStream.read(BoundedInputStream.java:121)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:453)
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:432)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:107)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:206)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:143)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:104)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:307)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.readXLSXSheets(ExcelTableWriterNodeDialog.java:525)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.doInBackgroundWithContext(ExcelTableWriterNodeDialog.java:516)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeDialog$SheetUpdater.doInBackgroundWithContext(ExcelTableWriterNodeDialog.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-04-30 13:27:06,628 : WARN  : main :  : Node : Column Rename : 3:45 : No configuration available
+2022-04-30 13:30:41,961 : ERROR : KNIME-Worker-88-Bar Chart 3:41 :  : Node : Bar Chart : 3:41 : Execute failed: Index for category column with name Unique count(date) not found.
+java.lang.IllegalArgumentException: Index for category column with name Unique count(date) not found.
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:87)
+	at org.knime.dynamic.js.base.grouped.GroupedProcessor.processInputObjects(GroupedProcessor.java:57)
+	at org.knime.dynamic.js.v30.DynamicJSNodeModel.performExecuteCreateView(DynamicJSNodeModel.java:655)
+	at org.knime.js.core.node.AbstractImageWizardNodeModel.performExecute(AbstractImageWizardNodeModel.java:102)
+	at org.knime.js.core.node.AbstractWizardNodeModel.execute(AbstractWizardNodeModel.java:137)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-04-30 13:31:29,561 : WARN  : KNIME-Worker-90-Bar Chart 3:41 :  : DynamicJSNodeModel : Bar Chart : 3:41 : SettingsModel for option selection not found. Ignoring option.
+2022-05-01 14:07:30,127 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139652479959552}
+2022-05-01 14:07:43,707 : ERROR : KNIME-Worker-3-Excel Writer 0:44 :  : Node : Excel Writer : 0:44 : Execute failed: Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/DMC2022_Sandbox/MyOutput/Relative Frequency.xlsx' exists and must not be overwritten due to user settings.
+java.io.IOException: Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/DMC2022_Sandbox/MyOutput/Relative Frequency.xlsx' exists and must not be overwritten due to user settings.
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.getWorkbookHandler(ExcelTableWriterNodeModel.java:266)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.write(ExcelTableWriterNodeModel.java:193)
+	at org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeModel.execute(ExcelTableWriterNodeModel.java:159)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)

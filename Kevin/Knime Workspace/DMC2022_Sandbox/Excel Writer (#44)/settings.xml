@@ -99,6 +99,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Execute failed: Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022/Knime Workspace/DMC2022_Sandbox/MyOutput/Relative Frequency.xlsx' exists and must not be overwritten due to user settings."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Excel Writer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME POI (Excel) Plug-in"/>

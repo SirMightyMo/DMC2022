@@ -625,3 +625,88 @@ java.io.IOException: Output file '/home/kevin/Schreibtisch/Repos/Private_DMC2022
 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
 	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
 	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-01 14:17:51,506 : WARN  : main :  : Node : Joiner : 0:46 : No join columns passed.
+2022-05-01 14:18:41,241 : WARN  : main :  : WrappedNodeDialog : Joiner : 0:46 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-05-01 14:47:40,956 : WARN  : main :  : Node : Column Rename : 0:47 : No configuration available
+2022-05-01 14:49:52,828 : WARN  : KNIME-Worker-12-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 15:07:52,132 : WARN  : main :  : Node : Color Manager : 0:50 : Selected column "Cluster" with default nominal color mapping.
+2022-05-01 15:08:58,126 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:09:02,588 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:09:04,726 : WARN  : KNIME-Worker-28-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:09:04,735 : WARN  : KNIME-Worker-25-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:09:20,957 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:09:22,917 : WARN  : KNIME-Worker-26-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:11:52,587 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:12:00,349 : WARN  : KNIME-Worker-30-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:12:26,837 : WARN  : KNIME-Worker-31-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:13:30,500 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:13:59,949 : WARN  : KNIME-Worker-35-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:14:26,712 : WARN  : KNIME-Worker-35-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:14:55,328 : WARN  : main :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.
+2022-05-01 15:14:59,126 : WARN  : KNIME-Worker-32-k-Means 0:49 :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.
+2022-05-01 15:15:09,675 : WARN  : KNIME-Worker-33-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 2500 rows are displayed.
+2022-05-01 15:19:06,783 : WARN  : KNIME-Worker-37-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 20500 rows are displayed.
+2022-05-01 15:19:45,234 : WARN  : main :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.
+2022-05-01 15:19:51,641 : WARN  : KNIME-Worker-39-k-Means 0:49 :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.

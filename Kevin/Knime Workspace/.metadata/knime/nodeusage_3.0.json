@@ -50,7 +50,7 @@
                 "nrfails": 0,
                 "exectime": 5964,
                 "nrcreated": 0,
-                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
                 "id": "org.knime.time.node.filter.datetimebasedrowfilter.DateTimeBasedRowFilterNodeFactory#Date&Time-based Row Filter",
@@ -102,9 +102,9 @@
             },
             {
                 "id": "org.knime.base.node.io.table.read.ReadTableNodeFactory#Table Reader (deprecated)",
-                "nrexecs": 4,
+                "nrexecs": 5,
                 "nrfails": 0,
-                "exectime": 307,
+                "exectime": 329,
                 "nrcreated": 0,
                 "successor": "n/a"
             },
@@ -126,11 +126,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
-                "nrexecs": 0,
+                "nrexecs": 2,
                 "nrfails": 0,
-                "exectime": 0,
-                "nrcreated": 1,
-                "successor": "n/a"
+                "exectime": 1225,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
             },
             {
                 "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate",
@@ -174,11 +174,11 @@
             },
             {
                 "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
-                "nrexecs": 4,
+                "nrexecs": 16,
                 "nrfails": 0,
-                "exectime": 4824,
-                "nrcreated": 3,
-                "successor": "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory#MultiLayerPerceptron Predictor"
+                "exectime": 12258,
+                "nrcreated": 4,
+                "successor": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot"
             },
             {
                 "id": "org.knime.base.node.mine.neural.mlp2.MLPPredictorNodeFactory#MultiLayerPerceptron Predictor",
@@ -222,10 +222,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
-                "nrexecs": 19,
+                "nrexecs": 20,
                 "nrfails": 0,
                 "exectime": 15,
-                "nrcreated": 2,
+                "nrcreated": 3,
                 "successor": "org.knime.reporting.nodes.dataset.ReportingDataSetNodeFactory#Data to Report"
             },
             {
@@ -262,10 +262,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
-                "nrexecs": 7,
+                "nrexecs": 10,
                 "nrfails": 0,
-                "exectime": 39,
-                "nrcreated": 1,
+                "exectime": 41,
+                "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
             },
             {
@@ -310,17 +310,17 @@
             },
             {
                 "id": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 0,
-                "exectime": 39,
-                "nrcreated": 1,
+                "exectime": 67,
+                "nrcreated": 2,
                 "successor": "n/a"
             },
             {
                 "id": "org.knime.dynamic.js.v30.DynamicJSNodeFactory#Bar Chart",
-                "nrexecs": 19,
+                "nrexecs": 23,
                 "nrfails": 4,
-                "exectime": 109987,
+                "exectime": 115955,
                 "nrcreated": 3,
                 "successor": "n/a"
             },
@@ -334,11 +334,11 @@
             },
             {
                 "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
-                "nrexecs": 2,
+                "nrexecs": 3,
                 "nrfails": 0,
-                "exectime": 6046,
-                "nrcreated": 1,
-                "successor": "n/a"
+                "exectime": 6429,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means"
             },
             {
                 "id": "org.knime.base.node.io.filehandling.table.writer.TableWriterNodeFactory#Table Writer",
@@ -351,8 +351,8 @@
             {
                 "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer",
                 "nrexecs": 1,
-                "nrfails": 0,
-                "exectime": 138,
+                "nrfails": 1,
+                "exectime": 276,
                 "nrcreated": 1,
                 "successor": "n/a"
             },
@@ -361,6 +361,38 @@
                 "nrexecs": 1,
                 "nrfails": 0,
                 "exectime": 2,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.partition.PartitionNodeFactory#Partitioning",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 15,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.shape.ShapeManagerNodeFactory#Shape Manager",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 308,
                 "nrcreated": 1,
                 "successor": "n/a"
             }
@@ -374,15 +406,15 @@
             "nrcreated": 0
         }
     },
-    "uptime": 5396198,
-    "workflowsOpened": 44,
-    "remoteWorkflowsOpened": 14,
+    "uptime": 5338981,
+    "workflowsOpened": 46,
+    "remoteWorkflowsOpened": 15,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 15,
+    "launches": 16,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 48746201,
+    "timeSinceLastStart": 4480726,
     "crashes": 0,
-    "properlyShutDown": true
+    "properlyShutDown": false
 }

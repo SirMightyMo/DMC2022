@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="10"/>
+    <entry key="ignoredColumns" type="xint" value="9"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="78507"/>
+        <entry key="1" type="xint" value="6083"/>
+        <entry key="2" type="xint" value="28714"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xdouble" value="2.0"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xdouble" value="6.101101430215354"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="1"/>
+        <entry key="0" type="xdouble" value="3.2656892108379187"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="10"/>
+        <entry key="0" type="xstring" value="Number of purchases"/>
+        <entry key="1" type="xstring" isnull="true" value=""/>
+        <entry key="2" type="xstring" isnull="true" value=""/>
+        <entry key="3" type="xstring" isnull="true" value=""/>
+        <entry key="4" type="xstring" isnull="true" value=""/>
+        <entry key="5" type="xstring" isnull="true" value=""/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+        <entry key="8" type="xstring" isnull="true" value=""/>
+        <entry key="9" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

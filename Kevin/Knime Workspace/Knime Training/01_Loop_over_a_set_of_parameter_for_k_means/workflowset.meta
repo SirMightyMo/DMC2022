@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">&lt;unknown></met:element>
+  <met:element form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Iterates list of parameters and uses them to parameterize a k-means algorithm.
+
+The flow reads a data set to be clustered (Iris data). The data file is contained in the workflow directory. The loop will use one parameter at a time, run the (parameterized) k-means algorithm, assess the clustering quality and record the values.</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2018-01-20 17:14:36 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2016-03-22 18:19:27 +0100</met:element>
+</met:KNIMEMetaInfo>

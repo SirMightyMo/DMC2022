@@ -710,3 +710,462 @@ Column "categories" still contains missing values.
 2022-05-01 15:19:06,783 : WARN  : KNIME-Worker-37-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 20500 rows are displayed.
 2022-05-01 15:19:45,234 : WARN  : main :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.
 2022-05-01 15:19:51,641 : WARN  : KNIME-Worker-39-k-Means 0:49 :  : Node : Color Manager : 0:50 : Color mapping does not match possible values.
+2022-05-01 15:30:23,826 : WARN  : main :  : Node : Joiner : 0:55 : No join columns passed.
+2022-05-01 15:30:32,091 : WARN  : main :  : WrappedNodeDialog : Joiner : 0:55 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-05-01 15:32:08,928 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:32:41,405 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:32:44,835 : WARN  : KNIME-Worker-47-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:33:09,666 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:33:12,448 : WARN  : KNIME-Worker-46-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:33:45,974 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:34:39,380 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:34:44,670 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:34:47,362 : WARN  : KNIME-Worker-51-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:36:28,393 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:36:30,803 : WARN  : KNIME-Worker-54-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:36:57,314 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:37:00,274 : WARN  : KNIME-Worker-53-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:37:59,603 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:38:07,931 : WARN  : KNIME-Worker-53-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 15:38:12,766 : WARN  : KNIME-Worker-57-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:38:12,986 : WARN  : KNIME-Worker-56-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 15:38:48,250 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:38:54,638 : WARN  : KNIME-Worker-54-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:38:54,781 : WARN  : KNIME-Worker-57-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 15:45:41,792 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 15:45:57,357 : WARN  : KNIME-Worker-58-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:46:47,764 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 15:47:03,179 : WARN  : KNIME-Worker-59-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:47:51,548 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 15:48:07,887 : WARN  : KNIME-Worker-60-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:49:56,849 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:51:44,510 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:51:50,825 : WARN  : KNIME-Worker-63-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 15:53:27,088 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 15:53:45,027 : WARN  : KNIME-Worker-65-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 15:53:46,143 : WARN  : KNIME-Worker-65-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 15:53:49,550 : WARN  : KNIME-Worker-66-Linear Regression Learner 0:57 :  : LinReg2Learner : Linear Regression Learner : 0:57 : Columns "Concatenate(date)", "First(date)", "categories" have too many different values - will be ignored during training
+2022-05-01 15:53:50,081 : WARN  : KNIME-Worker-66-Linear Regression Learner 0:57 :  : Node : Linear Regression Learner : 0:57 : Columns "Concatenate(date)", "First(date)", "categories" have too many different values - will be ignored during training
+2022-05-01 15:57:26,136 : WARN  : main :  : Node : Linear Regression Learner : 0:57 : At least one column must be included.
+2022-05-01 15:57:26,487 : WARN  : main :  : Node : Linear Regression Learner : 0:57 : At least one column must be included.
+2022-05-01 15:57:39,010 : WARN  : KNIME-Worker-70-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:01:03,549 : WARN  : main :  : Node : Random Forest Learner : 0:58 : No configuration available
+2022-05-01 16:01:32,914 : ERROR : KNIME-Worker-72-Random Forest Learner 0:58 :  : Node : Random Forest Learner : 0:58 : Execute failed: The target column does not have possible values assigned. Most likely it has too many different distinct values (learning an ID column?) Fix it by preprocessing the table using a "Domain Calculator".
+org.knime.core.node.InvalidSettingsException: The target column does not have possible values assigned. Most likely it has too many different distinct values (learning an ID column?) Fix it by preprocessing the table using a "Domain Calculator".
+	at org.knime.base.node.mine.treeensemble2.node.learner.classification.TreeEnsembleClassificationLearnerNodeModel.execute(TreeEnsembleClassificationLearnerNodeModel.java:193)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-01 16:01:50,295 : ERROR : KNIME-Worker-73-Random Forest Learner 0:58 :  : Node : Random Forest Learner : 0:58 : Execute failed: The target column does not have possible values assigned. Most likely it has too many different distinct values (learning an ID column?) Fix it by preprocessing the table using a "Domain Calculator".
+org.knime.core.node.InvalidSettingsException: The target column does not have possible values assigned. Most likely it has too many different distinct values (learning an ID column?) Fix it by preprocessing the table using a "Domain Calculator".
+	at org.knime.base.node.mine.treeensemble2.node.learner.classification.TreeEnsembleClassificationLearnerNodeModel.execute(TreeEnsembleClassificationLearnerNodeModel.java:193)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-01 16:05:59,617 : WARN  : main :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:05:59,621 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 16:06:15,373 : WARN  : KNIME-Worker-74-GroupBy 0:12 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:06:15,387 : WARN  : KNIME-Worker-74-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:07:00,740 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:07:06,618 : WARN  : main :  : Node : Row Filter : 0:58 : No row filter specified
+2022-05-01 16:07:12,051 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:07:24,706 : WARN  : main :  : Node : Row Filter : 0:58 : No row filter specified
+2022-05-01 16:07:55,338 : WARN  : KNIME-Worker-76-Joiner 0:46 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:07:55,352 : WARN  : KNIME-Worker-77-Column Rename 0:47 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:07:55,760 : WARN  : KNIME-Worker-78-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 16:08:06,255 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:08:09,005 : WARN  : KNIME-Worker-77-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:19:45,478 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:19:48,566 : WARN  : KNIME-Worker-80-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:20:17,905 : WARN  : main :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:20:17,907 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:20:22,394 : WARN  : KNIME-Worker-82-Joiner 0:46 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:20:22,394 : WARN  : KNIME-Worker-79-Column Rename 0:47 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-01 16:20:25,024 : WARN  : KNIME-Worker-80-Missing Value 0:48 :  : Node : Missing Value : 0:48 : The current settings use missing value handling methods that cannot be represented in PMML 4.2
+Column "categories" still contains missing values.
+2022-05-01 16:20:25,853 : WARN  : KNIME-Worker-82-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:20:48,990 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:21:02,719 : WARN  : KNIME-Worker-82-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:21:02,859 : WARN  : KNIME-Worker-80-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 16:22:19,863 : WARN  : main :  : Node : Normalizer : 0:59 : Auto-configure: [0, 1] normalization on all numeric columns: "userID", "itemID", "No. of purchases",  ... <6 more>
+2022-05-01 16:22:36,374 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 16:22:42,157 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-01 16:22:49,990 : WARN  : KNIME-Worker-83-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:22:57,967 : WARN  : KNIME-Worker-85-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:22:58,228 : WARN  : KNIME-Worker-86-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 16:23:58,653 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:24:14,184 : WARN  : KNIME-Worker-84-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:24:14,296 : WARN  : KNIME-Worker-85-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 16:24:59,816 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:25:25,366 : WARN  : KNIME-Worker-84-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:25:25,482 : WARN  : KNIME-Worker-83-Scatter Plot (local) 0:51 :  : Node : Scatter Plot (local) : 0:51 : Only the first 150000 rows are displayed.
+2022-05-01 16:26:37,683 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:29:53,585 : WARN  : main :  : Node : Scatter Plot (local) : 0:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:30:01,519 : WARN  : main :  : Node : Color Manager : 0:61 : Column "Cluster" not found.
+2022-05-01 16:30:15,005 : WARN  : main :  : Node : Scatter Plot (local) : 0:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:30:34,193 : WARN  : KNIME-Worker-90-Color Manager 0:61 :  : Node : Scatter Plot (local) : 0:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:32:23,594 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:32:44,182 : WARN  : KNIME-Worker-93-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:36:54,242 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:37:16,633 : WARN  : KNIME-Worker-96-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-01 16:43:23,393 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140668508401440}
+2022-05-01 16:43:51,414 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : K-LIME processing : 4:0:13 : Could not load output port information: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+org.knime.core.node.InvalidSettingsException: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+	at org.knime.core.node.port.PortType.lambda$0(PortType.java:276)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.port.PortType.load(PortType.java:276)
+	at org.knime.core.node.port.PortType.load(PortType.java:260)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.loadPort(FileSubNodeContainerPersistor.java:412)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.preLoadNodeContainer(FileSubNodeContainerPersistor.java:349)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.loadNodeContainer(FileWorkflowPersistor.java:969)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8516)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:43:51,500 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Train H2O GLM : 4:0:13:82 : Unable to load additional factory settings into node factory (node "class "Optional[org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory]" [node name: "Component Output", bundle-symbolic-name: org.knime.core, bundle-name: KNIME Core API, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.base.feature.group, feature-name: KNIME Core,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.1.v202002041126]")
+2022-05-01 16:43:51,530 : WARN  : ModalContext :  : WorkflowManager : Train H2O GLM : 4:0:13:82 : Unable to insert connection "[425(1) -> 420( 1)]"
+2022-05-01 16:43:51,543 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : Train H2O GLM : 4:0:13:82 : Post-load error (ClassCastException): class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+java.lang.ClassCastException: class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+	at org.knime.core.node.workflow.SubNodeContainer.getVirtualOutNodeModel(SubNodeContainer.java:668)
+	at org.knime.core.node.workflow.SubNodeContainer.postLoadWFM(SubNodeContainer.java:1912)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor$1.postLoad(FileSubNodeContainerPersistor.java:393)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8415)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:43:51,627 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : Surrogate predictions within cluster : 4:0:13:79:77:0:75:74 : Could not load output port information: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+org.knime.core.node.InvalidSettingsException: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+	at org.knime.core.node.port.PortType.lambda$0(PortType.java:276)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.port.PortType.load(PortType.java:276)
+	at org.knime.core.node.port.PortType.load(PortType.java:260)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.loadPort(FileSubNodeContainerPersistor.java:412)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.preLoadNodeContainer(FileSubNodeContainerPersistor.java:349)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.loadNodeContainer(FileWorkflowPersistor.java:969)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8516)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:43:51,685 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Train H2O GLM : 4:0:13:79:77:0:75:74:52 : Unable to load additional factory settings into node factory (node "class "Optional[org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory]" [node name: "Component Output", bundle-symbolic-name: org.knime.core, bundle-name: KNIME Core API, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.base.feature.group, feature-name: KNIME Core,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.1.v202002041126]")
+2022-05-01 16:43:51,698 : WARN  : ModalContext :  : WorkflowManager : Train H2O GLM : 4:0:13:79:77:0:75:74:52 : Unable to insert connection "[425(1) -> 420( 1)]"
+2022-05-01 16:43:51,699 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : Train H2O GLM : 4:0:13:79:77:0:75:74:52 : Post-load error (ClassCastException): class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+java.lang.ClassCastException: class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+	at org.knime.core.node.workflow.SubNodeContainer.getVirtualOutNodeModel(SubNodeContainer.java:668)
+	at org.knime.core.node.workflow.SubNodeContainer.postLoadWFM(SubNodeContainer.java:1912)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor$1.postLoad(FileSubNodeContainerPersistor.java:393)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8415)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:43:51,738 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : Surrogate predictions within cluster : 4:0:13:79:0:0:75:74 : Could not load output port information: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+org.knime.core.node.InvalidSettingsException: Unable to restore port type, can't load class "org.knime.ext.h2o.ports.H2OFramePortObject"
+	at org.knime.core.node.port.PortType.lambda$0(PortType.java:276)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.port.PortType.load(PortType.java:276)
+	at org.knime.core.node.port.PortType.load(PortType.java:260)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.loadPort(FileSubNodeContainerPersistor.java:412)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor.preLoadNodeContainer(FileSubNodeContainerPersistor.java:349)
+	at org.knime.core.node.workflow.FileWorkflowPersistor.loadNodeContainer(FileWorkflowPersistor.java:969)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8516)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:43:51,791 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Train H2O GLM : 4:0:13:79:0:0:75:74:52 : Unable to load additional factory settings into node factory (node "class "Optional[org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory]" [node name: "Component Output", bundle-symbolic-name: org.knime.core, bundle-name: KNIME Core API, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.base.feature.group, feature-name: KNIME Core,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.1.v202002041126]")
+2022-05-01 16:43:51,803 : WARN  : ModalContext :  : WorkflowManager : Train H2O GLM : 4:0:13:79:0:0:75:74:52 : Unable to insert connection "[425(1) -> 420( 1)]"
+2022-05-01 16:43:51,803 : ERROR : ModalContext :  : FileSubNodeContainerPersistor : Train H2O GLM : 4:0:13:79:0:0:75:74:52 : Post-load error (ClassCastException): class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+java.lang.ClassCastException: class org.knime.core.node.missing.MissingNodeModel cannot be cast to class org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel (org.knime.core.node.missing.MissingNodeModel and org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeModel are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @39959a67)
+	at org.knime.core.node.workflow.SubNodeContainer.getVirtualOutNodeModel(SubNodeContainer.java:668)
+	at org.knime.core.node.workflow.SubNodeContainer.postLoadWFM(SubNodeContainer.java:1912)
+	at org.knime.core.node.workflow.FileSubNodeContainerPersistor$1.postLoad(FileSubNodeContainerPersistor.java:393)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8415)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.SubNodeContainer.performLoadContent(SubNodeContainer.java:1923)
+	at org.knime.core.node.workflow.SingleNodeContainer.loadContent(SingleNodeContainer.java:808)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.workbench.editor2.LoadMetaNodeTemplateRunnable.run(LoadMetaNodeTemplateRunnable.java:185)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-01 16:44:33,346 : WARN  : ModalContext :  : Node : k-Means : 4:12 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-01 16:44:37,426 : WARN  : KNIME-Worker-4-Table Reader (deprecated) 4:4 :  : Node : k-Means : 4:12 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-01 16:48:26,712 : WARN  : KNIME-Worker-11-Component Input 5:0:21 :  : Node : Component Input : 5:0:21 : Not all inputs available
+2022-05-01 16:48:26,713 : ERROR : KNIME-Worker-11-Component Input 5:0:21 :  : LocalNodeExecutionJob : Component Input : 5:0:21 : Caught "NullPointerException": null
+java.lang.NullPointerException
+	at org.knime.core.node.Node.execute(Node.java:1096)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-01 16:49:01,734 : WARN  : main :  : WrappedNodeDialog : Integer Configuration : 5:0:44 : failed to apply settings: Cannot load settings into node; it is executing or has executing successors
+java.lang.IllegalStateException: Cannot load settings into node; it is executing or has executing successors
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1988)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:834)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:398)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-05-01 16:49:30,684 : ERROR : KNIME-Worker-12-Math Formula (Variable) 5:0:37 :  : Node : Math Formula (Variable) : 5:0:37 : Execute failed: Unknown flow variable "${IkStart}"
+org.knime.core.node.InvalidSettingsException: Unknown flow variable "${IkStart}"
+	at org.knime.ext.jep.ExpressionParser.parseFlowVariable(ExpressionParser.java:284)
+	at org.knime.ext.jep.ExpressionParser.dollarFound(ExpressionParser.java:261)
+	at org.knime.ext.jep.ExpressionParser.parse(ExpressionParser.java:171)
+	at org.knime.ext.jep.ExpressionParser.<init>(ExpressionParser.java:146)
+	at org.knime.ext.jep.variable.JEPVariableNodeModel.execute(JEPVariableNodeModel.java:85)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-01 16:49:38,372 : WARN  : main :  : WrappedNodeDialog : Math Formula (Variable) : 5:0:37 : failed to apply settings: Unknown flow variable "${IkStart}"
+org.knime.core.node.InvalidSettingsException: Unknown flow variable "${IkStart}"
+	at org.knime.ext.jep.ExpressionParser.parseFlowVariable(ExpressionParser.java:284)
+	at org.knime.ext.jep.ExpressionParser.dollarFound(ExpressionParser.java:261)
+	at org.knime.ext.jep.ExpressionParser.parse(ExpressionParser.java:171)
+	at org.knime.ext.jep.ExpressionParser.<init>(ExpressionParser.java:146)
+	at org.knime.ext.jep.JEPNodeDialogPane.saveSettingsTo(JEPNodeDialogPane.java:354)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)

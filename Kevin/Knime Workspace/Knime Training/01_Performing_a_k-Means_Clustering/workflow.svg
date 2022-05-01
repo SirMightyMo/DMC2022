@@ -147,7 +147,7 @@
                 <path d="M79 173 L123 173 L123 184 L79 184 L79 173 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath45">
-                <path d="M-1 -1 L1263 -1 L1263 836 L-1 836 L-1 -1 Z"/>
+                <path d="M-1 -1 L1263 -1 L1263 784 L-1 784 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g font-size="14" fill="white" font-family="&apos;Ubuntu&apos;"

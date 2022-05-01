@@ -9,13 +9,22 @@
         <config key="all_columns">
             <config key="0">
                 <entry key="old_column_name" type="xstring" value="Unique count(date)"/>
-                <entry key="new_column_name" type="xstring" value="Number of purchases"/>
+                <entry key="new_column_name" type="xstring" value="No. of purchases"/>
+                <entry key="new_column_type" type="xint" value="0"/>
+            </config>
+            <config key="1">
+                <entry key="old_column_name" type="xstring" value="Sorted list(date)"/>
+                <entry key="new_column_name" type="xstring" value="Dates (sorted list)"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="The following columns are configured but no longer exist: &quot;Sorted list(date)&quot;"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
     <entry key="node-name" type="xstring" value="Column Rename"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -35,12 +44,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 132619, Cols: 10"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 897446, Cols: 12"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="941e759b-4d93-4cad-98e8-e10c5b043012"/>
+        <entry key="file_store_id" type="xstring" value="6d6ff0c7-4abe-4000-be74-61e1b4c651ca"/>
     </config>
 </config>

@@ -157,9 +157,9 @@
                         </config>
                     </config>
                 </config>
-                <entry key="Iris-setosa" type="xint" value="-65536"/>
-                <entry key="Iris-versicolor" type="xint" value="-16711936"/>
-                <entry key="Iris-virginica" type="xint" value="-12566464"/>
+                <entry key="Iris-setosa" type="xint" value="-13393876"/>
+                <entry key="Iris-versicolor" type="xint" value="-1893860"/>
+                <entry key="Iris-virginica" type="xint" value="-14714700"/>
             </config>
         </config>
         <config key="meta_data"/>

@@ -2046,3 +2046,59 @@ org.knime.core.node.InvalidSettingsException: There are invalid joining columns 
 2022-05-03 18:47:50,734 : WARN  : KNIME-Worker-11-Number To String 5:616 :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
 2022-05-03 18:48:09,096 : WARN  : KNIME-Worker-13-Joiner (deprecated) 5:603 :  : Node : Joiner (deprecated) : 5:603 : Node created an empty data table.
 2022-05-03 18:48:36,300 : WARN  : KNIME-Worker-14-Joiner (deprecated) 5:603 :  : Node : Joiner (deprecated) : 5:603 : Node created an empty data table.
+2022-05-03 18:51:30,521 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:30,523 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:30,523 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:30,523 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:30,526 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:30,527 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:30,527 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:30,532 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:30,533 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:30,533 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:40,906 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:40,906 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:40,907 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:40,908 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:51:40,909 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:51:40,909 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:53:43,040 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:54:53,168 : WARN  : KNIME-Worker-16-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:54:53,169 : WARN  : KNIME-Worker-16-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:54:53,674 : WARN  : KNIME-Worker-20-Missing Value 0:48 :  : Node : Missing Value : 0:48 : Column "categories" still contains missing values.
+2022-05-03 18:54:53,686 : WARN  : KNIME-Worker-20-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:54:53,689 : WARN  : KNIME-Worker-20-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:54:54,226 : WARN  : KNIME-Worker-17-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:54:54,226 : WARN  : KNIME-Worker-17-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:55:54,130 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:57:07,651 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:01:09,275 : WARN  : KNIME-Worker-26-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:02:01,056 : WARN  : KNIME-Worker-28-Statistics 0:67 :  : Node : Statistics : 0:67 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID","categories","brand"
+2022-05-03 19:02:45,863 : WARN  : KNIME-Worker-33-Statistics 0:67 :  : Node : Statistics : 0:67 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID","categories","brand"
+2022-05-03 19:08:50,888 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:08:57,305 : WARN  : KNIME-Worker-35-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:09:53,687 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:09:56,210 : WARN  : KNIME-Worker-38-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:10:36,501 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:10:41,754 : WARN  : KNIME-Worker-41-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:12:15,851 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:12:18,274 : WARN  : KNIME-Worker-44-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:12:53,466 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:12:56,551 : WARN  : KNIME-Worker-47-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:16:10,386 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:16:47,066 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:16:49,893 : WARN  : KNIME-Worker-51-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:18:59,093 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:19:02,118 : WARN  : KNIME-Worker-54-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:19:10,849 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:19:16,954 : WARN  : KNIME-Worker-57-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:20:58,943 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:21:02,993 : WARN  : KNIME-Worker-60-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:21:16,150 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 19:21:22,535 : WARN  : KNIME-Worker-63-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:50:19,515 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:50:22,023 : WARN  : KNIME-Worker-79-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:50:45,332 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:50:49,237 : WARN  : KNIME-Worker-82-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:52:44,838 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 20:52:51,973 : WARN  : KNIME-Worker-88-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.

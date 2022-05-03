@@ -147,7 +147,7 @@
                 <path d="M79 173 L123 173 L123 184 L79 184 L79 173 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath45">
-                <path d="M-1 -1 L1263 -1 L1263 784 L-1 784 L-1 -1 Z"/>
+                <path d="M-1 -1 L1257 -1 L1257 930 L-1 930 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g font-size="14" fill="white" font-family="&apos;Ubuntu&apos;"
@@ -896,25 +896,25 @@ rkJggg==" xlink:actuate="onLoad"/>
            text-rendering="optimizeLegibility" font-family="&apos;Ubuntu&apos;"
            stroke="rgb(150,150,150)" stroke-width="2">
             <path fill="none"
-                  d="M418 179 C420 179 424 179 426 179 C466 179 429 308 469 308 C472 308 477 308 480 308 C482 308 486 308 488 308"
+                  d="M418 159 C420 159 424 159 426 159 C482 159 558 158 614 158 C616 158 620 158 622 158"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M776 148 C778 148 782 148 784 148 C794 148 807 158 817 158 C819 158 823 158 825 158"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M96 178 C98 178 102 178 104 178 C125 178 156 178 177 178 C179 178 183 178 185 178"
+                  d="M418 179 C420 179 424 179 426 179 C466 179 429 308 469 308 C472 308 477 308 480 308 C482 308 486 308 488 308"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M236 187 C238 187 242 187 244 187 C294 187 287 327 337 327 C379 327 438 327 480 327 C482 327 486 327 488 327"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M673 148 C675 148 679 148 681 148 C692 148 706 158 717 158 C719 158 723 158 725 158"
-                  clip-path="url(#clipPath45)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M236 168 C238 168 242 168 244 168 C278 168 325 169 359 169 C361 169 365 169 367 169"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M418 159 C420 159 424 159 426 159 C482 159 558 158 614 158 C616 158 620 158 622 158"
+                  d="M673 148 C675 148 679 148 681 148 C692 148 706 158 717 158 C719 158 723 158 725 158"
+                  clip-path="url(#clipPath45)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M96 178 C98 178 102 178 104 178 C125 178 156 178 177 178 C179 178 183 178 185 178"
                   clip-path="url(#clipPath45)" fill-rule="evenodd"/>
         </g>
     </g>

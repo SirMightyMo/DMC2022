@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="kevin"/>
         <entry key="authored-when" type="xstring" value="2022-05-03 16:35:52 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="kevin"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-05-03 18:18:14 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-05-03 18:49:34 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -370,12 +370,6 @@
         </config>
         <config key="connection_2">
             <entry key="sourceID" type="xint" value="6"/>
-            <entry key="destID" type="xint" value="62"/>
-            <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="0"/>
-        </config>
-        <config key="connection_3">
-            <entry key="sourceID" type="xint" value="6"/>
             <entry key="destID" type="xint" value="11"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
@@ -388,6 +382,12 @@
                     <entry key="1" type="xint" value="878"/>
                 </config>
             </config>
+        </config>
+        <config key="connection_3">
+            <entry key="sourceID" type="xint" value="6"/>
+            <entry key="destID" type="xint" value="62"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="0"/>
         </config>
         <config key="connection_4">
             <entry key="sourceID" type="xint" value="8"/>
@@ -502,7 +502,7 @@
         </config>
         <config key="connection_15">
             <entry key="sourceID" type="xint" value="59"/>
-            <entry key="destID" type="xint" value="49"/>
+            <entry key="destID" type="xint" value="62"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -522,7 +522,7 @@
         </config>
         <config key="connection_17">
             <entry key="sourceID" type="xint" value="59"/>
-            <entry key="destID" type="xint" value="62"/>
+            <entry key="destID" type="xint" value="49"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -564,7 +564,7 @@
         <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
         <entry key="workflow.editor.gridX" type="xint" value="20"/>
         <entry key="workflow.editor.gridY" type="xint" value="20"/>
-        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.9"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.67"/>
         <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
         <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
     </config>

@@ -30,6 +30,7 @@
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
                 <config key="typelist">
@@ -64,29 +65,32 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory2"/>
     <entry key="node-name" type="xstring" value="Bag Of Words Creator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.1.0.v201912021617"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011101"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.1.0.v201912021617"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202112011101"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="MISSING Bag Of Words Creator"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="name" type="xstring" value="Bag Of Words Creator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 2757, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="6b1738e8-41e6-4955-b31a-94e22c6ad232"/>
     </config>
 </config>

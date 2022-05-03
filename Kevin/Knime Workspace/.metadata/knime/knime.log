@@ -1700,3 +1700,349 @@ org.knime.core.node.InvalidSettingsException: Invalid outport index in settings:
 2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Tag Clouds 4:754
 2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Term To String" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
 2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "String To Term" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:27:03,139 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140339272140800}
+2022-05-03 18:27:06,298 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: 17_TopicExtraction_with_the_ElbowMethod 3 loaded with warnings
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Warning: 17_TopicExtraction_with_the_ElbowMethod 3
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Table Reader (deprecated) 3:741
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: RSS Feed Reader 3:765
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Warning: Column Filter (deprecated) 3:12
+2022-05-03 18:27:06,301 : WARN  : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Warning: State has changed from IDLE to CONFIGURED
+2022-05-03 18:27:17,203 : WARN  : KNIME-Worker-3-Table Reader (deprecated) 3:741 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:17,203 : WARN  : KNIME-Worker-3-Table Reader (deprecated) 3:741 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:21,539 : WARN  : KNIME-Worker-6-Stanford Lemmatizer 3:770:0:35 :  : Node : Stanford Lemmatizer : 3:770:0:35 : Warning: Some terms have no POS tags.
+2022-05-03 18:27:21,715 : WARN  : KNIME-Worker-3-Extract Table Dimension 3:770:0:66 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:21,715 : WARN  : KNIME-Worker-3-Extract Table Dimension 3:770:0:66 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:22,118 : WARN  : KNIME-Worker-3-IDF 3:770:0:79 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:22,122 : WARN  : KNIME-Worker-3-IDF 3:770:0:79 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:22,136 : WARN  : KNIME-Worker-5-Row Filter 3:770:0:80 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:22,136 : WARN  : KNIME-Worker-5-Row Filter 3:770:0:80 :  : Node : GroupBy : 3:770:0:81 : No aggregation column defined
+2022-05-03 18:27:37,748 : WARN  : KNIME-Worker-3-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:38,857 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:38,860 : WARN  : KNIME-Worker-8-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:39,084 : WARN  : KNIME-Worker-9-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:39,964 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:39,967 : WARN  : KNIME-Worker-5-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:40,152 : WARN  : KNIME-Worker-0-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:40,984 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:40,986 : WARN  : KNIME-Worker-4-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:41,169 : WARN  : KNIME-Worker-3-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:41,974 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:41,976 : WARN  : KNIME-Worker-8-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:42,137 : WARN  : KNIME-Worker-7-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:42,949 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:42,953 : WARN  : KNIME-Worker-5-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:43,106 : WARN  : KNIME-Worker-1-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:43,969 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:43,972 : WARN  : KNIME-Worker-9-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:44,172 : WARN  : KNIME-Worker-4-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:45,017 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:45,020 : WARN  : KNIME-Worker-8-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:45,253 : WARN  : KNIME-Worker-0-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:46,045 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:46,047 : WARN  : KNIME-Worker-5-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:46,320 : WARN  : KNIME-Worker-3-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:47,153 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:47,156 : WARN  : KNIME-Worker-7-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:47,435 : WARN  : KNIME-Worker-9-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:48,232 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:48,235 : WARN  : KNIME-Worker-1-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:48,498 : WARN  : KNIME-Worker-8-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:49,291 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:49,293 : WARN  : KNIME-Worker-4-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:49,656 : WARN  : KNIME-Worker-3-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:50,450 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:50,451 : WARN  : KNIME-Worker-0-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:50,870 : WARN  : KNIME-Worker-9-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:51,671 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:51,673 : WARN  : KNIME-Worker-5-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:51,894 : WARN  : KNIME-Worker-1-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:52,692 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:52,695 : WARN  : KNIME-Worker-7-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:52,951 : WARN  : KNIME-Worker-4-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:53,812 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:53,814 : WARN  : KNIME-Worker-0-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:54,037 : WARN  : KNIME-Worker-9-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:54,894 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:54,896 : WARN  : KNIME-Worker-3-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:55,118 : WARN  : KNIME-Worker-5-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:55,906 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:55,908 : WARN  : KNIME-Worker-8-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:56,217 : WARN  : KNIME-Worker-7-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:57,008 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:57,010 : WARN  : KNIME-Worker-1-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:57,331 : WARN  : KNIME-Worker-0-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:58,135 : WARN  : KNIME-Worker-6-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:58,137 : WARN  : KNIME-Worker-3-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:58,472 : WARN  : KNIME-Worker-4-k-Means 3:682 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:59,261 : WARN  : KNIME-Worker-2-Java Snippet 3:743:0:599 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:59,264 : WARN  : KNIME-Worker-9-Column Filter 3:743:0:602 :  : Node : GroupBy : 3:743:0:603 : No grouping column included. Aggregate complete table.
+2022-05-03 18:27:59,307 : WARN  : KNIME-Worker-4-Loop End (deprecated) 3:742 :  : Node : Topic Extractor (Parallel LDA) : 3:296 : Errors overwriting node settings with flow variables: Unknown variable "Number of Clusters"
+2022-05-03 18:28:30,549 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: ElbowMethod 4 loaded with errors
+2022-05-03 18:28:30,550 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: ElbowMethod 4
+2022-05-03 18:28:30,551 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: k-table 4:607
+2022-05-03 18:28:30,551 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Empty Table Creator" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2022-05-03 18:28:30,551 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Counter Generation" not available from extension "KNIME Data Generation" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.datageneration" is not installed)
+2022-05-03 18:29:15,618 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140123252625968}
+2022-05-03 18:32:06,975 : WARN  : main :  : Node : Table Reader (deprecated) : 0:614 : Input file '/home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/DMC_ItemAnalysis/data/ToyClusters.table' does not exist
+2022-05-03 18:32:06,976 : WARN  : main :  : Node : RowID : 0:604 : No row key column selected generate a new one
+2022-05-03 18:36:19,893 : WARN  : main :  : Node : Table Reader (deprecated) : 5:614 : Input file '/home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/DMC_ItemAnalysis_KMeansWithElbow/data/ToyClusters.table' does not exist
+2022-05-03 18:36:19,905 : WARN  : main :  : Node : RowID : 5:604 : No row key column selected generate a new one
+2022-05-03 18:36:19,928 : WARN  : main :  : Node : k-Means : 5:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:36:19,928 : WARN  : main :  : Node : Scatter Plot (local) : 5:61 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2022-05-03 18:36:19,930 : WARN  : main :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:36:53,029 : WARN  : main :  : Node : k-Means : 5:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:36:53,029 : WARN  : main :  : Node : Scatter Plot (local) : 5:61 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2022-05-03 18:36:53,030 : WARN  : main :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:39:24,511 : WARN  : main :  : Node : k-Means : 5:62 : Errors overwriting node settings with flow variables: Unknown variable "k"
+2022-05-03 18:39:51,920 : WARN  : main :  : Node : k-Means : 5:602 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:40:32,636 : WARN  : KNIME-Worker-5-k-table 5:607 :  : Node : RowID : 5:604 : No row key column selected generate a new one
+2022-05-03 18:40:32,725 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:32,726 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:33,022 : WARN  : KNIME-Worker-7-CSV Reader 5:2 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:33,024 : WARN  : KNIME-Worker-7-CSV Reader 5:2 :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:33,036 : WARN  : KNIME-Worker-7-CSV Reader 5:2 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:33,036 : WARN  : KNIME-Worker-7-CSV Reader 5:2 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:34,935 : WARN  : KNIME-Worker-6-CSV Reader 5:8 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:34,937 : WARN  : KNIME-Worker-6-CSV Reader 5:8 :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:34,946 : WARN  : KNIME-Worker-6-CSV Reader 5:8 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:34,946 : WARN  : KNIME-Worker-6-CSV Reader 5:8 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:39,673 : WARN  : KNIME-Worker-8-GroupBy 5:12 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:39,676 : WARN  : KNIME-Worker-8-GroupBy 5:12 :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:39,679 : WARN  : KNIME-Worker-8-GroupBy 5:12 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:39,679 : WARN  : KNIME-Worker-8-GroupBy 5:12 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:40,031 : WARN  : KNIME-Worker-5-Joiner 5:46 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:40,046 : WARN  : KNIME-Worker-5-Joiner 5:46 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:40,054 : WARN  : KNIME-Worker-5-Joiner 5:46 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:40,204 : WARN  : KNIME-Worker-10-Missing Value 5:615:48 :  : Node : Missing Value : 5:615:48 : Column "categories" still contains missing values.
+2022-05-03 18:40:40,287 : WARN  : KNIME-Worker-10-Missing Value 5:615:48 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:40,291 : WARN  : KNIME-Worker-10-Missing Value 5:615:48 :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 18:40:40,297 : WARN  : KNIME-Worker-10-Missing Value 5:615:48 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:40,298 : WARN  : KNIME-Worker-10-Missing Value 5:615:48 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:40,727 : WARN  : KNIME-Worker-6-Normalizer 5:615:59 :  : Node : Scatter Plot (local) : 5:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:40:40,733 : WARN  : KNIME-Worker-6-Normalizer 5:615:59 :  : Node : Scatter Plot (local) : 5:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:40:40,738 : WARN  : KNIME-Worker-6-Normalizer 5:615:59 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:40,738 : WARN  : KNIME-Worker-6-Normalizer 5:615:59 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:41,342 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:41,343 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:41,761 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:41,761 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:42,331 : WARN  : KNIME-Worker-10-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:42,332 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:42,412 : WARN  : KNIME-Worker-6-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:42,413 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:42,428 : WARN  : KNIME-Worker-9-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:42,429 : WARN  : KNIME-Worker-9-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:43,094 : WARN  : KNIME-Worker-7-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:43,095 : WARN  : KNIME-Worker-7-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:43,391 : WARN  : KNIME-Worker-10-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:43,392 : WARN  : KNIME-Worker-10-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:43,789 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:43,790 : WARN  : KNIME-Worker-5-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:43,847 : WARN  : KNIME-Worker-9-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:43,848 : WARN  : KNIME-Worker-7-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:43,856 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:43,857 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:44,845 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:44,846 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:45,193 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:45,193 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:45,561 : WARN  : KNIME-Worker-7-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:45,562 : WARN  : KNIME-Worker-6-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:45,593 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:45,594 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:45,600 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:45,600 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:47,094 : WARN  : KNIME-Worker-7-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:47,094 : WARN  : KNIME-Worker-7-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:47,355 : WARN  : KNIME-Worker-6-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:47,356 : WARN  : KNIME-Worker-6-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:47,678 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:47,679 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:47,705 : WARN  : KNIME-Worker-5-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:47,705 : WARN  : KNIME-Worker-7-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:47,711 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:47,711 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:50,339 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:50,340 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:50,613 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:50,614 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:50,998 : WARN  : KNIME-Worker-7-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:50,999 : WARN  : KNIME-Worker-6-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:51,045 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:51,045 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:51,051 : WARN  : KNIME-Worker-9-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:51,052 : WARN  : KNIME-Worker-9-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:53,944 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:53,944 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:54,167 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:54,167 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:54,499 : WARN  : KNIME-Worker-10-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:54,500 : WARN  : KNIME-Worker-5-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:54,545 : WARN  : KNIME-Worker-9-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:54,546 : WARN  : KNIME-Worker-6-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:54,550 : WARN  : KNIME-Worker-8-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:54,551 : WARN  : KNIME-Worker-8-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:58,339 : WARN  : KNIME-Worker-5-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:58,340 : WARN  : KNIME-Worker-5-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:58,582 : WARN  : KNIME-Worker-10-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:58,583 : WARN  : KNIME-Worker-10-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:58,911 : WARN  : KNIME-Worker-6-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:58,911 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:58,930 : WARN  : KNIME-Worker-8-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:58,931 : WARN  : KNIME-Worker-5-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:40:58,935 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:40:58,935 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:03,019 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:03,019 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:03,234 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:03,235 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:03,549 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:03,550 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:03,570 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:03,570 : WARN  : KNIME-Worker-6-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:03,574 : WARN  : KNIME-Worker-7-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:03,574 : WARN  : KNIME-Worker-7-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:09,878 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:09,878 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:10,095 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:10,096 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:10,422 : WARN  : KNIME-Worker-6-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:10,423 : WARN  : KNIME-Worker-5-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:10,446 : WARN  : KNIME-Worker-7-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:10,446 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:10,451 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:10,451 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:19,835 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:19,835 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:20,043 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:20,044 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:20,389 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:20,390 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:20,411 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:20,413 : WARN  : KNIME-Worker-6-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:20,417 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:20,417 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:30,715 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:30,715 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:30,914 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:30,915 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:31,240 : WARN  : KNIME-Worker-6-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:31,240 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:31,261 : WARN  : KNIME-Worker-5-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:31,261 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:31,265 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:31,265 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:41,660 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:41,660 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:41,877 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:41,878 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:42,208 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:42,208 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:42,229 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:42,229 : WARN  : KNIME-Worker-6-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:42,234 : WARN  : KNIME-Worker-7-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:42,234 : WARN  : KNIME-Worker-7-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:55,521 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:55,521 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:55,750 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:55,750 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:56,095 : WARN  : KNIME-Worker-6-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:56,098 : WARN  : KNIME-Worker-5-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:56,121 : WARN  : KNIME-Worker-7-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:56,122 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:41:56,125 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:41:56,126 : WARN  : KNIME-Worker-10-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:13,949 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:13,949 : WARN  : KNIME-Worker-6-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:14,180 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:14,180 : WARN  : KNIME-Worker-5-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:14,476 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:14,477 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:14,501 : WARN  : KNIME-Worker-10-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:14,501 : WARN  : KNIME-Worker-6-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:14,505 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:14,505 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:32,352 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:32,353 : WARN  : KNIME-Worker-8-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:32,587 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:32,587 : WARN  : KNIME-Worker-9-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:32,875 : WARN  : KNIME-Worker-10-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:32,876 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:32,924 : WARN  : KNIME-Worker-5-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:32,924 : WARN  : KNIME-Worker-8-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:32,929 : WARN  : KNIME-Worker-6-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:32,930 : WARN  : KNIME-Worker-6-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:43,477 : WARN  : KNIME-Worker-10-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:43,477 : WARN  : KNIME-Worker-10-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:43,817 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:43,818 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:44,265 : WARN  : KNIME-Worker-8-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:44,265 : WARN  : KNIME-Worker-9-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:44,294 : WARN  : KNIME-Worker-6-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:44,296 : WARN  : KNIME-Worker-10-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:42:44,300 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:42:44,300 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:02,417 : WARN  : KNIME-Worker-9-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:02,418 : WARN  : KNIME-Worker-9-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:02,705 : WARN  : KNIME-Worker-8-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:02,706 : WARN  : KNIME-Worker-8-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:03,112 : WARN  : KNIME-Worker-10-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:03,114 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:03,134 : WARN  : KNIME-Worker-5-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:03,136 : WARN  : KNIME-Worker-9-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:03,144 : WARN  : KNIME-Worker-6-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:03,144 : WARN  : KNIME-Worker-6-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:22,318 : WARN  : KNIME-Worker-10-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:22,318 : WARN  : KNIME-Worker-10-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:22,603 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:22,604 : WARN  : KNIME-Worker-7-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:22,935 : WARN  : KNIME-Worker-9-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:22,936 : WARN  : KNIME-Worker-8-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:22,956 : WARN  : KNIME-Worker-6-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:22,956 : WARN  : KNIME-Worker-10-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:22,960 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:22,960 : WARN  : KNIME-Worker-5-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:51,222 : WARN  : KNIME-Worker-9-k-Means 5:602 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:51,222 : WARN  : KNIME-Worker-9-k-Means 5:602 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:51,473 : WARN  : KNIME-Worker-8-Joiner (deprecated) 5:603 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:51,473 : WARN  : KNIME-Worker-8-Joiner (deprecated) 5:603 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:51,815 : WARN  : KNIME-Worker-10-Java Snippet 5:608:599 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:51,816 : WARN  : KNIME-Worker-7-Column Filter 5:608:600 :  : Node : GroupBy : 5:608:145 : No grouping column included. Aggregate complete table.
+2022-05-03 18:43:51,837 : WARN  : KNIME-Worker-5-GroupBy 5:608:145 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:51,838 : WARN  : KNIME-Worker-9-Column Rename 5:608:143 :  : Node : Column Rename : 5:608:143 : The following columns are configured but no longer exist: "Sum(Sum(sq dist))"
+2022-05-03 18:43:51,839 : WARN  : KNIME-Worker-6-Loop End (deprecated) 5:605 :  : Node : RowID : 5:610 : No row key column selected generate a new one
+2022-05-03 18:44:23,641 : WARN  : main :  : Node : k-Means : 5:602 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:44:34,722 : WARN  : main :  : WrappedNodeDialog : Joiner (deprecated) : 5:603 : failed to apply settings: There are invalid joining columns (highlighted with a red border).
+org.knime.core.node.InvalidSettingsException: There are invalid joining columns (highlighted with a red border).
+	at org.knime.base.node.preproc.joiner.Joiner2NodeDialog.saveSettingsTo(Joiner2NodeDialog.java:499)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-05-03 18:45:14,719 : WARN  : main :  : Node : RowID : 5:604 : No row key column selected generate a new one
+2022-05-03 18:45:14,720 : WARN  : main :  : Node : k-Means : 5:602 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:45:17,730 : WARN  : KNIME-Worker-5-k-table 5:607 :  : Node : RowID : 5:604 : No row key column selected generate a new one
+2022-05-03 18:45:17,733 : WARN  : KNIME-Worker-6-Table Row To Variable Loop Start (deprecated) 5:611 :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:45:18,063 : WARN  : KNIME-Worker-10-k-Means 5:602 :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:45:28,829 : WARN  : main :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:45:48,979 : WARN  : main :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:47:13,264 : WARN  : main :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:47:42,662 : WARN  : main :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:47:50,734 : WARN  : KNIME-Worker-11-Number To String 5:616 :  : Node : Joiner (deprecated) : 5:603 : Type mismatch found of Joining Column Pair "Cluster" and "No. of purchases". Use "Number to String node" to convert the type of "No. of purchases" to string.
+2022-05-03 18:48:09,096 : WARN  : KNIME-Worker-13-Joiner (deprecated) 5:603 :  : Node : Joiner (deprecated) : 5:603 : Node created an empty data table.
+2022-05-03 18:48:36,300 : WARN  : KNIME-Worker-14-Joiner (deprecated) 5:603 :  : Node : Joiner (deprecated) : 5:603 : Node created an empty data table.

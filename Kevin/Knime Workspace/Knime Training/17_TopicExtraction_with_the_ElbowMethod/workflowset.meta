@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><nrOfElements xmlns="">5</nrOfElements><element xmlns="" form="text" name="Author">adewi</element><element xmlns="" form="date" name="Creation Date">24/0/2017/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Topic Extraction
+
+This workflow shows how to extract topics from text documents using the Topic Extractor node.
+
+It reads textual data from a table (or, alternatively, the data can be fetched directly from news websites using the RSS Feed Reader node) and converts them into documents. The documents are then preprocessed, i.e. tagged, filtered, lemmatized, etc. After that, the Topic Extractor node can be applied to the preprocessed documents. However, the node requires users to input the number of topics that should be extracted beforehand.
+
+There exist already a couple of methods to determine the best number of topics, we would use the "Elbow Method" in this workflow. The method basically runs k-means clustering on the input documents for a range of values of the number of clusters (e.g, from 1 to 20), and for each value calculates the within-cluster sum of squared errors (SSE), which is the sum of the distances of each data point in a cluster to its cluster center. Then, the SSE value for each number of clusters is plotted in a Scatter Plot. The best number of clusters should be the one where there is a drop of the SSE value, giving an angle in the plot. 
+Note that the Elbow method doesn't always work for all data sets. If there is not a clear elbow to be found in the plot, try using a different approach, like the Silhouette Coefficient.
+
+After finding out the optimal number of clusters/topics for the documents, the Topic Extractor node can be executed and a tag cloud is created to visualize the topics' terms.
+
+
+BLOG: Topic Extraction: Optimizing the Number of Topics with the Elbow Method https://www.knime.com/blog/topic-extraction-optimizing-the-number-of-topics-with-the-elbow-method
+TAGS: topic,extraction,clustering,k-Means,machine learning,data mining,NLP,Natural Language Processing</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-01-09 14:18:47 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-01-09 14:13:04 +0100</element></KNIMEMetaInfo>

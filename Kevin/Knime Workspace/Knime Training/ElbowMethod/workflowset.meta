@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Satoru</met:element>
+<met:element form="date" read-only="false" name="Creation Date">26/0/2021/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Elbow Method
+
+Elbow method to determine the number of clusters, applied to simulated data with 6 clusters.
+
+TAGS: elbow method,k-means,clustering</met:element>
+</met:KNIMEMetaInfo>

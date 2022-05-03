@@ -153,7 +153,7 @@
                 <path d="M226 260 L251 260 L251 271 L226 271 L226 260 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath47">
-                <path d="M-1 -1 L1264 -1 L1264 807 L-1 807 L-1 -1 Z"/>
+                <path d="M-1 -1 L1264 -1 L1264 907 L-1 907 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g font-size="14" fill="white" font-family="&apos;Ubuntu&apos;"
@@ -228,17 +228,18 @@ vHyJK96CDDb581uo8hor4wfJ+5cF0VpMHwAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple" fill="black"
                    clip-path="url(#clipPath16)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB20lEQVR42sVUQU/b
+MBT+7DRpEmibrqIw4LSV66RdEAjtssuk/Qp+AT9m/2aHTlw4jOM0TpSdJrYW2jQN
+IUmz2NhhtgoJvbF9liW/PNvf55f3Hun3+4ec808AGvi3CAkhR/S5ybkYOc/BOHvs
+akju2iI5pRSO48BrNmFZFmbhDDdRhDSdPzhpmiZc10Gr5RV2EExxexsjyzK9h4lx
+enOMa/xCZs1BmQF77uKts4+uuaVF1NRKhANtr4Veb0df0l1fFxdHOB8MkCSpJt/e
+3Cx8Ci83NjAaDvHz8lKLOAk/43r1N4hJQUCLSMSI8NX/gnfkI7xa5/7R6hLHtvH6
+Va8UQtddQedFZ8F2HpAvipU+iZQl8GujgvwxmMfwLTnVtt5h1esglFT+x+7aGgzD
+KNYq7FVQvhnzkTu8OicERUKisoD/BS1gnqbgrFr16OoKeZ7rhHsKytekbRhxdTSJ
+oLD5SllAnCS4+DEoHZBJOJ6MF+y4SLiSSPFN+iTq1Eb7Txc8Y+UXTyne2Lva1lUg
+ahL+NMD3s7OlZSizXGb7ZOovLcODxocny1BVgBIQql7AGEMkCOVcBkkUBHLOlvxb
+ir3V90X5ySZEZDHapZQLqWyHf0U8CySxQQxQQitb8R1Aad2UTw6JfgAAAABJRU5E
+rkJggg==" xlink:actuate="onLoad"/>
             <polygon fill="black" text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath17)"
                      points=" 693 411 702 415 693 420" stroke="none"/>
@@ -251,8 +252,23 @@ I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple" fill="black"
                    clip-path="url(#clipPath19)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAEklEQVR42mNgGAWj
-YBSMAggAAAQQAAGvRYgsAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC7UlEQVR42n1TWWhT
+URCdue+9LNY0bRZbE2PUxoWKoralbdRaWkFBP/zRP/GjoGhBcSkobs8N94XSggVB
+/SiiKIJSgyIaqWJaKNQFW7Fq0URiFpsmqdneu9e8uBChdL6Gc+ecuffcGYS8EMV6
+HqektnAEmgQeDTwHKomClMmwGKXwgDL1EbHZHc/n4N/kYGvtYjUPd2bOIha7nao5
+jv0rYgzB7yds8D31Z2TWcnirp/PvGZcjX3JWabXgctaC1WRmvM9LpMEBEvj0CcNe
+L4ylU0RltVJhhh10I2HS6Fxp+/G062tfTkAU56tUhepny5aCVQFeeDAQ+E5PJ+Lq
+TQeau0/NbVzQnowkPnzxQpXJQPSzypjG58Oa6jrbre5HX0e5hvVlux0Obp3ByDiF
+PDbKVoo7PLfdD4eTimCva0h2u7xvVjQ6rn0PShusFig2m7AgEGJzn3R5OwkhuNE2
+nQrZa7N0il0+tuvlGxgnxJ3uSCJNNw0M4mihngLP48LNHRUCEQTUK4b5vrFAQuLb
+YII4saPn+cgICyu5Xg9aY0xVRrI28gqQSgM9ub07OG73jopJYnv9ZCWnDHJP02hA
+AxwWEyZDRgEKtCDsP+e0jycgJ4W1QFOvxYv1RQRRp2DJBCS5jBwicgaCkgQwzYYm
+lZbtG09Arcam8nIyE/jUu9ISZlCwkQj7ebylZ4jIlLZ9HCKJkhIZCnW4/khbbeN/
+bAZIEObZbDLU1ODU2XNYQTjEgSzhs+wYMnJom+f6Fy/7HB9DqKykBo6Ds/n8veer
+l5iMWPTbOMV9gLdvaSSVwWMKRhSVeIyu6vHAcG8vBrMN7+UL6Aq4JosFC/OxRYuw
+SKOm9/e1LjfnRvnFY1+0rsrRHuPTV442e1z5xQ1rbBfK5zMj/tmaVBIhFCY0GgNO
+luRKnOjfW85UlU4tFV7PcaD5m59FQyEWoZR9TKfJjeyC3D2/py/ETyQgCNzqeJxF
++1+xmz+T7Kpq1NMvikDza34BD5M9cwU6vV8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
         </g>
         <g stroke-linecap="butt" font-size="14"
            text-rendering="optimizeLegibility" font-family="&apos;Ubuntu&apos;"
@@ -510,17 +526,18 @@ GsCIZlAjEDcAMRspLsBmGF4XMBIZVjhjCABebh/5wqTiJwAAAABJRU5ErkJggg=="
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath16)" preserveAspectRatio="none"
                    font-weight="normal" height="12" x="0" y="0" font-size="4"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB20lEQVR42sVUQU/b
+MBT+7DRpEmibrqIw4LSV66RdEAjtssuk/Qp+AT9m/2aHTlw4jOM0TpSdJrYW2jQN
+IUmz2NhhtgoJvbF9liW/PNvf55f3Hun3+4ec808AGvi3CAkhR/S5ybkYOc/BOHvs
+akju2iI5pRSO48BrNmFZFmbhDDdRhDSdPzhpmiZc10Gr5RV2EExxexsjyzK9h4lx
+enOMa/xCZs1BmQF77uKts4+uuaVF1NRKhANtr4Veb0df0l1fFxdHOB8MkCSpJt/e
+3Cx8Ci83NjAaDvHz8lKLOAk/43r1N4hJQUCLSMSI8NX/gnfkI7xa5/7R6hLHtvH6
+Va8UQtddQedFZ8F2HpAvipU+iZQl8GujgvwxmMfwLTnVtt5h1esglFT+x+7aGgzD
+KNYq7FVQvhnzkTu8OicERUKisoD/BS1gnqbgrFr16OoKeZ7rhHsKytekbRhxdTSJ
+oLD5SllAnCS4+DEoHZBJOJ6MF+y4SLiSSPFN+iTq1Eb7Txc8Y+UXTyne2Lva1lUg
+ahL+NMD3s7OlZSizXGb7ZOovLcODxocny1BVgBIQql7AGEMkCOVcBkkUBHLOlvxb
+ir3V90X5ySZEZDHapZQLqWyHf0U8CySxQQxQQitb8R1Aad2UTw6JfgAAAABJRU5E
+rkJggg==" xlink:actuate="onLoad"/>
         </g>
         <g stroke-linecap="butt" font-size="14" fill="rgb(255,75,75)"
            text-rendering="optimizeLegibility" font-family="&apos;Ubuntu&apos;"
@@ -650,17 +667,18 @@ vHyJK96CDDb581uo8hor4wfJ+5cF0VpMHwAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple" fill="black"
                    clip-path="url(#clipPath16)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB20lEQVR42sVUQU/b
+MBT+7DRpEmibrqIw4LSV66RdEAjtssuk/Qp+AT9m/2aHTlw4jOM0TpSdJrYW2jQN
+IUmz2NhhtgoJvbF9liW/PNvf55f3Hun3+4ec808AGvi3CAkhR/S5ybkYOc/BOHvs
+akju2iI5pRSO48BrNmFZFmbhDDdRhDSdPzhpmiZc10Gr5RV2EExxexsjyzK9h4lx
+enOMa/xCZs1BmQF77uKts4+uuaVF1NRKhANtr4Veb0df0l1fFxdHOB8MkCSpJt/e
+3Cx8Ci83NjAaDvHz8lKLOAk/43r1N4hJQUCLSMSI8NX/gnfkI7xa5/7R6hLHtvH6
+Va8UQtddQedFZ8F2HpAvipU+iZQl8GujgvwxmMfwLTnVtt5h1esglFT+x+7aGgzD
+KNYq7FVQvhnzkTu8OicERUKisoD/BS1gnqbgrFr16OoKeZ7rhHsKytekbRhxdTSJ
+oLD5SllAnCS4+DEoHZBJOJ6MF+y4SLiSSPFN+iTq1Eb7Txc8Y+UXTyne2Lva1lUg
+ahL+NMD3s7OlZSizXGb7ZOovLcODxocny1BVgBIQql7AGEMkCOVcBkkUBHLOlvxb
+ir3V90X5ySZEZDHapZQLqWyHf0U8CySxQQxQQitb8R1Aad2UTw6JfgAAAABJRU5E
+rkJggg==" xlink:actuate="onLoad"/>
             <polygon fill="black" clip-path="url(#clipPath17)"
                      points=" 693 411 702 415 693 420" stroke="none"/>
             <polygon fill="black" clip-path="url(#clipPath18)"
@@ -670,8 +688,23 @@ I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
                    xlink:show="embed" xlink:type="simple" fill="black"
                    clip-path="url(#clipPath19)" preserveAspectRatio="none"
                    height="16" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAEklEQVR42mNgGAWj
-YBSMAggAAAQQAAGvRYgsAAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC7UlEQVR42n1TWWhT
+URCdue+9LNY0bRZbE2PUxoWKoralbdRaWkFBP/zRP/GjoGhBcSkobs8N94XSggVB
+/SiiKIJSgyIaqWJaKNQFW7Fq0URiFpsmqdneu9e8uBChdL6Gc+ecuffcGYS8EMV6
+HqektnAEmgQeDTwHKomClMmwGKXwgDL1EbHZHc/n4N/kYGvtYjUPd2bOIha7nao5
+jv0rYgzB7yds8D31Z2TWcnirp/PvGZcjX3JWabXgctaC1WRmvM9LpMEBEvj0CcNe
+L4ylU0RltVJhhh10I2HS6Fxp+/G062tfTkAU56tUhepny5aCVQFeeDAQ+E5PJ+Lq
+TQeau0/NbVzQnowkPnzxQpXJQPSzypjG58Oa6jrbre5HX0e5hvVlux0Obp3ByDiF
+PDbKVoo7PLfdD4eTimCva0h2u7xvVjQ6rn0PShusFig2m7AgEGJzn3R5OwkhuNE2
+nQrZa7N0il0+tuvlGxgnxJ3uSCJNNw0M4mihngLP48LNHRUCEQTUK4b5vrFAQuLb
+YII4saPn+cgICyu5Xg9aY0xVRrI28gqQSgM9ub07OG73jopJYnv9ZCWnDHJP02hA
+AxwWEyZDRgEKtCDsP+e0jycgJ4W1QFOvxYv1RQRRp2DJBCS5jBwicgaCkgQwzYYm
+lZbtG09Arcam8nIyE/jUu9ISZlCwkQj7ebylZ4jIlLZ9HCKJkhIZCnW4/khbbeN/
+bAZIEObZbDLU1ODU2XNYQTjEgSzhs+wYMnJom+f6Fy/7HB9DqKykBo6Ds/n8veer
+l5iMWPTbOMV9gLdvaSSVwWMKRhSVeIyu6vHAcG8vBrMN7+UL6Aq4JosFC/OxRYuw
+SKOm9/e1LjfnRvnFY1+0rsrRHuPTV442e1z5xQ1rbBfK5zMj/tmaVBIhFCY0GgNO
+luRKnOjfW85UlU4tFV7PcaD5m59FQyEWoZR9TKfJjeyC3D2/py/ETyQgCNzqeJxF
++1+xmz+T7Kpq1NMvikDza34BD5M9cwU6vV8AAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <text x="27" y="193" clip-path="url(#clipPath20)" fill="black"
                   stroke="none" font-weight="bold" xml:space="preserve">Table Reader</text><text x="28"
                   y="210" clip-path="url(#clipPath21)" fill="black"
@@ -928,17 +961,18 @@ GsCIZlAjEDcAMRspLsBmGF4XMBIZVjhjCABebh/5wqTiJwAAAABJRU5ErkJggg=="
                    xlink:show="embed" xlink:type="simple" fill="black"
                    clip-path="url(#clipPath16)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="4"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB20lEQVR42sVUQU/b
+MBT+7DRpEmibrqIw4LSV66RdEAjtssuk/Qp+AT9m/2aHTlw4jOM0TpSdJrYW2jQN
+IUmz2NhhtgoJvbF9liW/PNvf55f3Hun3+4ec808AGvi3CAkhR/S5ybkYOc/BOHvs
+akju2iI5pRSO48BrNmFZFmbhDDdRhDSdPzhpmiZc10Gr5RV2EExxexsjyzK9h4lx
+enOMa/xCZs1BmQF77uKts4+uuaVF1NRKhANtr4Veb0df0l1fFxdHOB8MkCSpJt/e
+3Cx8Ci83NjAaDvHz8lKLOAk/43r1N4hJQUCLSMSI8NX/gnfkI7xa5/7R6hLHtvH6
+Va8UQtddQedFZ8F2HpAvipU+iZQl8GujgvwxmMfwLTnVtt5h1esglFT+x+7aGgzD
+KNYq7FVQvhnzkTu8OicERUKisoD/BS1gnqbgrFr16OoKeZ7rhHsKytekbRhxdTSJ
+oLD5SllAnCS4+DEoHZBJOJ6MF+y4SLiSSPFN+iTq1Eb7Txc8Y+UXTyne2Lva1lUg
+ahL+NMD3s7OlZSizXGb7ZOovLcODxocny1BVgBIQql7AGEMkCOVcBkkUBHLOlvxb
+ir3V90X5ySZEZDHapZQLqWyHf0U8CySxQQxQQitb8R1Aad2UTw6JfgAAAABJRU5E
+rkJggg==" xlink:actuate="onLoad"/>
             <circle clip-path="url(#clipPath38)" fill="none" r="4" cx="607"
                     cy="245" stroke="rgb(255,75,75)" stroke-width="1"/>
             <polygon fill="black" stroke-width="1" clip-path="url(#clipPath39)"
@@ -1000,23 +1034,29 @@ rkJggg==" xlink:actuate="onLoad"/>
                      points=" 234 251 243 255 234 260" stroke="none"/>
             <polygon fill="rgb(20,105,175)" clip-path="url(#clipPath46)"
                      points=" 234 261 243 261 243 270 234 270" stroke="none"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="243" x2="251"
-                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="251" x2="329"
-                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="329" x2="337"
-                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="388" x2="396"
+                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="396" x2="445"
+                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="445" x2="453"
+                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="96" x2="104"
                   y1="437" y2="437" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="104" x2="164"
                   y1="437" y2="435" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="164" x2="172"
                   y1="435" y2="435" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="388" x2="396"
+            <line clip-path="url(#clipPath47)" fill="none" x1="504" x2="512"
                   y1="255" y2="255" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="396" x2="445"
-                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="445" x2="453"
+            <line clip-path="url(#clipPath47)" fill="none" x1="512" x2="594"
+                  y1="255" y2="264" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="594" x2="602"
+                  y1="264" y2="264" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="103" x2="111"
+                  y1="235" y2="235" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="111" x2="184"
+                  y1="235" y2="255" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="184" x2="192"
                   y1="255" y2="255" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="223" x2="231"
                   y1="435" y2="435" stroke="rgb(255,75,75)"/>
@@ -1026,30 +1066,6 @@ rkJggg==" xlink:actuate="onLoad"/>
                   y1="435" y2="245" stroke="rgb(255,75,75)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="594" x2="602"
                   y1="245" y2="245" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="243" x2="251"
-                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="251" x2="329"
-                  y1="245" y2="264" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="329" x2="337"
-                  y1="264" y2="264" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="103" x2="111"
-                  y1="235" y2="235" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="111" x2="184"
-                  y1="235" y2="255" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="184" x2="192"
-                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="504" x2="512"
-                  y1="255" y2="255" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="512" x2="594"
-                  y1="255" y2="264" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="594" x2="602"
-                  y1="264" y2="264" stroke="rgb(150,150,150)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="223" x2="231"
-                  y1="435" y2="435" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="231" x2="189"
-                  y1="435" y2="236" stroke="rgb(255,75,75)"/>
-            <line clip-path="url(#clipPath47)" fill="none" x1="189" x2="197"
-                  y1="236" y2="236" stroke="rgb(255,75,75)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="653" x2="661"
                   y1="255" y2="255" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="661" x2="696"
@@ -1058,6 +1074,24 @@ rkJggg==" xlink:actuate="onLoad"/>
                   y1="255" y2="415" stroke="rgb(150,150,150)"/>
             <line clip-path="url(#clipPath47)" fill="none" x1="684" x2="692"
                   y1="415" y2="415" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="223" x2="231"
+                  y1="435" y2="435" stroke="rgb(255,75,75)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="231" x2="189"
+                  y1="435" y2="236" stroke="rgb(255,75,75)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="189" x2="197"
+                  y1="236" y2="236" stroke="rgb(255,75,75)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="243" x2="251"
+                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="251" x2="329"
+                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="329" x2="337"
+                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="243" x2="251"
+                  y1="245" y2="245" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="251" x2="329"
+                  y1="245" y2="264" stroke="rgb(150,150,150)"/>
+            <line clip-path="url(#clipPath47)" fill="none" x1="329" x2="337"
+                  y1="264" y2="264" stroke="rgb(150,150,150)"/>
         </g>
     </g>
 </svg>

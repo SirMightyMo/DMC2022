@@ -1169,3 +1169,534 @@ org.knime.core.node.InvalidSettingsException: Unknown flow variable "${IkStart}"
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
 	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-05-03 16:34:02,100 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140231025623040}
+2022-05-03 16:35:32,422 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2022-05-03 16:36:32,620 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:36:32,626 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:38:36,661 : WARN  : KNIME-Worker-10-CSV Reader 3:8 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:38:36,687 : WARN  : KNIME-Worker-10-CSV Reader 3:8 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:38:50,361 : WARN  : KNIME-Worker-11-GroupBy 3:12 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:38:50,364 : WARN  : KNIME-Worker-11-GroupBy 3:12 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:39:00,135 : WARN  : KNIME-Worker-12-CSV Reader 3:2 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:39:00,138 : WARN  : KNIME-Worker-12-CSV Reader 3:2 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:39:29,094 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Unique count(date)", "Sorted list(date)"
+2022-05-03 16:39:29,095 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:39:46,677 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:39:46,680 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:39:55,113 : WARN  : KNIME-Worker-13-Joiner 3:46 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:40:18,713 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:40:18,716 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:40:47,866 : WARN  : KNIME-Worker-14-GroupBy 3:12 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:40:47,867 : WARN  : KNIME-Worker-14-GroupBy 3:12 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:40:49,660 : WARN  : KNIME-Worker-15-Joiner 3:46 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:42:25,850 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:42:25,850 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:42:35,939 : WARN  : KNIME-Worker-19-GroupBy 3:12 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:42:35,940 : WARN  : KNIME-Worker-19-GroupBy 3:12 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:43:10,494 : WARN  : main :  : Node : Joiner : 3:60 : No join columns passed.
+2022-05-03 16:43:31,265 : WARN  : KNIME-Worker-20-Joiner 3:46 :  : Node : Joiner : 3:60 : No join columns passed.
+2022-05-03 16:43:39,040 : WARN  : KNIME-Worker-21-CSV Reader 3:1 :  : Node : Joiner : 3:60 : No join columns passed.
+2022-05-03 16:44:12,831 : WARN  : main :  : WrappedNodeDialog : Joiner : 3:60 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-05-03 16:44:55,228 : WARN  : main :  : WrappedNodeDialog : Joiner : 3:60 : failed to apply settings: Please define at least one joining column pair.
+org.knime.core.node.InvalidSettingsException: Please define at least one joining column pair.
+	at org.knime.base.node.preproc.joiner3.Joiner3Settings.validateSettings(Joiner3Settings.java:385)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeModel.validateSettings(Joiner3NodeModel.java:275)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:692)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1100)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:913)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1975)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1087)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:672)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:644)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:559)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:199)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:945)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:852)
+	at org.knime.workbench.editor2.actions.OpenDialogAction.runOnNodes(OpenDialogAction.java:147)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.runInSWT(AbstractNodeAction.java:174)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:160)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5941)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:157)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5092)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4570)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:183)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+2022-05-03 16:46:41,275 : WARN  : main :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:46:41,276 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:46:49,803 : WARN  : KNIME-Worker-23-Column Rename 3:47 :  : Node : Column Rename : 3:47 : The following columns are configured but no longer exist: "Sorted list(date)"
+2022-05-03 16:46:49,898 : WARN  : KNIME-Worker-24-Missing Value 3:48 :  : Node : Missing Value : 3:48 : Column "categories" still contains missing values.
+Column "No. of purchases" still contains missing values.
+2022-05-03 16:47:01,943 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:47:28,898 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 3:48 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2022-05-03 16:47:50,592 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 3:48 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2022-05-03 16:48:01,497 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:48:04,426 : WARN  : KNIME-Worker-26-Missing Value 3:48 :  : Node : Missing Value : 3:48 : Column "categories" still contains missing values.
+2022-05-03 16:48:04,450 : WARN  : KNIME-Worker-26-Missing Value 3:48 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 16:50:39,618 : WARN  : KNIME-Worker-28-Normalizer 3:59 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:50:41,718 : WARN  : KNIME-Worker-30-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:53:06,832 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:53:09,986 : WARN  : KNIME-Worker-33-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:53:23,909 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:55:23,031 : WARN  : KNIME-Worker-36-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:55:53,862 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:55:57,078 : WARN  : KNIME-Worker-39-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:56:10,398 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:56:13,135 : WARN  : KNIME-Worker-35-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:58:13,478 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:58:23,848 : WARN  : KNIME-Worker-43-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:58:48,119 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:59:10,028 : WARN  : main :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:59:12,270 : WARN  : KNIME-Worker-47-Color Manager 3:61 :  : Node : Scatter Plot (local) : 3:60 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 16:59:55,757 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:00:00,426 : WARN  : KNIME-Worker-50-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:00:42,846 : WARN  : KNIME-Worker-52-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Only the first 2500 rows are displayed.
+2022-05-03 17:00:42,957 : WARN  : KNIME-Worker-52-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Table contains missing or unsupported values - these values will be omitted.
+2022-05-03 17:05:49,320 : WARN  : main :  : Node : Scatter Plot (local) : 3:62 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:05:51,845 : WARN  : KNIME-Worker-55-Color Manager 3:63 :  : Node : Scatter Plot (local) : 3:62 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:06:47,930 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:07:19,554 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:07:31,893 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:07:37,368 : WARN  : KNIME-Worker-58-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:08:01,291 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:08:01,615 : WARN  : main :  : Node : Scatter Plot (local) : 3:62 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:08:37,244 : WARN  : main :  : Node : Scatter Plot (local) : 3:62 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:08:48,638 : WARN  : KNIME-Worker-61-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:08:59,144 : WARN  : KNIME-Worker-63-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Only the first 2500 rows are displayed.
+2022-05-03 17:08:59,246 : WARN  : KNIME-Worker-63-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Table contains missing or unsupported values - these values will be omitted.
+2022-05-03 17:09:11,404 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:09:16,306 : WARN  : KNIME-Worker-65-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:09:50,272 : WARN  : KNIME-Worker-60-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Only the first 2500 rows are displayed.
+2022-05-03 17:09:50,367 : WARN  : KNIME-Worker-60-Scatter Plot 3:60 :  : Node : Scatter Plot : 3:60 : Table contains missing or unsupported values - these values will be omitted.
+2022-05-03 17:10:25,121 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140415043471360}
+2022-05-03 17:10:30,155 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 01_Loop_over_a_set_of_parameter_for_k_means 3 loaded with error during data load
+2022-05-03 17:10:30,158 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 01_Loop_over_a_set_of_parameter_for_k_means 3
+2022-05-03 17:10:30,158 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: k-Means 3:12
+2022-05-03 17:10:30,158 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: org.knime.core.node.InvalidSettingsException: ConfigBase for key "kMeansCluster2" not found.
+2022-05-03 17:10:43,337 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:10:59,794 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:10:59,799 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:11:04,970 : WARN  : KNIME-Worker-6-CSV Reader 0:2 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:11:08,403 : WARN  : KNIME-Worker-7-CSV Reader 0:8 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:11:14,199 : WARN  : KNIME-Worker-0-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:11:14,631 : WARN  : KNIME-Worker-2-Missing Value 0:48 :  : Node : Missing Value : 0:48 : Column "categories" still contains missing values.
+2022-05-03 17:11:14,746 : WARN  : KNIME-Worker-2-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:11:15,123 : WARN  : KNIME-Worker-4-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:11:15,479 : WARN  : KNIME-Worker-7-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:11:35,816 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:11:37,870 : WARN  : KNIME-Worker-5-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:16:54,504 : WARN  : KNIME-Worker-8-Scatter Plot 0:60 :  : Node : Scatter Plot : 0:60 : Only the first 2500 rows are displayed.
+2022-05-03 17:16:54,605 : WARN  : KNIME-Worker-8-Scatter Plot 0:60 :  : Node : Scatter Plot : 0:60 : Table contains missing or unsupported values - these values will be omitted.
+2022-05-03 17:18:46,319 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:18:51,018 : WARN  : KNIME-Worker-10-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:04,089 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:06,150 : WARN  : KNIME-Worker-13-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:17,269 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:19,446 : WARN  : KNIME-Worker-16-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:30,003 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:19:32,725 : WARN  : KNIME-Worker-11-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:22:04,474 : WARN  : main :  : Node : Scatter Plot (local) : 0:63 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:22:07,598 : WARN  : KNIME-Worker-18-Color Manager 0:61 :  : Node : Scatter Plot (local) : 0:63 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:27:27,797 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 01_Loop_over_a_set_of_parameter_for_k_means 3 loaded with error during data load
+2022-05-03 17:27:27,798 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 01_Loop_over_a_set_of_parameter_for_k_means 3
+2022-05-03 17:27:27,798 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: k-Means 3:12
+2022-05-03 17:27:27,798 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: org.knime.core.node.InvalidSettingsException: ConfigBase for key "kMeansCluster2" not found.
+2022-05-03 17:27:42,793 : WARN  : main :  : Node : k-Means : 3:12 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 17:27:42,795 : WARN  : main :  : Node : k-Means : 3:12 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 17:44:13,770 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:44:17,262 : WARN  : KNIME-Worker-24-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:44:18,072 : WARN  : KNIME-Worker-26-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:44:30,582 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:44:32,162 : WARN  : KNIME-Worker-28-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:44:33,164 : WARN  : KNIME-Worker-30-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:48:53,532 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:49:32,331 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:49:32,333 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:49:34,468 : WARN  : KNIME-Worker-33-Row Filter 0:58 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: bounds missing.
+2022-05-03 17:49:34,469 : WARN  : KNIME-Worker-33-Row Filter 0:58 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: bounds missing.
+2022-05-03 17:51:32,057 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:51:32,058 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-03 17:51:36,166 : WARN  : KNIME-Worker-37-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:51:36,166 : WARN  : KNIME-Worker-37-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:51:59,947 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:52:04,300 : WARN  : KNIME-Worker-40-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:52:25,864 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:52:27,710 : WARN  : KNIME-Worker-43-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:52:45,703 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:52:48,103 : WARN  : KNIME-Worker-38-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 17:58:58,795 : WARN  : main :  : Node : Entropy Scorer : 0:9 : Invalid reference column name class
+2022-05-03 18:01:13,228 : WARN  : main :  : Node : Table Reader (deprecated) : 0:4 : Input file '/home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/DMC_ItemAnalysis/iris.table' does not exist
+2022-05-03 18:01:39,212 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:01:46,439 : WARN  : KNIME-Worker-52-Table Row To Variable Loop Start (deprecated) 0:6 :  : Node : Entropy Scorer : 0:64 : Invalid reference column name class
+2022-05-03 18:01:46,649 : WARN  : KNIME-Worker-46-k-Means 0:62 :  : Node : Entropy Scorer : 0:64 : Invalid reference column name class
+2022-05-03 18:04:03,367 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:04:03,369 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:04:43,776 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:06:45,143 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-03 18:07:41,823 : WARN  : main :  : Node : Color Manager : 0:50 : Column "Cluster" not found.
+2022-05-03 18:13:32,145 : WARN  : main :  : Node : Color Manager : 0:50 : Column "Cluster" not found.
+2022-05-03 18:13:38,345 : WARN  : KNIME-Worker-71-Entropy Scorer 0:9 :  : Node : Color Manager : 0:50 : Column "Cluster" not found.
+2022-05-03 18:13:51,948 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:14:01,312 : WARN  : KNIME-Worker-72-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-03 18:21:11,926 : WARN  : ModalContext :  : Node : Table Reader (deprecated) : 4:741 : Unable to read spec from file
+2022-05-03 18:21:11,968 : WARN  : ModalContext :  : Node : GroupBy : 4:770:0:9 : Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:11,970 : WARN  : ModalContext :  : Node : GroupBy : 4:770:0:78 : Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:11,978 : WARN  : ModalContext :  : Node : MISSING RSS Feed Reader : 4:765 : Node can't be executed - Node "RSS Feed Reader" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,043 : WARN  : ModalContext :  : Node : GroupBy : 4:748:0:745 : Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:12,133 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 17_TopicExtraction_with_the_ElbowMethod 4 loaded with error during data load
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 17_TopicExtraction_with_the_ElbowMethod 4
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Topic Extractor (Parallel LDA)" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "RSS Feed Reader" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Document Vector" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Reader (deprecated) 4:741
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Reader (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Table Reader (#741)/port_1/data.xml
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Creator 4:759
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Creator": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Table Creator (#759)/port_1/data.xml
+2022-05-03 18:21:12,134 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2022-05-03 18:21:12,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Preprocessing 4:770
+2022-05-03 18:21:12,140 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Term To String" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Punctuation Erasure" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Number Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "N Chars Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Case Converter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stanford Lemmatizer" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Markup Tag Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stanford Tagger" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stop Word Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Tag Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "IDF" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Input 4:770:0:336
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Component Input": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Component Input (#336)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Markup Tag Filter 4:770:0:40
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Markup Tag Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Markup Tag Filter (#40)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Stanford Tagger 4:770:0:41
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Stanford Tagger": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Stanford Tagger (#41)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Stanford Lemmatizer 4:770:0:35
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Stanford Lemmatizer": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Stanford Lemmatizer (#35)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Punctuation Erasure 4:770:0:29
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Punctuation Erasure": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Punctuation Erasure (#29)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Number Filter 4:770:0:30
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Number Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Number Filter (#30)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING N Chars Filter 4:770:0:31
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING N Chars Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/N Chars Filter (#31)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Stop Word Filter 4:770:0:42
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Stop Word Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Stop Word Filter (#42)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Case Converter 4:770:0:33
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Case Converter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Case Converter (#33)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Extract Table Dimension 4:770:0:66
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Extract Table Dimension": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Extract Table Dimension (#66)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Bag Of Words Creator 4:770:0:83
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Bag Of Words Creator": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Bag Of Words Creator (#83)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Java Edit Variable 4:770:0:67
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Java Edit Variable": Can't read spec file /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Java Edit Variable (#67)/port_1/spec/spec.zip
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Term To String 4:770:0:8
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Term To String": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Term To String (#8)/port_1/data.xml
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:770:0:9
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:12,141 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/GroupBy (#9)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Row Splitter 4:770:0:71
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Row Splitter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Row Splitter (#71)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Reference Row Filter 4:770:0:11
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Reference Row Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Reference Row Filter (#11)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dictionary Filter 4:770:0:72
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dictionary Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Dictionary Filter (#72)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING IDF 4:770:0:79
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING IDF": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/IDF (#79)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Tag Filter 4:770:0:76
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Tag Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Tag Filter (#76)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Row Filter 4:770:0:80
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Row Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Row Filter (#80)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:770:0:81
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/GroupBy (#81)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dictionary Filter 4:770:0:82
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dictionary Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Dictionary Filter (#82)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Bag Of Words Creator 4:770:0:84
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Bag Of Words Creator": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Bag Of Words Creator (#84)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:770:0:78
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/GroupBy (#78)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Output 4:770:0:337
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Component Output": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Preprocessin (#770)/Component Output (#337)/internalTables/object_0
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING RSS Feed Reader 4:765
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING RSS Feed Reader": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/RSS Feed Reader (#765)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Document Vector 4:766
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Document Vector": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Document Vector (#766)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Column Filter (deprecated) 4:12
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Column Filter (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Column Filter (#12)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: PCA 4:768
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "PCA": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/PCA (#768)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Counting Loop Start (deprecated) 4:756
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Counting Loop Start (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Counting Loop Start (#756)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Java Edit Variable 4:757
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Java Edit Variable": Can't read spec file /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Java Edit Variable (#757)/port_1/spec/spec.zip
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: k-Means 4:682
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "k-Means": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/k_Means (#682)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/k_Means (#682)/internal/kMeansInternalSettings (Datei oder Verzeichnis nicht gefunden)
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Calculate sum of squared errors 4:743
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Input 4:743:0:605
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Component Input": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/WrappedNode Input (#605)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Joiner (deprecated) 4:743:0:598
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Joiner (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/Joiner (#598)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/Joiner (#598)/internal/joinerInternalSettings (Datei oder Verzeichnis nicht gefunden)
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Filter 4:743:0:604
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/Column Filter (#604)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Java Snippet 4:743:0:599
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Java Snippet": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/Java Snippet (#599)/port_1/data.xml
+2022-05-03 18:21:12,142 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Filter 4:743:0:602
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/Column Filter (#602)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:743:0:603
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/GroupBy (#603)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Output 4:743:0:606
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Component Output": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Calculate su (#743)/WrappedNode Output (#606)/internalTables/object_0
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Variable to Table Column (deprecated) 4:769
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Variable to Table Column (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Variable to Table Column (#769)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Loop End (deprecated) 4:742
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Loop End (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Loop End (#742)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Find Elbow 4:764
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Input 4:764:0:764
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Component Input": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/WrappedNode Input (#764)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Rename 4:764:0:755
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Rename": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/Column Rename (#755)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Lag Column 4:764:0:760
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Lag Column": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/Lag Column (#760)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Math Formula 4:764:0:761
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Math Formula": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/Math Formula (#761)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Sorter 4:764:0:762
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Sorter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/Sorter (#762)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Table Row to Variable (deprecated) 4:764:0:763
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Table Row to Variable (deprecated)": Can't read spec file /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/Table Row to Variable (#763)/port_1/spec/spec.zip
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Output 4:764:0:765
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Component Output": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Find Elbow (#764)/WrappedNode Output (#765)/internalTables/object_1
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Scatter Plot 4:767
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Scatter Plot": Can't read spec file /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Scatter Plot _JavaScript_ (#767)/port_1/spec/spec.zip
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Scatter Plot _JavaScript_ (#767)/internal/representation.xml (Datei oder Verzeichnis nicht gefunden)
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Topic Extractor (Parallel LDA) 4:296
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Topic Extractor (Parallel LDA)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Topic Extractor _Parallel LDA_ (#296)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Term Count 4:748
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Modifiable Term Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Tagger" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Input 4:748:0:748
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Component Input": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/WrappedNode Input (#748)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Filter 4:748:0:300
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Column Filter (#300)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Filter 4:748:0:301
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Column Filter (#301)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Dictionary Tagger 4:748:0:750
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Dictionary Tagger": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Dictionary Tagger (#750)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Rename 4:748:0:752
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Rename": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Column Rename (#752)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Modifiable Term Filter 4:748:0:328
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Modifiable Term Filter": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Modifiable Term Filter (#328)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Bag Of Words Creator 4:748:0:751
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Bag Of Words Creator": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/Bag Of Words Creator (#751)/port_1/data.xml
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:748:0:745
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: Warning: Loading model settings failed: String for key "numericColumnMethod" not found.
+2022-05-03 18:21:12,143 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/GroupBy (#745)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Output 4:748:0:749
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Component Output": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Processing (#748)/WrappedNode Output (#749)/internalTables/object_0
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Tag Clouds 4:754
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Term To String" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "String To Term" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Input 4:754:0:754
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Component Input": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/WrappedNode Input (#754)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING Term To String 4:754:0:752
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING Term To String": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Term to String (#752)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: GroupBy 4:754:0:756
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/GroupBy (#756)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Joiner (deprecated) 4:754:0:757
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Joiner (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Joiner (#757)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Joiner (#757)/internal/joinerInternalSettings (Datei oder Verzeichnis nicht gefunden)
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: MISSING String To Term 4:754:0:759
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "MISSING String To Term": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/String to Term (#759)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Column Rename 4:754:0:760
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Column Rename": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Column Rename (#760)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Group Loop Start 4:754:0:761
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Group Loop Start": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Group Loop Start (#761)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Tag Cloud 4:754:0:766
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Tag Cloud": Can't read spec file /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Tag Cloud _JavaScript_ (#766)/port_1/spec/spec.zip
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Tag Cloud": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Tag Cloud _JavaScript_ (#766)/internalTables/object_0
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Loading model internals failed: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Tag Cloud _JavaScript_ (#766)/internal/representation.xml (Datei oder Verzeichnis nicht gefunden)
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Image To Table 4:754:0:763
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Image To Table": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Image To Table (#763)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Variable to Table Column (deprecated) 4:754:0:765
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Variable to Table Column (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Variable to Table Column (#765)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loop End (deprecated) 4:754:0:764
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load port content for node "Loop End (deprecated)": No such data file: /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/Loop End (#764)/port_1/data.xml
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Component Output 4:754:0:755
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :         Status: DataLoadError: Unable to load internally held tables for node "Component Output": Cannot read directory /home/kevin/Schreibtisch/Repos/DMC2022/Kevin/Knime Workspace/Knime Training/17_TopicExtraction_with_the_ElbowMethod/Assign color (#754)/WrappedNode Output (#755)/internalTables/object_0
+2022-05-03 18:21:12,144 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-03 18:21:47,762 : WARN  : ModalContext :  : Node : Table Reader (deprecated) : 4:741 : Unable to read spec from file
+2022-05-03 18:21:47,825 : WARN  : ModalContext :  : Node : MISSING RSS Feed Reader : 4:765 : Node can't be executed - Node "RSS Feed Reader" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,827 : WARN  : ModalContext :  : FileNodePersistor : MISSING Document Vector : 4:766 : Unable to load port content for node "MISSING Document Vector": Invalid outport index in settings: 2
+org.knime.core.node.InvalidSettingsException: Invalid outport index in settings: 2
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:324)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:268)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8516)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8292)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8265)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8110)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-03 18:21:47,876 : WARN  : ModalContext :  : FileNodePersistor : MISSING Topic Extractor (Parallel LDA) : 4:296 : Unable to load port content for node "MISSING Topic Extractor (Parallel LDA)": Invalid outport index in settings: 3
+org.knime.core.node.InvalidSettingsException: Invalid outport index in settings: 3
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:324)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:995)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:254)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:268)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8516)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8532)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8417)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8371)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8292)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8265)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8110)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 17_TopicExtraction_with_the_ElbowMethod 4 loaded with error during data load
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 17_TopicExtraction_with_the_ElbowMethod 4
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Topic Extractor (Parallel LDA)" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "RSS Feed Reader" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Document Vector" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Preprocessing 4:770
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Term To String" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Punctuation Erasure" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Number Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "N Chars Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Case Converter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stanford Lemmatizer" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Markup Tag Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stanford Tagger" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Stop Word Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Tag Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,931 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "IDF" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Document Vector 4:766
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Document Vector": Invalid outport index in settings: 2
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Topic Extractor (Parallel LDA) 4:296
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Topic Extractor (Parallel LDA)": Invalid outport index in settings: 3
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Term Count 4:748
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Modifiable Term Filter" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Dictionary Tagger" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Bag Of Words Creator" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Tag Clouds 4:754
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "Term To String" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)
+2022-05-03 18:21:47,940 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: Error: Node "String To Term" not available from extension "KNIME Textprocessing" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.ext.textprocessing" is not installed)

@@ -2102,3 +2102,399 @@ org.knime.core.node.InvalidSettingsException: There are invalid joining columns 
 2022-05-03 20:50:49,237 : WARN  : KNIME-Worker-82-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
 2022-05-03 20:52:44,838 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
 2022-05-03 20:52:51,973 : WARN  : KNIME-Worker-88-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:06:29,473 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140151572211712}
+2022-05-04 16:06:34,986 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:06:35,001 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:06:35,007 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: DMC_ItemAnalysis_KMeansWithElbow 4 loaded with error during data load
+2022-05-04 16:06:35,007 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: DMC_ItemAnalysis_KMeansWithElbow 4
+2022-05-04 16:06:35,007 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: k-Means 4:602
+2022-05-04 16:06:35,007 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: org.knime.core.node.InvalidSettingsException: ConfigBase for key "kMeansCluster2" not found.
+2022-05-04 16:15:28,715 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 4:9 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-05-04 16:16:52,460 : WARN  : KNIME-Worker-13-Statistics 0:67 :  : Node : Statistics : 0:67 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID","categories","brand"
+2022-05-04 16:23:17,004 : WARN  : main :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:24:23,141 : WARN  : main :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:24:39,807 : WARN  : main :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:24:43,483 : WARN  : KNIME-Worker-33-PCA 0:68 :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:25:07,012 : WARN  : main :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:25:08,842 : WARN  : KNIME-Worker-35-PCA 0:68 :  : Node : Scatter Plot (local) : 0:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 16:26:54,534 : WARN  : KNIME-Worker-41-Histogram 0:68 :  : DynamicJSNodeModel : Histogram : 0:68 : SettingsModel for option selection not found. Ignoring option.
+2022-05-04 16:33:18,620 : WARN  : main :  : Node : Row Filter : 0:38 : Column range filter: Input table doesn't contain specified column name
+2022-05-04 16:35:05,499 : WARN  : KNIME-Worker-55-Histogram 0:68 :  : DynamicJSNodeModel : Histogram : 0:68 : SettingsModel for option selection not found. Ignoring option.
+2022-05-04 16:37:36,669 : WARN  : main :  : Node : Value Counter : 0:71 : No column selected
+2022-05-04 16:38:01,985 : WARN  : main :  : Node : Linear Correlation : 0:72 : Auto configuration: Using all suitable columns (in total 9)
+2022-05-04 16:38:43,721 : WARN  : ModalContext :  : Node : Nominal Value Row Filter : 6:9 : No nominal columns with possible values found! Execute predecessor or check input table.
+2022-05-04 16:41:32,112 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : 07_Comparing_Distributions : 7 : Unable to load additional factory settings into node factory (node "class "Optional[org.knime.dynamic.js.v30.DynamicJSNodeFactory]" [node name: "Violin Plot (Plotly)", bundle-symbolic-name: org.knime.js.plotly, bundle-name: Plotly.js integration into KNIME, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.js.plotly.feature.group, feature-name: KNIME Plotly,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.0.v201911250844]")
+2022-05-04 16:41:32,128 : WARN  : ModalContext :  : Node : MISSING Violin Plot (Plotly) : 7:36 : Node can't be executed - Node "Violin Plot (Plotly)" not available from extension "KNIME Plotly" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.js.plotly" is not installed)
+2022-05-04 16:41:32,128 : WARN  : ModalContext :  : Node : MISSING Shapiro-Wilk Test : 7:29 : Node can't be executed - Node "Shapiro-Wilk Test" not available from extension "KNIME Statistics Nodes (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.stats2" is not installed)
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: 07_Comparing_Distributions 7 loaded with error during data load
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: 07_Comparing_Distributions 7
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Kruskal-Wallis Test" not available from extension "KNIME Statistics Nodes (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.stats2" is not installed)
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Shapiro-Wilk Test" not available from extension "KNIME Statistics Nodes (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.stats2" is not installed)
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Unable to load additional factory settings into node factory (node "class "Optional[org.knime.dynamic.js.v30.DynamicJSNodeFactory]" [node name: "Violin Plot (Plotly)", bundle-symbolic-name: org.knime.js.plotly, bundle-name: Plotly.js integration into KNIME, bundle-vendor: KNIME AG, Zurich, Switzerland, feature-symbolic-name: org.knime.features.js.plotly.feature.group, feature-name: KNIME Plotly,feature-vendor: KNIME AG, Zurich, Switzerland, feature-version: 4.1.0.v201911250844]")
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Data Generator 7:15
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Data Generator": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Data Generator (#15)/port_1/data.xml
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: State has changed from EXECUTED to CONFIGURED
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Group Loop Start 7:27
+2022-05-04 16:41:32,136 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Group Loop Start": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Group Loop Start (#27)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Violin Plot (Plotly) 7:36
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Violin Plot (Plotly)": Can't read spec file /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Violin Plot _Plotly_ (#36)/port_1/spec/spec.zip
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: MISSING Shapiro-Wilk Test 7:29
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "MISSING Shapiro-Wilk Test": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Shapiro_Wilk Normality Test (#29)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Loop End (deprecated) 7:28
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Loop End (deprecated)": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Loop End (#28)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: GroupBy 7:30
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "GroupBy": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/GroupBy (#30)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Java Snippet (simple) 7:34
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Java Snippet (simple)": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Java Snippet _simple_ (#34)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: Table Row to Variable (deprecated) 7:31
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "Table Row to Variable (deprecated)": Can't read spec file /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/Table Row to Variable (#31)/port_1/spec/spec.zip
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: IF Switch 7:19
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "IF Switch": Can't read spec file /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/IF Switch (#19)/port_1/spec/spec.zip
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: One-way ANOVA 7:18
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load port content for node "One-way ANOVA": No such data file: /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/One_way ANOVA (#18)/port_1/data.xml
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Unable to load internally held tables for node "One-way ANOVA": Cannot read directory /tmp/knime_temp_space_kevin_41642/07_Comparing_Distributions41656/07_Comparing_Distributions/One_way ANOVA (#18)/internalTables/object_0
+2022-05-04 16:41:32,137 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: State has changed from EXECUTED to IDLE
+2022-05-04 16:54:21,057 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-04 16:54:21,066 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-04 16:54:21,067 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:54:21,067 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:55:48,174 : WARN  : KNIME-Worker-78-Missing Value 0:48 :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-04 16:55:48,175 : WARN  : KNIME-Worker-78-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:55:48,175 : WARN  : KNIME-Worker-78-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 16:56:07,171 : ERROR : KNIME-Worker-79-Statistics 0:73 :  : Node : Statistics : 0:73 : Execute failed: Java heap space
+org.knime.core.data.container.DataContainerException: Java heap space
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:379)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.close(BufferedDataContainerDelegate.java:444)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:347)
+	at org.knime.base.data.statistics.HistogramColumn.nominalTable(HistogramColumn.java:1782)
+	at org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeModel.execute(ExtendedStatisticsNodeModel.java:369)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.append(Unknown Source)
+	at java.base/java.lang.StringBuffer.append(Unknown Source)
+	at java.base/java.io.StringWriter.write(Unknown Source)
+	at org.apache.batik.dom.util.DOMUtilities.writeNode(DOMUtilities.java:270)
+	at org.apache.batik.dom.util.DOMUtilities.writeNode(DOMUtilities.java:280)
+	at org.apache.batik.dom.util.DOMUtilities.writeNode(DOMUtilities.java:280)
+	at org.apache.batik.dom.util.DOMUtilities.writeNode(DOMUtilities.java:280)
+	at org.apache.batik.dom.util.DOMUtilities.writeDocument(DOMUtilities.java:185)
+	at org.apache.batik.transcoder.svg2svg.SVGTranscoder.transcode(SVGTranscoder.java:177)
+	at org.knime.base.data.xml.SvgImageContent.serialize(SvgImageContent.java:266)
+	at org.knime.base.data.xml.SvgImageContent.serialize(SvgImageContent.java:258)
+	at org.knime.base.data.xml.SvgCell.getStringValue(SvgCell.java:264)
+	at org.knime.base.data.xml.SvgCell$SvgSerializer.serialize(SvgCell.java:100)
+	at org.knime.base.data.xml.SvgCell$SvgSerializer.serialize(SvgCell.java:1)
+	at org.knime.core.data.container.DCObjectOutputVersion2.writeDataCellPerKNIMESerializer(DCObjectOutputVersion2.java:97)
+	at org.knime.core.data.container.storage.AbstractTableStoreWriter.writeDataCell(AbstractTableStoreWriter.java:275)
+	at org.knime.core.data.container.DefaultTableStoreWriter.writeRow(DefaultTableStoreWriter.java:106)
+	at org.knime.core.data.container.Buffer.addBlobSupportDataRow(Buffer.java:828)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.addRows(BufferedDataContainerDelegate.java:818)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:775)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-05-04 17:02:31,166 : ERROR : KNIME-Worker-87-Statistics 0:73 :  : Node : Statistics : 0:73 : Execute failed: Java heap space
+org.knime.core.data.container.DataContainerException: Java heap space
+	at org.knime.core.data.container.BufferedDataContainerDelegate.checkAsyncWriteThrowable(BufferedDataContainerDelegate.java:379)
+	at org.knime.core.data.container.BufferedDataContainerDelegate.close(BufferedDataContainerDelegate.java:444)
+	at org.knime.core.data.container.DataContainer.close(DataContainer.java:347)
+	at org.knime.base.data.statistics.HistogramColumn.nominalTable(HistogramColumn.java:1782)
+	at org.knime.base.node.stats.viz.extended.ExtendedStatisticsNodeModel.execute(ExtendedStatisticsNodeModel.java:369)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+	at java.base/java.lang.AbstractStringBuilder.append(Unknown Source)
+	at java.base/java.lang.StringBuffer.append(Unknown Source)
+	at java.base/java.io.StringWriter.write(Unknown Source)
+	at org.apache.batik.transcoder.svg2svg.OutputManager.printCharacter(OutputManager.java:108)
+	at org.apache.batik.transcoder.svg2svg.OutputManager.printElementStart(OutputManager.java:501)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printElement(PrettyPrinter.java:907)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printContent(PrettyPrinter.java:995)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printElement(PrettyPrinter.java:918)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printContent(PrettyPrinter.java:995)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printElement(PrettyPrinter.java:918)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printContent(PrettyPrinter.java:995)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.printElement(PrettyPrinter.java:918)
+	at org.apache.batik.transcoder.svg2svg.PrettyPrinter.print(PrettyPrinter.java:256)
+	at org.apache.batik.transcoder.svg2svg.SVGTranscoder.prettyPrint(SVGTranscoder.java:230)
+	at org.apache.batik.transcoder.svg2svg.SVGTranscoder.transcode(SVGTranscoder.java:186)
+	at org.knime.base.data.xml.SvgImageContent.serialize(SvgImageContent.java:266)
+	at org.knime.base.data.xml.SvgImageContent.serialize(SvgImageContent.java:258)
+	at org.knime.base.data.xml.SvgCell.getStringValue(SvgCell.java:264)
+	at org.knime.base.data.xml.SvgCell$SvgSerializer.serialize(SvgCell.java:100)
+	at org.knime.base.data.xml.SvgCell$SvgSerializer.serialize(SvgCell.java:1)
+	at org.knime.core.data.container.DCObjectOutputVersion2.writeDataCellPerKNIMESerializer(DCObjectOutputVersion2.java:97)
+	at org.knime.core.data.container.storage.AbstractTableStoreWriter.writeDataCell(AbstractTableStoreWriter.java:275)
+	at org.knime.core.data.container.DefaultTableStoreWriter.writeRow(DefaultTableStoreWriter.java:106)
+	at org.knime.core.data.container.Buffer.addBlobSupportDataRow(Buffer.java:828)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.addRows(BufferedDataContainerDelegate.java:818)
+	at org.knime.core.data.container.BufferedDataContainerDelegate$ContainerRunnable.run(BufferedDataContainerDelegate.java:775)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2022-05-04 17:03:42,140 : WARN  : KNIME-Worker-96-Statistics 0:73 :  : Node : Statistics : 0:73 : Maximum number of unique possible values (10000) exceeds for column(s): "itemID","categories"
+2022-05-04 17:08:06,094 : WARN  : main :  : Node : Column Splitter : 0:75 : No settings available, passing all columns to top output port.
+2022-05-04 17:08:06,094 : WARN  : main :  : Node : Column Splitter : 0:75 : All columns in top partition.
+2022-05-04 17:09:34,785 : WARN  : main :  : Node : Split Collection Column : 0:75 : Not configured
+2022-05-04 17:10:18,007 : WARN  : main :  : Node : Column Splitter : 0:76 : No settings available, passing all columns to top output port.
+2022-05-04 17:10:18,007 : WARN  : main :  : Node : Column Splitter : 0:76 : All columns in top partition.
+2022-05-04 17:11:10,099 : WARN  : main :  : Node : Cell Splitter : 0:77 : Specify the column to split.
+2022-05-04 17:13:05,051 : WARN  : main :  : Node : String Replace (Dictionary) : 0:78 : No settings available
+2022-05-04 17:13:20,659 : WARN  : main :  : Node : String Replacer : 0:78 : Selected column 'null' does not exist in input table
+2022-05-04 17:15:48,920 : WARN  : main :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:15:58,411 : WARN  : main :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:16:00,816 : ERROR : KNIME-Worker-117-k-Means 0:78 :  : Node : k-Means : 0:78 : Execute failed: Missing Values not (yet) allowed in k-Means.
+java.lang.Exception: Missing Values not (yet) allowed in k-Means.
+	at org.knime.base.node.mine.cluster.kmeans.ClusterNodeModel.execute(ClusterNodeModel.java:485)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-04 17:16:49,847 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 0:81 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2022-05-04 17:17:02,066 : WARN  : main :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:17:35,115 : WARN  : main :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 17:17:37,687 : WARN  : KNIME-Worker-118-Missing Value 0:81 :  : Node : Missing Value : 0:81 : Column "categories_Arr[25]" still contains missing values.
+Column "categories_Arr[26]" still contains missing values.
+Column "categories_Arr[27]" still contains missing values.
+Column "categories_Arr[29]" still contains missing values.
+Column "categories_Arr[30]" still contains missing values.
+Column "categories_Arr[31]" still contains missing values.
+Column "categories_Arr[33]" still contains missing values.
+2022-05-04 17:17:37,983 : WARN  : KNIME-Worker-119-Normalizer 0:82 :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:17:37,992 : ERROR : KNIME-Worker-120-k-Means 0:78 :  : Node : k-Means : 0:78 : Execute failed: Missing Values not (yet) allowed in k-Means.
+java.lang.Exception: Missing Values not (yet) allowed in k-Means.
+	at org.knime.base.node.mine.cluster.kmeans.ClusterNodeModel.execute(ClusterNodeModel.java:485)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-04 17:18:03,825 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 0:81 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2022-05-04 17:18:18,102 : WARN  : main :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 17:18:24,734 : WARN  : KNIME-Worker-121-Missing Value 0:81 :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 17:18:24,984 : WARN  : KNIME-Worker-122-Normalizer 0:82 :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:18:29,833 : WARN  : KNIME-Worker-124-Color Manager 0:79 :  : Node : Scatter Plot (local) : 0:80 : Some columns are ignored: too many/missing nominal values.
+2022-05-04 17:20:51,142 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:20:51,142 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:20:51,143 : WARN  : main :  : Node : GroupBy : 0:83 : 1 invalid aggregation column(s) found.
+2022-05-04 17:21:24,409 : WARN  : main :  : Node : GroupBy : 0:83 : No grouping column included. Aggregate complete table.
+2022-05-04 17:21:27,523 : WARN  : KNIME-Worker-126-GroupBy 0:83 :  : Node : GroupBy : 0:83 : Skipped group(s): categories cause: "Group contains too many values"
+2022-05-04 17:22:14,867 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:22:14,868 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:22:14,868 : WARN  : main :  : Node : GroupBy : 0:83 : All columns selected as group by column
+2022-05-04 17:24:04,834 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:24:04,835 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:25:31,995 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 17:25:31,995 : WARN  : main :  : Node : GroupBy : 0:83 : No aggregation column defined
+2022-05-04 18:52:29,561 : WARN  : main :  : Node : Ungroup : 0:83 : No ungroup column selected. Node returns input table.
+2022-05-04 18:54:14,837 : WARN  : main :  : Node : Ungroup : 0:83 : No ungroup column selected. Node returns input table.
+2022-05-04 18:54:14,839 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-04 18:54:14,839 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 18:54:14,839 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 18:54:31,028 : WARN  : main :  : Node : Ungroup : 0:83 : No ungroup column selected. Node returns input table.
+2022-05-04 18:54:31,029 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-04 18:54:31,029 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : No columns to visualize are available! Please refer to the NodeDescription to find out why!
+2022-05-04 18:54:31,030 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-04 18:55:06,233 : WARN  : main :  : Node : GroupBy : 0:84 : No grouping column included. Aggregate complete table.
+2022-05-04 18:55:06,233 : WARN  : main :  : Node : GroupBy : 0:84 : No aggregation column defined
+2022-05-04 18:55:06,233 : WARN  : main :  : Node : GroupBy : 0:84 : No aggregation column defined
+2022-05-04 18:55:06,233 : WARN  : main :  : Node : GroupBy : 0:84 : Please select at least one group or aggregation column
+2022-05-04 18:56:56,827 : WARN  : main :  : Node : Cell Splitter : 0:85 : Specify the column to split.
+2022-05-04 18:57:03,582 : WARN  : KNIME-Worker-140-GroupBy 0:84 :  : Node : Cell Splitter : 0:85 : Specify the column to split.
+2022-05-04 18:57:32,764 : WARN  : main :  : Node : Cell Splitter : 0:85 : Specify the column to split.
+2022-05-04 18:57:34,332 : WARN  : KNIME-Worker-141-GroupBy 0:84 :  : Node : Cell Splitter : 0:85 : Specify the column to split.
+2022-05-04 18:57:39,404 : WARN  : main :  : Node : Cell Splitter : 0:85 : Specify the column to split.
+2022-05-04 18:58:57,566 : WARN  : main :  : Node : GroupBy : 0:86 : No grouping column included. Aggregate complete table.
+2022-05-04 18:58:57,566 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 18:58:57,566 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 18:58:57,566 : WARN  : main :  : Node : GroupBy : 0:86 : Please select at least one group or aggregation column
+2022-05-04 18:59:09,534 : WARN  : main :  : Node : GroupBy : 0:86 : No grouping column included. Aggregate complete table.
+2022-05-04 19:00:36,994 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:00:36,996 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:00:36,996 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:00:39,600 : WARN  : KNIME-Worker-145-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:00:39,600 : WARN  : KNIME-Worker-145-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:00:39,600 : WARN  : KNIME-Worker-145-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:01:05,606 : WARN  : main :  : Node : String Manipulation : 0:87 : No expression has been set.
+2022-05-04 19:01:13,264 : WARN  : main :  : Node : String Manipulation : 0:87 : No expression has been set.
+2022-05-04 19:03:56,551 : WARN  : KNIME-Worker-146-String Manipulation 0:87 :  : ColumnCalculator : String Manipulation : 0:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-04 19:04:23,294 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 0:87 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", "")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", "")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error, insert ";" to complete BlockStatements
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", "")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2022-05-04 19:04:28,858 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 0:87 : failed to apply settings: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "[", "");
+  Line : 67  replace(__col7, "]", "");
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "[", "");
+  Line : 67  replace(__col7, "]", "");
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 67
+Unreachable code
+  Line : 66  return replace(__col7, "[", "");
+  Line : 67  replace(__col7, "]", "");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2022-05-04 19:04:46,452 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 0:87 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", ""), replace(__col7, "]", "");
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", ""), replace(__col7, "]", "");
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+Syntax error on token ",", ; expected
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return replace(__col7, "[", ""), replace(__col7, "]", "");
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2022-05-04 19:06:42,351 : WARN  : KNIME-Worker-147-String Manipulation 0:87 :  : ColumnCalculator : String Manipulation : 0:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-04 19:06:42,489 : WARN  : KNIME-Worker-148-String Manipulation 0:88 :  : ColumnCalculator : String Manipulation : 0:88 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-04 19:07:03,313 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:03,313 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:03,313 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:07:12,884 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:12,884 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:12,898 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:07:16,493 : WARN  : KNIME-Worker-149-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:16,494 : WARN  : KNIME-Worker-149-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:07:16,494 : WARN  : KNIME-Worker-149-Cell Splitter 0:85 :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:10:41,378 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:10:41,378 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:10:41,378 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:10:44,903 : WARN  : KNIME-Worker-151-String Manipulation 0:87 :  : ColumnCalculator : String Manipulation : 0:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-04 19:13:18,148 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:13:18,148 : WARN  : main :  : Node : GroupBy : 0:86 : No aggregation column defined
+2022-05-04 19:13:18,148 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
+2022-05-04 19:13:21,737 : WARN  : KNIME-Worker-152-String Manipulation 0:87 :  : ColumnCalculator : String Manipulation : 0:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-04 19:13:21,953 : WARN  : KNIME-Worker-153-String Manipulation 0:88 :  : ColumnCalculator : String Manipulation : 0:88 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)

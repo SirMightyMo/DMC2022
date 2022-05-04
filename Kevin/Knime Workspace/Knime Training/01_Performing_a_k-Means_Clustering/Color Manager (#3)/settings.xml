@@ -6,12 +6,12 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="class"/>
         <entry key="is_nominal" type="xboolean" value="true"/>
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="Iris-setosa" type="xint" value="-13393876"/>
         <entry key="Iris-versicolor" type="xint" value="-1893860"/>
-        <entry key="Iris-virginica" type="xint" value="-14714700"/>
+        <entry key="Iris-virginica" type="xint" value="-16747854"/>
         <config key="values">
             <entry key="array-size" type="xint" value="3"/>
             <config key="0">
@@ -84,6 +84,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2056ff31-95bc-436c-87c8-27ed71129831"/>
+        <entry key="file_store_id" type="xstring" value="e031a2b9-cd42-4ad1-a859-20dd912bbf08"/>
     </config>
 </config>

@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
     <entry key="dimensions" type="xint" value="5"/>
-    <entry key="ignoredColumns" type="xint" value="5"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
     <config key="clusterCoverage">
         <entry key="array-size" type="xint" value="3"/>
-        <entry key="0" type="xint" value="142"/>
-        <entry key="1" type="xint" value="0"/>
-        <entry key="2" type="xint" value="0"/>
+        <entry key="0" type="xint" value="31"/>
+        <entry key="1" type="xint" value="90"/>
+        <entry key="2" type="xint" value="21"/>
     </config>
     <config key="kMeansCluster0">
-        <entry key="array-size" type="xint" value="0"/>
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="5.203225806451614"/>
+        <entry key="1" type="xdouble" value="3.6322580645161286"/>
+        <entry key="2" type="xdouble" value="1.4774193548387096"/>
+        <entry key="3" type="xdouble" value="0.2774193548387096"/>
     </config>
     <config key="kMeansCluster1">
-        <entry key="array-size" type="xint" value="0"/>
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="6.338888888888887"/>
+        <entry key="1" type="xdouble" value="2.900000000000001"/>
+        <entry key="2" type="xdouble" value="5.012222222222223"/>
+        <entry key="3" type="xdouble" value="1.7188888888888898"/>
     </config>
     <config key="kMeansCluster2">
-        <entry key="array-size" type="xint" value="0"/>
+        <entry key="array-size" type="xint" value="4"/>
+        <entry key="0" type="xdouble" value="4.738095238095237"/>
+        <entry key="1" type="xdouble" value="2.9142857142857146"/>
+        <entry key="2" type="xdouble" value="1.776190476190476"/>
+        <entry key="3" type="xdouble" value="0.34761904761904766"/>
     </config>
     <config key="FeatureNames">
         <entry key="array-size" type="xint" value="5"/>
-        <entry key="0" type="xstring" isnull="true" value=""/>
-        <entry key="1" type="xstring" isnull="true" value=""/>
-        <entry key="2" type="xstring" isnull="true" value=""/>
-        <entry key="3" type="xstring" isnull="true" value=""/>
+        <entry key="0" type="xstring" value="sepal length"/>
+        <entry key="1" type="xstring" value="sepal width"/>
+        <entry key="2" type="xstring" value="petal length"/>
+        <entry key="3" type="xstring" value="petal width"/>
         <entry key="4" type="xstring" isnull="true" value=""/>
     </config>
 </config>

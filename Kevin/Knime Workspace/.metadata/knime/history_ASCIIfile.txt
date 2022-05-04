@@ -1,5 +1,6 @@
+knime://knime.workflow/data/iris.data
+knime://knime.workflow/data/adult.data
 knime://knime.workflow/data.all
 knime://knime.workflow/data/sales_2008-2011.csv
 knime://knime.workflow/data/clustered%20hourly%20values%20all.csv
 knime://knime.workflow/data/sales_2011.csv
-knime://knime.workflow/data/adult.data

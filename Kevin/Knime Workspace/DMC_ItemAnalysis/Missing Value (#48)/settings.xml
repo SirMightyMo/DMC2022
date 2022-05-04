@@ -23,6 +23,22 @@
                     </config>
                 </config>
             </config>
+            <config key="1">
+                <config key="colNames">
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xstring" value="categories"/>
+                </config>
+                <config key="settings">
+                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedStringValueMissingCellHandlerFactory"/>
+                    <config key="settings">
+                        <config key="fixStringValue_Internals">
+                            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                            <entry key="EnabledStatus" type="xboolean" value="true"/>
+                        </config>
+                        <entry key="fixStringValue" type="xstring" value="-99999"/>
+                    </config>
+                </config>
+            </config>
         </config>
         <config key="dataTypeSettings">
             <config key="org.knime.core.data.def.IntCell">
@@ -60,10 +76,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Column &quot;categories&quot; still contains missing values."/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Missing Value"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -98,6 +110,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="82c9c126-fa60-4e8b-a5ab-b447bf0c22b3"/>
+        <entry key="file_store_id" type="xstring" value="7fc40b97-4109-44fb-b8e5-652e4fc7af78"/>
     </config>
 </config>

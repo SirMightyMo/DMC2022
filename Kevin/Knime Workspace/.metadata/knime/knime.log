@@ -2498,3 +2498,84 @@ Syntax error on token ",", ; expected
 2022-05-04 19:13:18,148 : WARN  : main :  : Node : GroupBy : 0:86 : 1 invalid aggregation column(s) found.
 2022-05-04 19:13:21,737 : WARN  : KNIME-Worker-152-String Manipulation 0:87 :  : ColumnCalculator : String Manipulation : 0:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
 2022-05-04 19:13:21,953 : WARN  : KNIME-Worker-153-String Manipulation 0:88 :  : ColumnCalculator : String Manipulation : 0:88 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-05 14:14:59,454 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140666696545792}
+2022-05-05 14:17:13,796 : WARN  : ModalContext :  : Node : GroupBy : 3:86 : No aggregation column defined
+2022-05-05 14:17:13,799 : WARN  : ModalContext :  : Node : GroupBy : 3:86 : No aggregation column defined
+2022-05-05 14:17:13,801 : WARN  : ModalContext :  : Node : GroupBy : 3:86 : 1 invalid aggregation column(s) found.
+2022-05-05 14:17:29,402 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 14:17:29,462 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 14:17:29,470 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: DataLoadError: DMC_ItemAnalysis_KMeansWithElbow 4 loaded with error during data load
+2022-05-05 14:17:29,470 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: DataLoadError: DMC_ItemAnalysis_KMeansWithElbow 4
+2022-05-05 14:17:29,470 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: DataLoadError: k-Means 4:602
+2022-05-05 14:17:29,471 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :       Status: DataLoadError: Loading model internals failed: org.knime.core.node.InvalidSettingsException: ConfigBase for key "kMeansCluster2" not found.
+2022-05-05 14:18:29,552 : WARN  : main :  : Node : GroupBy : 4:86 : No aggregation column defined
+2022-05-05 14:18:29,553 : WARN  : main :  : Node : GroupBy : 4:86 : No aggregation column defined
+2022-05-05 14:18:29,553 : WARN  : main :  : Node : GroupBy : 4:86 : 1 invalid aggregation column(s) found.
+2022-05-05 14:19:37,293 : WARN  : main :  : Node : Ungroup : 3:83 : No ungroup column selected. Node returns input table.
+2022-05-05 14:19:37,303 : WARN  : main :  : Node : Scatter Plot (local) : 3:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 14:19:37,306 : WARN  : main :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 14:19:44,533 : WARN  : KNIME-Worker-14-Missing Value 3:48 :  : Node : Ungroup : 3:83 : No ungroup column selected. Node returns input table.
+2022-05-05 14:19:44,535 : WARN  : KNIME-Worker-14-Missing Value 3:48 :  : Node : Scatter Plot (local) : 3:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 14:19:44,537 : WARN  : KNIME-Worker-14-Missing Value 3:48 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 14:19:45,101 : WARN  : KNIME-Worker-16-Normalizer 3:59 :  : Node : Scatter Plot (local) : 3:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 14:19:45,102 : WARN  : KNIME-Worker-16-Normalizer 3:59 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 14:21:15,224 : WARN  : KNIME-Worker-12-Color Manager 3:50 :  : Node : Scatter Plot (local) : 3:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 14:46:03,884 : WARN  : main :  : Node : k-Means : 3:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 14:46:03,886 : WARN  : main :  : Node : k-Means : 3:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 14:50:32,039 : WARN  : KNIME-Worker-25-Statistics 3:67 :  : Node : Statistics : 3:67 : Maximum number of unique possible values (1000) exceeds for column(s): "itemID","categories","brand"
+2022-05-05 15:10:52,615 : WARN  : ModalContext :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:10:52,615 : WARN  : ModalContext :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:10:52,615 : WARN  : ModalContext :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:11:13,046 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:13,046 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:13,046 : WARN  : main :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:11:14,713 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:14,713 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:14,713 : WARN  : main :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:11:21,700 : WARN  : KNIME-Worker-34-CSV Reader 6:2 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:21,700 : WARN  : KNIME-Worker-34-CSV Reader 6:2 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:21,700 : WARN  : KNIME-Worker-34-CSV Reader 6:2 :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:11:21,725 : WARN  : KNIME-Worker-35-String Manipulation 6:87 :  : ColumnCalculator : String Manipulation : 6:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-05 15:11:52,844 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:52,844 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:11:52,844 : WARN  : main :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:11:56,633 : WARN  : KNIME-Worker-36-String Manipulation 6:87 :  : ColumnCalculator : String Manipulation : 6:87 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-05 15:11:56,789 : WARN  : KNIME-Worker-37-String Manipulation 6:88 :  : ColumnCalculator : String Manipulation : 6:88 : Row "Row1" contains missing value in column "categories" - returning missing (omitting further warnings)
+2022-05-05 15:12:46,977 : WARN  : main :  : Node : Ungroup : 6:83 : No ungroup column selected. Node returns input table.
+2022-05-05 15:12:47,103 : WARN  : main :  : Node : k-Means : 6:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 15:12:47,103 : WARN  : main :  : Node : Scatter Plot (local) : 6:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:12:47,104 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:12:47,104 : WARN  : main :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:12:47,104 : WARN  : main :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:12:47,104 : WARN  : main :  : Node : Scatter Plot (local) : 6:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:12:55,028 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : Ungroup : 6:83 : No ungroup column selected. Node returns input table.
+2022-05-05 15:12:55,032 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : k-Means : 6:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 15:12:55,032 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : Scatter Plot (local) : 6:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:12:55,032 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:12:55,032 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:12:55,032 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:12:55,033 : WARN  : KNIME-Worker-38-CSV Reader 6:8 :  : Node : Scatter Plot (local) : 6:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:13:01,264 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : Ungroup : 6:83 : No ungroup column selected. Node returns input table.
+2022-05-05 15:13:01,265 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : k-Means : 6:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 15:13:01,266 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : Scatter Plot (local) : 6:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:13:01,267 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:13:01,267 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:13:01,267 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:13:01,267 : WARN  : KNIME-Worker-39-GroupBy 6:12 :  : Node : Scatter Plot (local) : 6:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:13:01,703 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : Ungroup : 6:83 : No ungroup column selected. Node returns input table.
+2022-05-05 15:13:01,707 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : k-Means : 6:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-05 15:13:01,707 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : Scatter Plot (local) : 6:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:13:01,708 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:13:01,708 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : GroupBy : 6:86 : No aggregation column defined
+2022-05-05 15:13:01,708 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : GroupBy : 6:86 : 1 invalid aggregation column(s) found.
+2022-05-05 15:13:01,709 : WARN  : KNIME-Worker-42-Missing Value 6:48 :  : Node : Scatter Plot (local) : 6:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:19:11,763 : WARN  : KNIME-Worker-46-Cell Splitter 6:77 :  : Node : Scatter Plot (local) : 6:80 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:19:12,100 : WARN  : KNIME-Worker-47-Missing Value 6:81 :  : Node : Scatter Plot (local) : 6:80 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-05 15:27:51,927 : WARN  : KNIME-Worker-50-Scatter Plot (local) 6:89 :  : Node : Scatter Plot (local) : 6:89 : Only the first 2500 rows are displayed.
+2022-05-05 15:39:51,974 : WARN  : main :  : Node : CSV Reader : 3:68 : Please specify a file
+2022-05-05 15:40:04,412 : WARN  : main :  : Node : CSV Reader : 6:90 : Please specify a file
+2022-05-05 15:43:16,509 : WARN  : main :  : Node : Scatter Plot (local) : 6:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 15:43:18,654 : WARN  : KNIME-Worker-53-Column Filter 6:74 :  : Node : Scatter Plot (local) : 6:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-05 15:44:57,417 : WARN  : main :  : Node : Joiner : 6:92 : No join columns passed.
+2022-05-05 15:45:43,937 : WARN  : main :  : Node : Math Formula : 6:91 : No configuration available
+2022-05-05 16:31:54,070 : WARN  : main :  : Node : CSV Reader : 3:68 : Please specify a file

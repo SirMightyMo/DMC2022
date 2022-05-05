@@ -90,12 +90,12 @@
         <entry key="typeMatch" type="xbyte" value="0"/>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="Count no. of purch."/>
+        <entry key="text" type="xstring" value="Count unique dates %%00010(no. of purch.)"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
         <entry key="x-coordinate" type="xint" value="209"/>
-        <entry key="y-coordinate" type="xint" value="419"/>
+        <entry key="y-coordinate" type="xint" value="359"/>
         <entry key="width" type="xint" value="143"/>
-        <entry key="height" type="xint" value="17"/>
+        <entry key="height" type="xint" value="34"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
         <entry key="borderColor" type="xint" value="16777215"/>
@@ -130,6 +130,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2b68b46a-f360-4fb9-9226-f7a4ff64be76"/>
+        <entry key="file_store_id" type="xstring" value="61acf369-6086-433c-9b21-56d004d5f347"/>
     </config>
 </config>

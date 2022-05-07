@@ -2579,3 +2579,25 @@ Syntax error on token ",", ; expected
 2022-05-05 15:44:57,417 : WARN  : main :  : Node : Joiner : 6:92 : No join columns passed.
 2022-05-05 15:45:43,937 : WARN  : main :  : Node : Math Formula : 6:91 : No configuration available
 2022-05-05 16:31:54,070 : WARN  : main :  : Node : CSV Reader : 3:68 : Please specify a file
+2022-05-07 09:51:26,126 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140092043294720}
+2022-05-07 09:51:29,547 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  : Errors during load: Status: Error: Leander 3 loaded with errors
+2022-05-07 09:51:29,550 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :   Status: Error: Leander 3
+2022-05-07 09:51:29,550 : ERROR : ModalContext :  : LoadWorkflowRunnable :  :  :     Status: Error: Node "Column Expressions" not available from extension "KNIME Expressions" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.expressions.base" is not installed)
+2022-05-07 09:53:04,143 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140461544640512}
+2022-05-07 10:28:56,630 : WARN  : main :  : Node : Histogram (local) : 3:79 : Please define the binning column.
+2022-05-07 10:39:17,418 : WARN  : ModalContext :  : Node : Math Formula : 5:91 : No configuration available
+2022-05-07 10:39:17,424 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 5:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 10:53:45,417 : WARN  : KNIME-Worker-9-Rule-based Row Filter 0:66 :  : Node : Rule-based Row Filter : 0:66 : Node created an empty data table.
+2022-05-07 11:09:45,293 : WARN  : main :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:09:49,575 : WARN  : KNIME-Worker-11-Color Manager 4:50 :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:11:07,910 : WARN  : main :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:11:19,450 : WARN  : KNIME-Worker-10-Color Manager 4:50 :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:13:11,501 : WARN  : main :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:13:14,460 : WARN  : KNIME-Worker-15-Color Manager 4:50 :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:13:48,368 : WARN  : main :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:13:58,534 : WARN  : KNIME-Worker-14-Color Manager 4:50 :  : Node : Scatter Plot (local) : 4:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:16:22,488 : WARN  : main :  : Node : Cell Splitter : 5:92 : Specify the column to split.
+2022-05-07 11:18:14,155 : WARN  : main :  : Node : Cell Splitter : 5:92 : Specify the column to split.
+2022-05-07 11:39:56,420 : WARN  : main :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:40:04,858 : WARN  : main :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-07 11:40:11,845 : WARN  : KNIME-Worker-20-Color Manager 4:71 :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.

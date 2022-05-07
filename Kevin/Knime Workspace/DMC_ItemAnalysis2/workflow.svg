@@ -1651,37 +1651,37 @@ KCZEfQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
            text-rendering="optimizeLegibility" font-family="&apos;Ubuntu&apos;"
            stroke="rgb(150,150,150)" stroke-width="2">
             <path fill="none"
-                  d="M96 98 C98 98 102 98 104 98 C111 98 110 118 117 118 C119 118 123 118 125 118"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M256 208 C258 208 262 208 264 208 C280 208 301 218 317 218 C319 218 323 218 325 218"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M176 118 C178 118 182 118 184 118 C211 118 170 208 197 208 C199 208 203 208 205 208"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M376 218 C378 218 382 218 384 218 C405 218 436 218 457 218 C459 218 463 218 465 218"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path clip-path="url(#clipPath61)" fill="none" fill-rule="evenodd"
-                  d="M996 218 C998 218 1002 218 1004 218 C1048 218 1013 358 1057 358 C1059 358 1063 358 1065 358"
-                  stroke="rgb(75,75,75)" stroke-width="3"/>
-            <path fill="none"
-                  d="M996 218 C998 218 1002 218 1004 218 C1019 218 1042 218 1057 218 C1059 218 1063 218 1065 218"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M96 238 C98 238 102 238 104 238 C132 238 169 227 197 227 C199 227 203 227 205 227"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M676 218 C678 218 682 218 684 218 C711 218 750 218 777 218 C779 218 783 218 785 218"
-                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M516 208 C518 208 522 208 524 208 C552 208 589 218 617 218 C619 218 623 218 625 218"
                   clip-path="url(#clipPath61)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M1029 40 C1031 40 1035 40 1037 40 C1040 40 1047 40 1050 40 C1052 40 1056 40 1058 40"
                   clip-path="url(#clipPath61)" fill-rule="evenodd"/>
             <path fill="none"
+                  d="M996 218 C998 218 1002 218 1004 218 C1019 218 1042 218 1057 218 C1059 218 1063 218 1065 218"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M676 218 C678 218 682 218 684 218 C711 218 750 218 777 218 C779 218 783 218 785 218"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M996 218 C998 218 1002 218 1004 218 C1048 218 1013 358 1057 358 C1059 358 1063 358 1065 358"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M516 208 C518 208 522 208 524 208 C552 208 589 218 617 218 C619 218 623 218 625 218"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M96 98 C98 98 102 98 104 98 C111 98 110 118 117 118 C119 118 123 118 125 118"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M376 218 C378 218 382 218 384 218 C405 218 436 218 457 218 C459 218 463 218 465 218"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M176 118 C178 118 182 118 184 118 C211 118 170 208 197 208 C199 208 203 208 205 208"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
                   d="M836 218 C838 218 842 218 844 218 C871 218 910 218 937 218 C939 218 943 218 945 218"
+                  clip-path="url(#clipPath61)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M96 238 C98 238 102 238 104 238 C132 238 169 227 197 227 C199 227 203 227 205 227"
                   clip-path="url(#clipPath61)" fill-rule="evenodd"/>
         </g>
     </g>

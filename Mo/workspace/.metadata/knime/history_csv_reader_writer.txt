@@ -1,0 +1,9 @@
+E:\Projekte\DMC\KNIME\DMC_2022_task\category_hierarchy.csv
+E:\Projekte\KNIME\DMC_2022_task\submission.csv
+E:\Projekte\KNIME\DMC_2022_task\category_hierarchy.csv
+E:\Projekte\KNIME\DMC_2022_task\orders.csv
+E:\Projekte\KNIME\DMC_2022_task\items.csv
+E:\Projekte\KNIME\workspace\Example Workflows\TheData\Baskets\AssociationRules.table
+E:\Projekte\KNIME\DMC-2021-Task\items.csv
+E:\Projekte\KNIME\DMC-2021-Task\transactions.csv
+sales_2008-2011.csv

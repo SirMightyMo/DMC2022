@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="factory" type="xstring" value="org.knime.network.node.generator.NetworkGeneratorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Network Generator"/>
+<entry key="node-bundle-name" type="xstring" value="Network Base Plug-in"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.network.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="Chair for Bioinformatics and Information Mining,University of Konstanz,Germany"/>
+<config key="factory_settings"/>
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="generatorSettings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generatorSettings" type="xstring" value="%****************************************%%00010%*           Example settings           *%%00010%****************************************%%00010++++++Network++++++%%00010&gt;Directed network(true|false)::true%%00010------Network------%%00010%%00010++++++Domain++++++%%00010&gt;Name::domain1%%00010&gt;Domain creator::JG - Scale free%%00010|-&gt;Number of nodes::20%%00010|-&gt;Number of node partitions::1%%00010|-&gt;Number of edge partitions::1%%00010------Domain------%%00010++++++Domain++++++%%00010&gt;Name::domain2%%00010&gt;Domain creator::JG - Scale free%%00010|-&gt;Number of nodes::30%%00010|-&gt;Number of node partitions::1%%00010|-&gt;Number of edge partitions::1%%00010------Domain------%%00010%%00010+++++++Edge+++++++%%00010domain1=&gt;domain2%%00010&gt;Edge creator::Simple creator%%00010|-&gt;Number of edges::10%%00010&gt;1. Node selector::Equal distribution%%00010|-&gt;Seed::123%%00010&gt;2. Node selector::Equal distribution%%00010|-&gt;Seed::321%%00010-------Edge-------%%00010"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="name" type="xstring" value="Network Generator"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_3">
+<entry key="index" type="xint" value="3"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

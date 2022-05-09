@@ -1,0 +1,10 @@
+2022-05-09 13:00:03,879 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2022-05-09 13:00:03,880 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2022-05-09 13:00:03,880 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Der angeforderte Registrierungszugriff ist unzul„ssig.
+2022-05-09 13:00:03,880 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : In Zeile:1 Zeichen:1
+2022-05-09 13:00:03,880 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2022-05-09 13:00:03,882 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2022-05-09 13:00:03,883 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2022-05-09 13:00:03,883 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2022-05-09 13:00:03,883 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2022-05-09 13:00:03,883 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  

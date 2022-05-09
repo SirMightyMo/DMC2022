@@ -1,1 +1,0 @@
-E:\Projekte\KNIME\workspace\Example Workflows\TheData\Baskets\AssociationRules.table

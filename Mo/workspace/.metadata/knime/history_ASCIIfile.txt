@@ -1,3 +1,0 @@
-knime://knime.workflow/data.all
-knime://knime.workflow/data/feature.csv
-knime://knime.workflow/data/iris.data

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="generatorSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="generatorSettings" type="xstring" value="%****************************************%%00010%*           Example settings           *%%00010%****************************************%%00010++++++Network++++++%%00010&gt;Directed network(true|false)::true%%00010------Network------%%00010%%00010++++++Domain++++++%%00010&gt;Name::domain1%%00010&gt;Domain creator::JG - Scale free%%00010|-&gt;Number of edge partitions::1%%00010|-&gt;Number of node partitions::1%%00010|-&gt;Number of nodes::50%%00010------Domain------%%00010++++++Domain++++++%%00010&gt;Name::domain2%%00010&gt;Domain creator::JG - Scale free%%00010|-&gt;Number of edge partitions::1%%00010|-&gt;Number of node partitions::1%%00010|-&gt;Number of nodes::50%%00010------Domain------%%00010%%00010+++++++Edge+++++++%%00010domain1=&gt;domain2%%00010&gt;Edge creator::Simple creator%%00010|-&gt;Number of edges::10%%00010&gt;1. Node selector::Equal distribution%%00010|-&gt;Seed::123456789%%00010&gt;2. Node selector::Equal distribution%%00010|-&gt;Seed::123456789%%00010-------Edge-------%%00010"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.network.node.generator.NetworkGeneratorNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Network Generator"/>
+    <entry key="node-bundle-name" type="xstring" value="Network Base Plug-in"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.network.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202110151442"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Network Mining"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.network.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202110151442"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Network Generator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="id: socialGraph, directed, nodes: 100, edges: 154, UUID: 4031bad9-434d-4773-9118-922c3879c3f4"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="32911e16-4858-4827-9de7-9e73753dd5c3"/>
+    </config>
+</config>

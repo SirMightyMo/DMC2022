@@ -1,5 +1,5 @@
 ## KNIME directories
-*.metadata/*
+.metadata/*
 
 ## KNIME files
 *.knimeLock

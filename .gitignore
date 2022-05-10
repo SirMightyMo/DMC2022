@@ -1,2 +1,8 @@
+## KNIME directories
+*.metadata/*
 
-Kevin/Knime Workspace/DMC_ItemAnalysis/.knimeLock
+## KNIME files
+*.knimeLock
+
+# Example workflow
+Example Workflows/

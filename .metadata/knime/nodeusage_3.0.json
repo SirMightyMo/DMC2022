@@ -1,14 +1,14 @@
 
 {
     "version": "4.5.2.v202203091352",
-    "created": "2022-05-09 13:00",
+    "created": "2022-05-10 11:03",
     "nodestats": {
         "nodes": [
             {
                 "id": "org.knime.network.node.viz.viewer.NetworkViewerNodeFactory#Network Viewer (local)",
-                "nrexecs": 0,
-                "nrfails": 1,
-                "exectime": 87,
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 2629,
                 "nrcreated": 0,
                 "successor": "n/a"
             }
@@ -18,15 +18,15 @@
         "wrappedNodes": {
         }
     },
-    "uptime": 1596325,
-    "workflowsOpened": 2,
+    "uptime": 74869,
+    "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
-    "launches": 2,
+    "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1266196,
+    "timeSinceLastStart": 74869,
     "crashes": 0,
     "properlyShutDown": false
 }

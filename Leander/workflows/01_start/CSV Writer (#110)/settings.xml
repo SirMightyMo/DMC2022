@@ -24,7 +24,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="C:\Users\LEAND\Coding\knime-workspace\dmc22_generated\orderCount_categories.csv"/>
+                    <entry key="path" type="xstring" value="C:\Users\LEAND\Coding\knime-workspace\DMC2022\Leander\csv\orderCount_categories.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>

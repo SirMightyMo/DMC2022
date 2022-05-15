@@ -2728,3 +2728,5 @@ java.lang.Exception: Missing Values not (yet) allowed in k-Means.
 2022-05-15 12:16:42,145 : WARN  : KNIME-Worker-78-Column Resorter 4:120 :  : Node : Sorter : 4:119 : No selected columns to sort
 2022-05-15 12:20:02,098 : WARN  : ModalContext :  : Node : Math Formula : 3:91 : No configuration available
 2022-05-15 12:20:02,099 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 3:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 15:14:07,392 : WARN  : main :  : Node : CSV Reader : 0:126 : Please specify a file
+2022-05-15 15:30:29,678 : WARN  : main :  : Node : CSV Reader : 3:121 : Please specify a file

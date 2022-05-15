@@ -46,10 +46,10 @@
             },
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
-                "nrexecs": 48,
+                "nrexecs": 50,
                 "nrfails": 0,
-                "exectime": 91174,
-                "nrcreated": 3,
+                "exectime": 91217,
+                "nrcreated": 5,
                 "successor": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory#String to Date&Time"
             },
             {
@@ -126,10 +126,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
-                "nrexecs": 50,
+                "nrexecs": 53,
                 "nrfails": 0,
-                "exectime": 21416,
-                "nrcreated": 7,
+                "exectime": 21670,
+                "nrcreated": 8,
                 "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
@@ -214,27 +214,27 @@
             },
             {
                 "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
-                "nrexecs": 18,
+                "nrexecs": 19,
                 "nrfails": 0,
-                "exectime": 21933,
-                "nrcreated": 4,
+                "exectime": 22011,
+                "nrcreated": 5,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
             },
             {
                 "id": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
-                "nrexecs": 79,
+                "nrexecs": 80,
                 "nrfails": 0,
-                "exectime": 41,
+                "exectime": 42,
                 "nrcreated": 4,
-                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
                 "id": "org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory#Column Resorter",
-                "nrexecs": 18,
+                "nrexecs": 19,
                 "nrfails": 0,
                 "exectime": 16,
-                "nrcreated": 1,
-                "successor": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory#String to Date&Time"
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
             },
             {
                 "id": "org.knime.time.node.calculate.datetimedifference.DateTimeDifferenceNodeFactory#Date&Time Difference",
@@ -262,10 +262,10 @@
             },
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
-                "nrexecs": 104,
+                "nrexecs": 105,
                 "nrfails": 0,
                 "exectime": 150,
-                "nrcreated": 6,
+                "nrcreated": 7,
                 "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
             },
             {
@@ -334,9 +334,9 @@
             },
             {
                 "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
-                "nrexecs": 37,
+                "nrexecs": 39,
                 "nrfails": 0,
-                "exectime": 21946,
+                "exectime": 22069,
                 "nrcreated": 2,
                 "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
             },
@@ -859,6 +859,14 @@
                 "exectime": 0,
                 "nrcreated": 1,
                 "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeFactory#CSV Writer",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 68,
+                "nrcreated": 0,
+                "successor": "n/a"
             }
         ],
         "metaNodes": {
@@ -874,15 +882,15 @@
             "nrcreated": 0
         }
     },
-    "uptime": 5936480,
-    "workflowsOpened": 114,
+    "uptime": 6327798,
+    "workflowsOpened": 118,
     "remoteWorkflowsOpened": 22,
     "columnarStorageWorkflowsOpened": 0,
     "workflowsImported": 0,
     "workflowsExported": 0,
     "launches": 31,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1933562,
+    "timeSinceLastStart": 14064414,
     "crashes": 1,
-    "properlyShutDown": false
+    "properlyShutDown": true
 }

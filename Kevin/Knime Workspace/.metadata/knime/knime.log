@@ -2601,3 +2601,135 @@ Syntax error on token ",", ; expected
 2022-05-07 11:39:56,420 : WARN  : main :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.
 2022-05-07 11:40:04,858 : WARN  : main :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.
 2022-05-07 11:40:11,845 : WARN  : KNIME-Worker-20-Color Manager 4:71 :  : Node : Scatter Plot (local) : 4:69 : Some columns are ignored: too many/missing nominal values.
+2022-05-09 17:01:06,740 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140143448141312}
+2022-05-15 10:57:41,436 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140351552729600}
+2022-05-15 11:01:15,743 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139908970208256}
+2022-05-15 11:02:31,862 : WARN  : ModalContext :  : Node : Math Formula : 4:91 : No configuration available
+2022-05-15 11:02:31,864 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 4:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:09:17,021 : WARN  : main :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:09:17,027 : WARN  : main :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:09:17,030 : WARN  : main :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:09:22,927 : WARN  : KNIME-Worker-10-CSV Reader 4:73 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:09:26,232 : WARN  : KNIME-Worker-9-CSV Reader 4:71 :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:09:26,233 : WARN  : KNIME-Worker-9-CSV Reader 4:71 :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:09:26,235 : WARN  : KNIME-Worker-9-CSV Reader 4:71 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:09:38,721 : WARN  : KNIME-Worker-12-Joiner 4:69 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:09:38,736 : WARN  : KNIME-Worker-13-Column Rename 4:74 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:09:44,281 : WARN  : KNIME-Worker-14-Missing Value 4:72 :  : Node : Missing Value : 4:72 : Column "date" still contains missing values.
+2022-05-15 11:14:36,437 : WARN  : main :  : Node : Row Splitter : 4:83 : No row filter specified
+2022-05-15 11:15:32,820 : WARN  : main :  : Node : String to Date&Time : 4:83 : Node must be configured!
+2022-05-15 11:15:41,332 : ERROR : KNIME-Worker-18-String to Date&Time 4:83 :  : Node : String to Date&Time : 4:83 : Execute failed: Failed to parse date in row 'Row0: Text '2020-06-01' could not be parsed at index 10
+java.lang.IllegalArgumentException: Failed to parse date in row 'Row0: Text '2020-06-01' could not be parsed at index 10
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:408)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:575)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:495)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:153)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:432)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:226)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:758)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-15 11:16:43,498 : WARN  : main :  : Node : Date&Time-based Row Filter : 4:84 : No configuration available!
+2022-05-15 11:17:20,511 : WARN  : KNIME-Worker-20-Date&Time-based Row Filter 4:84 :  : Node : Date&Time-based Row Filter : 4:84 : Node created an empty data table.
+2022-05-15 11:18:12,370 : WARN  : KNIME-Worker-21-Date&Time-based Row Filter 4:84 :  : Node : Date&Time-based Row Filter : 4:84 : Node created an empty data table.
+2022-05-15 11:18:27,067 : WARN  : KNIME-Worker-22-Date&Time-based Row Filter 4:84 :  : Node : Date&Time-based Row Filter : 4:84 : Node created an empty data table.
+2022-05-15 11:20:28,106 : WARN  : main :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:20:28,106 : WARN  : main :  : Node : GroupBy : 4:70 : No aggregation column defined
+2022-05-15 11:20:49,890 : WARN  : main :  : Node : GroupBy : 4:12 : No aggregation column defined
+2022-05-15 11:20:49,890 : WARN  : main :  : Node : GroupBy : 4:12 : No aggregation column defined
+2022-05-15 11:20:49,890 : WARN  : main :  : Node : GroupBy : 4:12 : 1 invalid aggregation column(s) found.
+2022-05-15 11:25:44,874 : WARN  : main :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:25:47,719 : WARN  : KNIME-Worker-30-GroupBy 4:12 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:30:24,415 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:24,423 : WARN  : main :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:30:24,442 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:24,442 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:24,443 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:35,746 : WARN  : KNIME-Worker-31-GroupBy 0:12 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:30:35,768 : WARN  : KNIME-Worker-31-GroupBy 0:12 :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:35,768 : WARN  : KNIME-Worker-31-GroupBy 0:12 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:35,981 : WARN  : KNIME-Worker-32-Joiner 0:46 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:30:35,987 : WARN  : KNIME-Worker-33-Column Rename 0:47 :  : Node : Column Rename : 0:47 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:30:36,077 : WARN  : KNIME-Worker-34-Missing Value 0:48 :  : Node : Missing Value : 0:48 : Column "Count(date)" still contains missing values.
+2022-05-15 11:30:36,440 : WARN  : KNIME-Worker-36-Normalizer 0:59 :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:36,442 : WARN  : KNIME-Worker-36-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:30:36,460 : WARN  : KNIME-Worker-36-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:30:36,481 : ERROR : KNIME-Worker-37-k-Means 0:49 :  : Node : k-Means : 0:49 : Execute failed: Missing Values not (yet) allowed in k-Means.
+java.lang.Exception: Missing Values not (yet) allowed in k-Means.
+	at org.knime.base.node.mine.cluster.kmeans.ClusterNodeModel.execute(ClusterNodeModel.java:485)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-05-15 11:30:54,695 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:54,696 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:54,697 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:54,982 : WARN  : main :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:54,982 : WARN  : main :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:54,984 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:58,688 : WARN  : KNIME-Worker-32-Missing Value 0:48 :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:58,688 : WARN  : KNIME-Worker-32-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:58,689 : WARN  : KNIME-Worker-32-Missing Value 0:48 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values and bounds missing.
+2022-05-15 11:30:59,040 : WARN  : KNIME-Worker-34-Normalizer 0:59 :  : Node : k-Means : 0:62 : Errors loading flow variables into node : Value (=0.0) must be within the range [1...2147483647].
+2022-05-15 11:30:59,041 : WARN  : KNIME-Worker-34-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:61 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:30:59,042 : WARN  : KNIME-Worker-34-Normalizer 0:59 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:31:03,308 : WARN  : KNIME-Worker-36-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:35:42,456 : WARN  : main :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:35:53,858 : WARN  : KNIME-Worker-43-Color Manager 0:50 :  : Node : Scatter Plot (local) : 0:51 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 11:38:16,417 : WARN  : KNIME-Worker-45-Joiner 4:69 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:38:16,425 : WARN  : KNIME-Worker-46-Column Rename 4:74 :  : Node : Column Rename : 4:74 : The following columns are configured but no longer exist: "Unique count(date)"
+2022-05-15 11:38:16,490 : WARN  : KNIME-Worker-47-Missing Value 4:72 :  : Node : Missing Value : 4:72 : Column "Count(date)" still contains missing values.
+2022-05-15 11:38:58,989 : WARN  : main :  : ExplorerFileSystemUtils :  :  : At least one of the workflows affected by the operation is still open in the editor and has to be closed first.
+2022-05-15 11:40:10,924 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140384906058752}
+2022-05-15 11:41:40,242 : WARN  : main :  : Node : Sorter : 4:85 : No selected columns to sort
+2022-05-15 11:55:22,195 : WARN  : main :  : Node : Joiner : 4:109 : No join columns passed.
+2022-05-15 11:59:16,206 : WARN  : main :  : Node : Column Rename : 4:110 : No configuration available
+2022-05-15 12:03:52,377 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right) (right) (right) (right) (right) (right)"
+2022-05-15 12:04:04,645 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right) (right)"
+2022-05-15 12:04:07,962 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right) (right)"
+2022-05-15 12:04:13,630 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right) (right)"
+2022-05-15 12:04:16,676 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right) (right)", "itemID (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right) (right)"
+2022-05-15 12:04:19,754 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right) (right)", "itemID (right) (right) (right)", "itemID (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right) (right)",  ... <1 more>
+2022-05-15 12:04:22,476 : WARN  : main :  : Node : Column Rename : 4:110 : The following columns are configured but no longer exist: "itemID (right)", "itemID (right) (right)", "itemID (right) (right) (right)", "itemID (right) (right) (right) (right)", "itemID (right) (right) (right) (right) (right)",  ... <2 more>
+2022-05-15 12:07:37,621 : WARN  : main :  : Node : GroupBy : 4:117 : No grouping column included. Aggregate complete table.
+2022-05-15 12:07:37,622 : WARN  : main :  : Node : GroupBy : 4:117 : No aggregation column defined
+2022-05-15 12:07:37,622 : WARN  : main :  : Node : GroupBy : 4:117 : No aggregation column defined
+2022-05-15 12:07:37,622 : WARN  : main :  : Node : GroupBy : 4:117 : Please select at least one group or aggregation column
+2022-05-15 12:08:30,114 : WARN  : main :  : Node : GroupBy : 4:117 : No grouping column included. Aggregate complete table.
+2022-05-15 12:12:17,152 : WARN  : KNIME-Worker-66-Missing Value 4:72 :  : Node : Missing Value : 4:72 : Column "Purchases" still contains missing values.
+2022-05-15 12:12:20,044 : WARN  : AWT-EventQueue-0 :  : ColumnHandlingFactorySelectionPanel : Missing Value : 4:72 : get warnings during panel validation: [Some columns no longer exist (red bordered)]
+2022-05-15 12:13:40,123 : WARN  : main :  : Node : Joiner : 4:117 : No join columns passed.
+2022-05-15 12:14:01,856 : WARN  : KNIME-Worker-73-Column Filter 4:118 :  : Node : Joiner : 4:117 : No join columns passed.
+2022-05-15 12:16:22,812 : WARN  : main :  : Node : Column Resorter : 4:120 : All columns stay in same order.
+2022-05-15 12:16:24,661 : WARN  : main :  : Node : Sorter : 4:119 : No selected columns to sort
+2022-05-15 12:16:34,087 : WARN  : main :  : Node : Sorter : 4:119 : No selected columns to sort
+2022-05-15 12:16:42,145 : WARN  : KNIME-Worker-78-Column Resorter 4:120 :  : Node : Sorter : 4:119 : No selected columns to sort
+2022-05-15 12:20:02,098 : WARN  : ModalContext :  : Node : Math Formula : 3:91 : No configuration available
+2022-05-15 12:20:02,099 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 3:89 : Some columns are ignored: too many/missing nominal values.
+2022-05-15 15:14:07,392 : WARN  : main :  : Node : CSV Reader : 0:126 : Please specify a file
+2022-05-15 15:30:29,678 : WARN  : main :  : Node : CSV Reader : 3:121 : Please specify a file
+2022-05-16 08:43:25,587 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139685632055440}
+2022-05-16 09:24:15,873 : WARN  : main :  : VMFileLocker : Leander 01_start : 0 : Directory '/home/kevin/Repos/DMC2022/Kevin/Knime Workspace/Leander 01_start' does not exist (any more), cannot unlock it
+2022-05-16 09:24:42,819 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140504561605120}

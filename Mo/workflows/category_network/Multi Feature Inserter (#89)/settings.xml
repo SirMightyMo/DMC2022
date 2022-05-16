@@ -6,14 +6,6 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="edgeIdColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="edgeIdColumn">
-            <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" isnull="true" value=""/>
-        </config>
         <config key="nodeIdColumn_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,6 +13,14 @@
         <config key="nodeIdColumn">
             <entry key="useRowID" type="xboolean" value="false"/>
             <entry key="columnName" type="xstring" value="category"/>
+        </config>
+        <config key="edgeIdColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="edgeIdColumn">
+            <entry key="useRowID" type="xboolean" value="false"/>
+            <entry key="columnName" type="xstring" isnull="true" value=""/>
         </config>
         <config key="featureColumnNames_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
@@ -91,7 +91,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 6498eff1-0478-4e80-97a1-d8a217f1b19b"/>
+            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 801c5cd2-362c-4b0f-a385-7fe75df45e0b"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -99,6 +99,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3cf5b305-33c8-4253-bbed-5f55cd3cd55d"/>
+        <entry key="file_store_id" type="xstring" value="e8000b16-1d8c-486f-84c6-87a870601d2e"/>
     </config>
 </config>

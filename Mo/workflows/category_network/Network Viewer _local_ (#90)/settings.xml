@@ -6,6 +6,11 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <config key="showInteractiveFeatuerTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showInteractiveFeatuerTable" type="xboolean" value="false"/>
         <config key="layout_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -46,26 +51,36 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="backgroundImageRenderer" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="dimensionWidth_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="dimensionWidth" type="xint" value="1920"/>
         <config key="dimensionHeight_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="dimensionHeight" type="xint" value="1080"/>
-        <config key="showInteractiveFeatuerTable_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <config key="dimensionWidth_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="showInteractiveFeatuerTable" type="xboolean" value="false"/>
+        <entry key="dimensionWidth" type="xint" value="1920"/>
         <config key="imageType_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="imageType" type="xstring" value="PNG - Portable Network Graphics"/>
+        <config key="zCoordinateFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="zCoordinateFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="zCoordinateReverse_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="zCoordinateReverse" type="xboolean" value="false"/>
+        <config key="nodeTooltip_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeTooltip" type="xstring" value="&lt;NONE&gt;"/>
         <config key="nodeLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -91,56 +106,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="nodeLabelSizeFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="nodeLabelColorFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeLabelColorFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="nodeLabelColor_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="nodeLabelColor">
-            <entry key="Red" type="xint" value="0"/>
-            <entry key="Green" type="xint" value="0"/>
-            <entry key="Blue" type="xint" value="0"/>
-            <entry key="Alpha" type="xint" value="255"/>
-        </config>
-        <config key="paintNodeLabelBG_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="paintNodeLabelBG" type="xboolean" value="false"/>
-        <config key="nodeLabelBGColorFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="nodeLabelBGColorFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="nodeLabelBGColor_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <config key="nodeLabelBGColor">
-            <entry key="Red" type="xint" value="255"/>
-            <entry key="Green" type="xint" value="255"/>
-            <entry key="Blue" type="xint" value="255"/>
-            <entry key="Alpha" type="xint" value="255"/>
-        </config>
-        <config key="nodeShapeFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeShapeFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="nodeShape_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeShape" type="xstring" value="Circle"/>
-        <config key="nodeFillColorFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeFillColorFeature" type="xstring" value="nodeColor"/>
         <config key="nodeFillColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -151,16 +116,11 @@
             <entry key="Blue" type="xint" value="0"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="drawIconBackground_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="drawIconBackground" type="xboolean" value="false"/>
-        <config key="nodeOutlineColorFeature_Internals">
+        <config key="nodeFillColorFeature_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="nodeOutlineColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <entry key="nodeFillColorFeature" type="xstring" value="nodeColor"/>
         <config key="nodeOutlineColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -171,11 +131,11 @@
             <entry key="Blue" type="xint" value="0"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="drawIconOutline_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        <config key="nodeOutlineColorFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="drawIconOutline" type="xboolean" value="false"/>
+        <entry key="nodeOutlineColorFeature" type="xstring" value="&lt;NONE&gt;"/>
         <config key="nodeStrokeWidth_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -186,6 +146,61 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="nodeStrokeWidthFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="nodeSize_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeSize" type="xint" value="10"/>
+        <config key="nodeSizeFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeSizeFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="nodeShape_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeShape" type="xstring" value="Circle"/>
+        <config key="nodeShapeFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeShapeFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="nodeLabelColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="nodeLabelColor">
+            <entry key="Red" type="xint" value="0"/>
+            <entry key="Green" type="xint" value="0"/>
+            <entry key="Blue" type="xint" value="0"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
+        <config key="nodeLabelColorFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeLabelColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="nodeLabelBGColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <config key="nodeLabelBGColor">
+            <entry key="Red" type="xint" value="255"/>
+            <entry key="Green" type="xint" value="255"/>
+            <entry key="Blue" type="xint" value="255"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
+        <config key="nodeLabelBGColorFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="nodeLabelBGColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="paintNodeLabelBG_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="paintNodeLabelBG" type="xboolean" value="false"/>
         <config key="nodeImageIcon_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -201,26 +216,16 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="useOriginalIconSize" type="xboolean" value="false"/>
-        <config key="nodeSize_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeSize" type="xint" value="10"/>
-        <config key="nodeSizeFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="nodeSizeFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="zCoordinateFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="zCoordinateFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="zCoordinateReverse_Internals">
+        <config key="drawIconOutline_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="zCoordinateReverse" type="xboolean" value="false"/>
+        <entry key="drawIconOutline" type="xboolean" value="false"/>
+        <config key="drawIconBackground_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="drawIconBackground" type="xboolean" value="false"/>
         <config key="edgeLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -241,11 +246,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="edgeLabelSizeFeature" type="xstring" value="&lt;NONE&gt;"/>
-        <config key="edgeLabelColorFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="edgeLabelColorFeature" type="xstring" value="&lt;NONE&gt;"/>
         <config key="edgeLabelColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -256,16 +256,11 @@
             <entry key="Blue" type="xint" value="0"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="paintEdgeLabelBG_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <config key="edgeLabelColorFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="paintEdgeLabelBG" type="xboolean" value="false"/>
-        <config key="edgeLabelBGColorFeature_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="edgeLabelBGColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <entry key="edgeLabelColorFeature" type="xstring" value="&lt;NONE&gt;"/>
         <config key="edgeLabelBGColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -276,11 +271,16 @@
             <entry key="Blue" type="xint" value="255"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="edgeStrokeColorFeature_Internals">
+        <config key="edgeLabelBGColorFeature_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="edgeLabelBGColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <config key="paintEdgeLabelBG_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="edgeStrokeColorFeature" type="xstring" value="&lt;NONE&gt;"/>
+        <entry key="paintEdgeLabelBG" type="xboolean" value="false"/>
         <config key="edgeStrokeColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -291,6 +291,11 @@
             <entry key="Blue" type="xint" value="192"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
+        <config key="edgeStrokeColorFeature_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="edgeStrokeColorFeature" type="xstring" value="&lt;NONE&gt;"/>
         <config key="edgeStrokeWidth_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -336,6 +341,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Execute failed: java.lang.RuntimeException: java.lang.IllegalArgumentException: No root node found for input graph. Root node"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.network.node.viz.viewer.NetworkViewerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Network Viewer (local)"/>
     <entry key="node-bundle-name" type="xstring" value="Network Base Plug-in"/>

@@ -2730,3 +2730,6 @@ java.lang.Exception: Missing Values not (yet) allowed in k-Means.
 2022-05-15 12:20:02,099 : WARN  : ModalContext :  : Node : Scatter Plot (local) : 3:89 : Some columns are ignored: too many/missing nominal values.
 2022-05-15 15:14:07,392 : WARN  : main :  : Node : CSV Reader : 0:126 : Please specify a file
 2022-05-15 15:30:29,678 : WARN  : main :  : Node : CSV Reader : 3:121 : Please specify a file
+2022-05-16 08:43:25,587 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139685632055440}
+2022-05-16 09:24:15,873 : WARN  : main :  : VMFileLocker : Leander 01_start : 0 : Directory '/home/kevin/Repos/DMC2022/Kevin/Knime Workspace/Leander 01_start' does not exist (any more), cannot unlock it
+2022-05-16 09:24:42,819 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140504561605120}

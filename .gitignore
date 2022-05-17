@@ -1,8 +1,24 @@
-## KNIME directories
-.metadata/*
-
 ## KNIME files
-*.knimeLock
+.knimeLock
+.project
+.savedWithData
+workflowset.meta
+
+## KNIME directories containing node data
+internal/
+port_*/
+.metadata/*
+internalTables/
 
 # Example workflow
 Example Workflows/
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

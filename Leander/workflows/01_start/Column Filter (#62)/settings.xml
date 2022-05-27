@@ -9,21 +9,21 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="date"/>
                 <entry key="1" type="xstring" value="userID"/>
                 <entry key="2" type="xstring" value="itemID"/>
+                <entry key="3" type="xstring" value="order"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="8"/>
-                <entry key="0" type="xstring" value="order"/>
-                <entry key="1" type="xstring" value="brand"/>
-                <entry key="2" type="xstring" value="feature_1"/>
-                <entry key="3" type="xstring" value="feature_2"/>
-                <entry key="4" type="xstring" value="feature_3"/>
-                <entry key="5" type="xstring" value="feature_4"/>
-                <entry key="6" type="xstring" value="feature_5"/>
-                <entry key="7" type="xstring" value="categories"/>
+                <entry key="array-size" type="xint" value="7"/>
+                <entry key="0" type="xstring" value="brand"/>
+                <entry key="1" type="xstring" value="feature_1"/>
+                <entry key="2" type="xstring" value="feature_2"/>
+                <entry key="3" type="xstring" value="feature_3"/>
+                <entry key="4" type="xstring" value="feature_4"/>
+                <entry key="5" type="xstring" value="feature_5"/>
+                <entry key="6" type="xstring" value="categories"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -46,11 +46,11 @@
         </config>
     </config>
     <config key="nodeAnnotation">
-        <entry key="text" type="xstring" value="only leave columns%%00013%%00010'date', 'itemID', 'userID'"/>
+        <entry key="text" type="xstring" value="only leave columns%%00013%%00010'date', 'itemID', 'userID', 'order'"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="897"/>
+        <entry key="x-coordinate" type="xint" value="878"/>
         <entry key="y-coordinate" type="xint" value="539"/>
-        <entry key="width" type="xint" value="126"/>
+        <entry key="width" type="xint" value="165"/>
         <entry key="height" type="xint" value="30"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
@@ -80,12 +80,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1071538, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1071538, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="ec93869e-b819-43ca-8b44-d253a734f1ae"/>
     </config>
 </config>

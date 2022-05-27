@@ -2733,3 +2733,5 @@ java.lang.Exception: Missing Values not (yet) allowed in k-Means.
 2022-05-16 08:43:25,587 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139685632055440}
 2022-05-16 09:24:15,873 : WARN  : main :  : VMFileLocker : Leander 01_start : 0 : Directory '/home/kevin/Repos/DMC2022/Kevin/Knime Workspace/Leander 01_start' does not exist (any more), cannot unlock it
 2022-05-16 09:24:42,819 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140504561605120}
+2022-05-16 09:52:56,262 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139834479377408}
+2022-05-16 09:54:40,683 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140610929283584}

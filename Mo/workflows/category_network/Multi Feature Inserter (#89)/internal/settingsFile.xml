@@ -2,6 +2,6 @@
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="saveInternalsSettings">
     <config key="networkUUIDs">
         <entry key="array-size" type="xint" value="1"/>
-        <entry key="0" type="xstring" value="801c5cd2-362c-4b0f-a385-7fe75df45e0b"/>
+        <entry key="0" type="xstring" value="10099520-2bcc-45cd-a25f-965b420b7a8a"/>
     </config>
 </config>

@@ -6,14 +6,6 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="nodeIdColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="nodeIdColumn">
-            <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="category"/>
-        </config>
         <config key="edgeIdColumn_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -21,6 +13,14 @@
         <config key="edgeIdColumn">
             <entry key="useRowID" type="xboolean" value="false"/>
             <entry key="columnName" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="nodeIdColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="nodeIdColumn">
+            <entry key="useRowID" type="xboolean" value="false"/>
+            <entry key="columnName" type="xstring" value="category"/>
         </config>
         <config key="featureColumnNames_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
@@ -33,9 +33,10 @@
                 <entry key="0" type="xstring" value="nodeColor"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="category"/>
-                <entry key="1" type="xstring" value="parent_category"/>
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="Sum(order)"/>
+                <entry key="1" type="xstring" value="category"/>
+                <entry key="2" type="xstring" value="place"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -91,7 +92,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 801c5cd2-362c-4b0f-a385-7fe75df45e0b"/>
+            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 10099520-2bcc-45cd-a25f-965b420b7a8a"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -99,6 +100,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e8000b16-1d8c-486f-84c6-87a870601d2e"/>
+        <entry key="file_store_id" type="xstring" value="ec59cad3-4412-43a7-8770-1c6c7945eb47"/>
     </config>
 </config>

@@ -6,10 +6,10 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="selected_column" type="xstring" value="Sum(order)"/>
+        <entry key="selected_column" type="xstring" value="place"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
-        <entry key="min_color" type="xint" value="-16776961"/>
-        <entry key="max_color" type="xint" value="-65536"/>
+        <entry key="min_color" type="xint" value="-65536"/>
+        <entry key="max_color" type="xint" value="-16776961"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="color nodes based%%00013%%00010on their partition"/>
@@ -46,14 +46,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 4398, Cols: 2"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4398, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.viewproperty.ColorHandlerPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Coloring on &quot;Sum(order)&quot;"/>
+            <entry key="port_object_summary" type="xstring" value="Coloring on &quot;place&quot;"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -61,6 +61,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="99ee7834-65cb-4230-a0da-57e2dce2ab2b"/>
+        <entry key="file_store_id" type="xstring" value="0c725ca2-9c94-4dde-898e-ad8965aad64b"/>
     </config>
 </config>

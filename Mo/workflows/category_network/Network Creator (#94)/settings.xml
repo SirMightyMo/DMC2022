@@ -52,7 +52,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, nodes: 0, edges: 0, UUID: 09ce0f2b-0427-4f66-a08f-53577575c94b"/>
+            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, nodes: 0, edges: 0, UUID: 05649699-61ce-45d7-bd78-cbcb5cc8452c"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -60,6 +60,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f9906140-a811-4398-864a-067a6c33bb4b"/>
+        <entry key="file_store_id" type="xstring" value="daafcadc-c80c-42cf-b730-579a47069622"/>
     </config>
 </config>

@@ -176,7 +176,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.network.core.knime.port.GraphPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 26729b38-0c54-4048-a259-aaef93814b28"/>
+            <entry key="port_object_summary" type="xstring" value="id: CategoryGraph, directed, nodes: 4.300, edges: 4.332, UUID: 58c12c0c-a7ad-4d6a-9d3a-7bcd457ce1b4"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -184,6 +184,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="139c69b2-6fc5-438e-9d1a-814684294332"/>
+        <entry key="file_store_id" type="xstring" value="313ebd4a-342c-4339-9248-f57ea2e0503d"/>
     </config>
 </config>

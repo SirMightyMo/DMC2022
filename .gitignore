@@ -9,6 +9,7 @@ internal/
 port_*/
 .metadata/*
 internalTables/
+knime-workspace-20220601T080342Z-001/
 
 # Example workflow
 Example Workflows/

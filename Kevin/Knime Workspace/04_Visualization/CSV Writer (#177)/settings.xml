@@ -60,7 +60,7 @@
             <entry key="custom_comment_text" type="xstring" value=""/>
         </config>
         <config key="encoding">
-            <entry key="character_set" type="xstring" isnull="true" value=""/>
+            <entry key="character_set" type="xstring" value="UTF-8"/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -86,6 +86,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e5c37743-c376-45b5-92c2-43a8c1d1855a"/>
+        <entry key="file_store_id" type="xstring" value="da085bd4-c881-44ab-8445-145de82e06bc"/>
     </config>
 </config>

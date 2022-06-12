@@ -11,6 +11,7 @@ port_*/
 internalTables/
 knime-workspace-20220601T080342Z-001/
 Kevin/csv/
+Leander/csv/
 
 # Example workflow
 Example Workflows/
@@ -24,7 +25,3 @@ Example Workflows/
 *.rar
 *.tar
 *.zip
-
-Leander/csv/complete_value_list_for_processing__order-history.csv
-
-Leander/csv/complete_dataset_labeled_wLastPurchaseDates.csv

@@ -26,16 +26,18 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="leftTableJoinPredicate">
-            <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="itemID"/>
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="userID"/>
+            <entry key="1" type="xstring" value="itemID"/>
         </config>
         <config key="rightTableJoinPredicate_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="rightTableJoinPredicate">
-            <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="itemID"/>
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="userID"/>
+            <entry key="1" type="xstring" value="itemID"/>
         </config>
         <config key="compositionMode_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -95,7 +97,7 @@
         <config key="leftColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="20"/>
+                <entry key="array-size" type="xint" value="19"/>
                 <entry key="0" type="xstring" value="date"/>
                 <entry key="1" type="xstring" value="userID"/>
                 <entry key="2" type="xstring" value="itemID"/>
@@ -113,9 +115,8 @@
                 <entry key="14" type="xstring" value="feature3OrderRatio"/>
                 <entry key="15" type="xstring" value="feature4OrderRatio"/>
                 <entry key="16" type="xstring" value="feature5OrderRatio"/>
-                <entry key="17" type="xstring" value="TotalBrandFeatureScore"/>
-                <entry key="18" type="xstring" value="TotalBrandFeatureScore (#1)"/>
-                <entry key="19" type="xstring" value="RCP"/>
+                <entry key="17" type="xstring" value="TotalBFscore"/>
+                <entry key="18" type="xstring" value="RCP"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -141,13 +142,15 @@
         <config key="rightColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Mean(date&amp;time diff)"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="MeanDiffToNxt(user)"/>
+                <entry key="1" type="xstring" value="TotalItemOrders(user)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="itemID"/>
-                <entry key="1" type="xstring" value="Sum(order)"/>
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="userID"/>
+                <entry key="1" type="xstring" value="itemID"/>
+                <entry key="2" type="xstring" value="Mean(TimeDifferencePerOrder)"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">

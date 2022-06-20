@@ -1207,8 +1207,11 @@
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath398">
                 <path d="M-1 -1 L3035 -1 L3035 2781 L-1 2781 L-1 -1 Z"/>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+>>>>>>> master
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath399">
                 <path d="M2432 260 L2473 260 L2473 277 L2432 277 L2432 260 Z"/>

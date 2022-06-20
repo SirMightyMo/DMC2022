@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="LEAND"/>
         <entry key="authored-when" type="xstring" value="2022-06-16 16:51:41 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="LEAND"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-06-19 21:46:02 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-06-20 15:15:48 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -391,8 +391,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2984"/>
-                    <entry key="1" type="xint" value="857"/>
+                    <entry key="0" type="xint" value="3084"/>
+                    <entry key="1" type="xint" value="757"/>
                     <entry key="2" type="xint" value="69"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
@@ -782,7 +782,7 @@
         <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
         <entry key="workflow.editor.gridX" type="xint" value="20"/>
         <entry key="workflow.editor.gridY" type="xint" value="20"/>
-        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.5"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
         <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
         <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
     </config>

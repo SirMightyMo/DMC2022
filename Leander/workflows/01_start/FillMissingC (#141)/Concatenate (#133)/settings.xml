@@ -36,7 +36,11 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Status: DataLoadError: Concatenate 3:141:133%%00010  Status: DataLoadError: Unable to load port content for node &quot;Concatenate&quot;: No such data file: C:\Users\LEAND\Coding\knime-workspace\DMC2022\Leander\workflows\01_start\FillMissingC (#141)\Concatenate (#133)\port_1\data.xml"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory"/>
     <entry key="node-name" type="xstring" value="Concatenate"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -53,19 +57,16 @@
         <config key="Concatenated tables"/>
     </config>
     <entry key="name" type="xstring" value="Concatenate"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5979, Cols: 2"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bd1e8640-c49b-4c53-859b-298988c25797"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

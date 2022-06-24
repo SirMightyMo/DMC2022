@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="LEAND"/>
         <entry key="authored-when" type="xstring" value="2022-04-12 15:36:15 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="LEAND"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-06-20 13:55:13 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-06-20 18:26:55 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -2468,7 +2468,7 @@
         <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
         <entry key="workflow.editor.gridX" type="xint" value="20"/>
         <entry key="workflow.editor.gridY" type="xint" value="20"/>
-        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.9"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.75"/>
         <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
         <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
     </config>

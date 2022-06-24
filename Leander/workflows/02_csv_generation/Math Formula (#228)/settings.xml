@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="append_column" type="xboolean" value="false"/>
-        <entry key="replaced_column" type="xstring" value="nextBuyInWeeks(floor)"/>
         <entry key="expression" type="xstring" value="floor($nextBuyInDays$ / 7)"/>
+        <entry key="replaced_column" type="xstring" value="nextBuyInWeeks(floor)"/>
+        <entry key="append_column" type="xboolean" value="false"/>
         <entry key="convert_to_int" type="xboolean" value="true"/>
     </config>
     <config key="nodeAnnotation">

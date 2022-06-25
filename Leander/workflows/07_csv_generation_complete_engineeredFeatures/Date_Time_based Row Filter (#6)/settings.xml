@@ -30,17 +30,7 @@
             <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="end_date_time" type="xstring" value="2021-01-31"/>
-        <config key="start_always_now_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="start_always_now" type="xboolean" value="false"/>
-        <config key="end_always_now_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="end_always_now" type="xboolean" value="false"/>
+        <entry key="end_date_time" type="xstring" value="2020-12-31"/>
         <config key="start_inclusive_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -51,6 +41,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="end_inclusive" type="xboolean" value="true"/>
+        <config key="start_always_now_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="start_always_now" type="xboolean" value="false"/>
+        <config key="end_always_now_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="end_always_now" type="xboolean" value="false"/>
         <config key="end_selection_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>

@@ -24,7 +24,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="E:\OneDrive\Arbeit\Repos\DMC2022\Kevin\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv"/>
+                    <entry key="path" type="xstring" value="C:\Users\LEAND\Coding\Jupyter Notebooks\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -68,7 +68,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="E:\OneDrive\Arbeit\Repos\DMC2022\Kevin\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv">
+                <config key="C:\Users\LEAND\Coding\Jupyter Notebooks\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv">
                     <entry key="num_columns" type="xint" value="17"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="userID"/>
@@ -632,7 +632,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="E:\OneDrive\Arbeit\Repos\DMC2022\Kevin\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv"/>
+            <entry key="source_group_id" type="xstring" value="C:\Users\LEAND\Coding\Jupyter Notebooks\csv\220626_buyers_6_times_but_prediction_0_wHalfStdPlusMean.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -707,7 +707,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -724,19 +724,16 @@
         <config key="Data Table"/>
     </config>
     <entry key="name" type="xstring" value="CSV Reader"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 586, Cols: 17"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="971fd702-90fc-47ef-8145-44f5cb603c8e"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

@@ -12,11 +12,7 @@
         <entry key="convert_to_int" type="xboolean" value="true"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="No such column: weekOfYear_pred"/>
-    </config>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.ext.jep.JEPNodeFactory"/>
     <entry key="node-name" type="xstring" value="Math Formula"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>

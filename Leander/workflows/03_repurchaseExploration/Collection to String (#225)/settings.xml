@@ -76,23 +76,19 @@
         <entry key="SMR_VERSION" type="xint" value="1"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Node can't be executed - Node &quot;Collection to String&quot; not available from extension &quot;Vernalis KNIME Nodes&quot; (provided by &quot;Vernalis Research, UK&quot;; plugin &quot;com.vernalis.knime&quot; is not installed)"/>
-    </config>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="com.vernalis.nodes.collection.collection2string.ColToStringNodeFactory"/>
     <entry key="node-name" type="xstring" value="Collection to String"/>
     <entry key="node-bundle-name" type="xstring" value="Vernalis custom KNIME nodes package "/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="com.vernalis.knime"/>
     <entry key="node-bundle-vendor" type="xstring" value="Vernalis Research, UK"/>
-    <entry key="node-bundle-version" type="xstring" value="1.34.0.v202205240833"/>
+    <entry key="node-bundle-version" type="xstring" value="1.34.1.v202206071323"/>
     <entry key="node-feature-name" type="xstring" value="Vernalis KNIME Nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="com.vernalis.knime.feature.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="Vernalis Research Ltd, Cambridge, UK"/>
-    <entry key="node-feature-version" type="xstring" value="1.34.0.v202205240938"/>
+    <entry key="node-feature-version" type="xstring" value="1.34.1.v202206210530"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="MISSING Collection to String"/>
+    <entry key="name" type="xstring" value="Collection to String"/>
     <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
